@@ -21,9 +21,9 @@ The dashboard will contain the following elements:
     
 ### Source data
 1 . [Australia & New Zealand Road Crash Dataset](https://www.kaggle.com/mgray39/australia-new-zealand-road-crash-dataset): Combined Open Datasets for Australian and New Zealand Road Crash Jurisdictions: 
- - GitHub repository: https://github.com/mgray39/anz-crash  
- 
+ - GitHub repository: https://github.com/mgray39/anz-crash
  - ER diagram:  
+ 
  
 ![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1123609%2F94a3d94058f8d7f3612065d96600c459%2Fschema_v6.png?generation=1581712969025960&alt=media)
 
@@ -39,12 +39,14 @@ The dashboard will contain the following elements:
 **[Western Australia School Local Intake Area (Catchment) Map](https://www.schoolcatchment.com.au/?page_id=1148)**![catchments](https://www.schoolcatchment.com.au/wp-content/uploads/2016/05/Perth-Primary-School-School-Zone-Catchment-Map-1.jpg)   | **d3.js challenge**![](https://lh3.googleusercontent.com/xeTuCuWRgmhAhSIronF7D8dSiRpvDKzhOFVe7h9PQUbfV10aE66MRD22D9hdHTFgmns9lQ3LNg7VBCCpLX0eStAVRTs76L5DF7BV9_cQNO18jle8dVQqhmEbglK7x0hJekenyiB8) 
 
 **[NSW Centre for Road Safety - Interactive crash statistics](https://roadsafety.transport.nsw.gov.au/statistics/interactivecrashstats/index.html)** 
-{add image here}
+This website contains a multi-tab visualistion dashbaord (below is just one example of many).  
+
+![enter image description here](https://github.com/abbyabridged/wa-crash-dashboard/blob/abby/interactive-crash-stats.png?raw=true)
 
 
 ### Sketch of final design
 
-{add image here}
+![enter image description here](https://github.com/abbyabridged/wa-crash-dashboard/blob/abby/viz%20sketch2.jpg?raw=true)
 
  #### Sources
   
