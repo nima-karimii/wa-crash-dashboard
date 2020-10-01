@@ -39,10 +39,7 @@ The dashboard will contain the following elements:
 **[Western Australia School Local Intake Area (Catchment) Map](https://www.schoolcatchment.com.au/?page_id=1148)**![catchments](https://www.schoolcatchment.com.au/wp-content/uploads/2016/05/Perth-Primary-School-School-Zone-Catchment-Map-1.jpg)   | **d3.js challenge**![](https://lh3.googleusercontent.com/xeTuCuWRgmhAhSIronF7D8dSiRpvDKzhOFVe7h9PQUbfV10aE66MRD22D9hdHTFgmns9lQ3LNg7VBCCpLX0eStAVRTs76L5DF7BV9_cQNO18jle8dVQqhmEbglK7x0hJekenyiB8) 
 
 **[NSW Centre for Road Safety - Interactive crash statistics](https://roadsafety.transport.nsw.gov.au/statistics/interactivecrashstats/index.html)** 
-This website contains a multi-tab visualistion dashbaord (below is just one example of many).  
-
-![enter image description here](https://github.com/abbyabridged/wa-crash-dashboard/blob/abby/interactive-crash-stats.png?raw=true)
-
+This website contains a multi-tab visualistion dashboard.
 
 ### Sketch of final design
 
