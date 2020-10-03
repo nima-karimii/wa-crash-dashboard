@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WA Crash Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body style="background-color: aliceblue;">
+
+  <div class="container-fluid bg-info"  >
+    <div class="row hero text-center" >
+        <h1 >WA Crash Report</h1>
+    </div>
+    <div class="row hero1 text-center">
+      <div class="col-md-3 col-xl-2">
+        <div class="card text-white bg-success mb-3">
+          <h5 class="card-header"><b>Test Subject ID :</b></h5>
+          <select id="selDataset" onchange="optionChanged(this.value)">
+          </select>
+        </div>
+
+      </div>
+    </div>
+    <div class="row hero2 text-center">
+      <div class="col-md-12 col-xl-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+    <div class="row hero3 text-center">
+      <div class="col-md-12 col-xl-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- <script src="./static/js/bonus.js"></script>
+  <script src="./static/js/app.js"></script> -->
+  <!-- <script src="samples.json"></script> -->
+  
+</body>
+
+</html>
