@@ -1,5 +1,5 @@
 // Store our API endpoint inside queryUrl
-var queryUrl = "../db/crash_data.csv";
+var queryUrl = "https://raw.githubusercontent.com/abbyabridged/wa-crash-dashboard/Nima-k/Nima/db/Samp_crash_data.csv";
 // var PlatesURL = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json"
 const API_KEY = "pk.eyJ1Ijoia2FyaW1paSIsImEiOiJja2ZkdTNuNnMwN205MzFwNTF2eGszOHM1In0.jfNBiTctjlmbsc8qwQYmvA";
 
@@ -95,6 +95,7 @@ var overlays = {
 
 d3.csv(queryUrl).then(function(data, err) {
     if (err) throw err;
+    console.log(queryUrl);
     console.log(data);
 
 
