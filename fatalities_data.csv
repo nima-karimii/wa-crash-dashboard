@@ -1,762 +1,761 @@
-,Crash ID,State,Month,Year,Dayweek,Time,Crash Type,Number Fatalities,"Bus 
-Involvement",Heavy Rigid Truck Involvement,Articulated Truck Involvement,Speed Limit,National Remoteness Areas,SA4 Name 2016,National LGA Name 2017,National Road Type,Christmas Period,Easter Period,Day of week,Time of Day
-685,20195026,WA,12,2019,Tuesday,02:40,Multiple,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Ashburton (S),Arterial Road,No,No,Weekday,Night
-692,20195109,WA,12,2019,Wednesday,05:07,Pedestrian,1,No,No,No,90,Remote Australia,Western Australia - Outback (North),Karratha (C),Arterial Road,Yes,No,Weekday,Night
-693,20195055,WA,12,2019,Sunday,10:40,Multiple,1,No,No,No,100,Major Cities of Australia,Perth - South West,Cockburn (C),National or State Highway,No,No,Weekend,Day
-694,20195098,WA,12,2019,Sunday,13:30,Single,1,No,No,No,80,Very Remote Australia,Western Australia - Outback (South),Coolgardie (S),Local Road,No,No,Weekend,Day
-715,20195115,WA,12,2019,Saturday,12:48,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Wyndham-East Kimberley (S),National or State Highway,No,No,Weekend,Day
-716,20195083,WA,12,2019,Saturday,13:50,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Boddington (S),Arterial Road,No,No,Weekend,Day
-717,20195099,WA,12,2019,Sunday,15:00,Multiple,1,No,No,Yes,110,Very Remote Australia,Western Australia - Outback (South),Dundas (S),National or State Highway,No,No,Weekend,Day
-726,20195120,WA,12,2019,Sunday,03:45,Pedestrian,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Carnamah (S),Arterial Road,No,No,Weekend,Night
-727,20195037,WA,12,2019,Saturday,12:48,Single,1,No,No,No,110,,,,,No,No,Weekend,Day
-728,20195070,WA,12,2019,Friday,20:35,Single,1,No,No,No,110,Inner Regional Australia,Mandurah,Murray (S),National or State Highway,No,No,Weekend,Night
-744,20195096,WA,12,2019,Wednesday,14:50,Multiple,1,No,No,Yes,110,Outer Regional Australia,Western Australia - Wheat Belt,West Arthur (S),Arterial Road,No,No,Weekday,Day
-757,20195033,WA,12,2019,Thursday,00:05,Single,1,No,No,No,80,Inner Regional Australia,Bunbury,Dardanup (S),Local Road,Yes,No,Weekday,Night
-758,20195046,WA,12,2019,Friday,16:53,Multiple,2,No,No,No,100,Inner Regional Australia,Bunbury,Donnybrook-Balingup (S),National or State Highway,No,No,Weekday,Day
-766,20195048,WA,11,2019,Wednesday,19:07,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Beverley (S),Arterial Road,No,No,Weekday,Night
-776,20195011,WA,11,2019,Thursday,17:32,Single,1,No,No,No,80,Inner Regional Australia,Bunbury,Capel (S),Local Road,No,No,Weekday,Day
-777,20195093,WA,11,2019,Thursday,19:31,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Cambridge (T),Arterial Road,No,No,Weekday,Night
-778,20195097,WA,11,2019,Wednesday,14:38,Single,1,No,No,No,70,Major Cities of Australia,Perth - North West,Wanneroo (C),Arterial Road,No,No,Weekday,Day
-791,20195045,WA,11,2019,Sunday,06:10,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Broomehill-Tambellup (S),Arterial Road,No,No,Weekend,Day
-817,20195149,WA,11,2019,Sunday,20:55,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - Inner,Perth (C),Arterial Road,No,No,Weekend,Night
-818,20195151,WA,11,2019,Saturday,10:40,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Wyndham-East Kimberley (S),Local Road,No,No,Weekend,Day
-836,20195036,WA,11,2019,Thursday,12:30,Single,1,No,No,No,50,Inner Regional Australia,Bunbury,Augusta-Margaret River (S),Local Road,No,No,Weekday,Day
-837,20195002,WA,11,2019,Friday,05:22,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Bruce Rock (S),Arterial Road,No,No,Weekday,Night
-855,20195141,WA,10,2019,Friday,22:09,Single,2,No,No,No,50,Major Cities of Australia,Perth - South East,Gosnells (C),Local Road,No,No,Weekend,Night
-869,20195030,WA,10,2019,Thursday,08:10,Single,1,No,Yes,No,110,Inner Regional Australia,Perth - North East,Swan (C),National or State Highway,No,No,Weekday,Day
-870,20195034,WA,10,2019,Tuesday,17:29,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Ashburton (S),National or State Highway,No,No,Weekday,Day
-878,20195101,WA,10,2019,Thursday,11:33,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,York (S),Arterial Road,No,No,Weekday,Day
-896,20195016,WA,10,2019,Tuesday,17:30,Multiple,2,No,No,No,80,Inner Regional Australia,Bunbury,Busselton (C),Local Road,No,No,Weekday,Day
-906,20195080,WA,10,2019,Wednesday,16:00,Multiple,1,No,No,No,110,Major Cities of Australia,Perth - South East,South Perth (C),National or State Highway,No,No,Weekday,Day
-920,20195126,WA,10,2019,Thursday,18:35,Single,1,No,No,No,80,Very Remote Australia,Western Australia - Outback (North),Derby-West Kimberley (S),National or State Highway,No,No,Weekday,Night
-944,20195062,WA,9,2019,Wednesday,20:38,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - South West,Rockingham (C),Arterial Road,No,No,Weekday,Night
-945,20195074,WA,9,2019,Tuesday,18:25,Pedestrian,1,No,No,No,50,,,,,No,No,Weekday,Night
-956,20195110,WA,9,2019,Tuesday,10:17,Single,1,No,No,No,60,Major Cities of Australia,Perth - South East,Serpentine-Jarrahdale (S),Arterial Road,No,No,Weekday,Day
-960,20195104,WA,9,2019,Thursday,13:54,Single,1,No,No,No,100,Outer Regional Australia,Western Australia - Wheat Belt,Broomehill-Tambellup (S),Arterial Road,No,No,Weekday,Day
-967,20195077,WA,9,2019,Thursday,12:26,Multiple,1,No,No,No,110,Inner Regional Australia,Bunbury,Harvey (S),National or State Highway,No,No,Weekday,Day
-997,20195056,WA,9,2019,Friday,12:03,Single,1,No,No,No,80,Outer Regional Australia,Western Australia - Wheat Belt,Denmark (S),National or State Highway,No,No,Weekday,Day
-998,20195116,WA,9,2019,Monday,22:20,Multiple,1,No,No,Yes,110,Outer Regional Australia,Western Australia - Outback (South),Irwin (S),National or State Highway,No,No,Weekday,Night
-999,20195152,WA,9,2019,Wednesday,10:45,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - South East,Canning (C),National or State Highway,No,No,Weekday,Day
-1000,20195022,WA,9,2019,Sunday,11:40,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - South East,Kalamunda (C),Arterial Road,No,No,Weekend,Day
-1001,20195075,WA,9,2019,Sunday,13:51,Multiple,2,Yes,No,No,100,Outer Regional Australia,Western Australia - Wheat Belt,Dandaragan (S),Arterial Road,No,No,Weekend,Day
-1016,20195021,WA,9,2019,Monday,11:45,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Brookton (S),National or State Highway,No,No,Weekday,Day
-1035,20195078,WA,8,2019,Tuesday,15:10,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Capel (S),Local Road,No,No,Weekday,Day
-1043,20195135,WA,8,2019,Wednesday,19:31,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - North East,Swan (C),Local Road,No,No,Weekday,Night
-1044,20195050,WA,8,2019,Thursday,00:02,Single,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),Arterial Road,No,No,Weekday,Night
-1048,20195038,WA,8,2019,Sunday,16:50,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - Inner,Nedlands (C),Local Road,No,No,Weekend,Day
-1060,20195125,WA,8,2019,Saturday,17:10,Single,2,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),East Pilbara (S),,No,No,Weekend,Day
-1061,20195129,WA,8,2019,Thursday,03:57,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Wyndham-East Kimberley (S),National or State Highway,No,No,Weekday,Night
-1062,20195064,WA,8,2019,Saturday,15:57,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Derby-West Kimberley (S),National or State Highway,No,No,Weekend,Day
-1063,20195084,WA,8,2019,Monday,19:29,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Mount Marshall (S),Arterial Road,No,No,Weekday,Night
-1075,20195057,WA,8,2019,Friday,17:55,Single,1,No,No,No,80,Very Remote Australia,Western Australia - Outback (North),Port Hedland (T),Local Road,No,No,Weekday,Day
-1086,20195102,WA,8,2019,Wednesday,09:09,Multiple,1,No,No,No,60,Inner Regional Australia,Bunbury,Dardanup (S),Local Road,No,No,Weekday,Day
-1087,20195028,WA,8,2019,Saturday,17:44,Multiple,1,No,No,No,50,Outer Regional Australia,Western Australia - Outback (South),Kalgoorlie/Boulder (C),Local Road,No,No,Weekend,Day
-1088,20195029,WA,8,2019,Tuesday,18:20,Multiple,1,Yes,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Gingin (S),Arterial Road,No,No,Weekday,Night
-1100,20195019,WA,8,2019,Tuesday,19:20,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Stirling (C),Arterial Road,No,No,Weekday,Night
-1101,20195092,WA,8,2019,Wednesday,14:32,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Augusta-Margaret River (S),Arterial Road,No,No,Weekday,Day
-1109,20195076,WA,8,2019,Saturday,06:09,Single,1,No,No,No,60,Major Cities of Australia,Perth - South East,Canning (C),Arterial Road,No,No,Weekend,Day
-1120,20195142,WA,7,2019,Monday,14:56,Single,1,No,No,No,80,Inner Regional Australia,Bunbury,Harvey (S),Local Road,No,No,Weekday,Day
-1133,20195136,WA,7,2019,Tuesday,02:40,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Cambridge (T),Arterial Road,No,No,Weekday,Night
-1141,20195130,WA,7,2019,Tuesday,23:44,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Corrigin (S),National or State Highway,No,No,Weekday,Night
-1142,20195013,WA,7,2019,Wednesday,21:25,Single,1,No,No,No,50,Major Cities of Australia,Mandurah,Mandurah (C),Local Road,No,No,Weekday,Night
-1152,20195063,WA,7,2019,Thursday,17:07,Single,1,No,Yes,No,110,Very Remote Australia,Western Australia - Outback (South),Menzies (S),Local Road,No,No,Weekday,Day
-1160,20195025,WA,7,2019,Saturday,04:00,Single,1,No,No,No,100,Major Cities of Australia,Perth - South East,Gosnells (C),National or State Highway,No,No,Weekend,Night
-1161,20195044,WA,7,2019,Tuesday,06:30,Multiple,1,No,Yes,No,110,Inner Regional Australia,Bunbury,Waroona (S),National or State Highway,No,No,Weekday,Day
-1162,20195065,WA,7,2019,Tuesday,08:47,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Kulin (S),Local Road,No,No,Weekday,Day
-1175,20195094,WA,7,2019,Friday,21:40,Single,1,No,No,No,90,Inner Regional Australia,Perth - North West,Wanneroo (C),Local Road,No,No,Weekend,Night
-1182,20195123,WA,7,2019,Sunday,04:45,Pedestrian,1,No,No,No,50,Outer Regional Australia,Western Australia - Outback (South),Kalgoorlie/Boulder (C),Local Road,No,No,Weekend,Night
-1203,20195095,WA,6,2019,Friday,06:44,Multiple,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Cunderdin (S),National or State Highway,No,No,Weekday,Day
-1209,20195134,WA,6,2019,Thursday,06:20,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Broomehill-Tambellup (S),Local Road,No,No,Weekday,Day
-1210,20195035,WA,6,2019,Saturday,14:40,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Lake Grace (S),Arterial Road,No,No,Weekend,Day
-1211,20195042,WA,6,2019,Saturday,01:20,Multiple,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Derby-West Kimberley (S),Local Road,No,No,Weekend,Night
-1212,20195047,WA,6,2019,Monday,10:37,Single,1,No,No,No,20,Major Cities of Australia,Perth - Inner,Perth (C),Local Road,No,No,Weekday,Day
-1213,20195089,WA,6,2019,Wednesday,23:04,Single,1,No,No,No,110,Major Cities of Australia,Perth - North East,Mundaring (S),National or State Highway,No,No,Weekday,Night
-1222,20195015,WA,6,2019,Sunday,12:55,Single,1,No,No,No,100,Inner Regional Australia,Mandurah,Murray (S),Local Road,No,No,Weekend,Day
-1230,20195128,WA,6,2019,Saturday,15:46,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - North East,Bayswater (C),Arterial Road,No,No,Weekend,Day
-1231,20195006,WA,6,2019,Monday,15:10,Multiple,1,No,No,No,110,Inner Regional Australia,Bunbury,Bridgetown-Greenbushes (S),National or State Highway,No,No,Weekday,Day
-1232,20195009,WA,6,2019,Saturday,01:11,Single,1,No,No,No,50,Major Cities of Australia,Perth - South East,Armadale (C),Local Road,No,No,Weekend,Night
-1244,20195032,WA,6,2019,Tuesday,21:23,Single,1,No,No,No,80,Inner Regional Australia,Bunbury,Dardanup (S),Local Road,No,No,Weekday,Night
-1245,20195061,WA,6,2019,Wednesday,22:15,Multiple,1,No,No,Yes,110,Very Remote Australia,Western Australia - Outback (North),Port Hedland (T),National or State Highway,No,No,Weekday,Night
-1253,20195121,WA,6,2019,Wednesday,00:30,Single,2,No,No,Yes,110,Inner Regional Australia,Perth - North East,Mundaring (S),National or State Highway,No,No,Weekday,Night
-1254,20195132,WA,6,2019,Thursday,06:43,Multiple,1,No,No,Yes,70,Major Cities of Australia,Perth - North East,Swan (C),Arterial Road,No,No,Weekday,Day
-1255,20195087,WA,6,2019,Saturday,05:03,Multiple,1,No,No,Yes,110,Remote Australia,Western Australia - Outback (South),Greater Geraldton (C),National or State Highway,No,No,Weekend,Night
-1268,20195023,WA,6,2019,Saturday,12:00,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - South West,Rockingham (C),Local Road,No,No,Weekend,Day
-1291,20195001,WA,5,2019,Saturday,06:49,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Jerramungup (S),National or State Highway,No,No,Weekend,Day
-1310,20195004,WA,5,2019,Saturday,21:14,Multiple,1,No,Yes,No,110,Remote Australia,Western Australia - Wheat Belt,Yilgarn (S),National or State Highway,No,No,Weekend,Night
-1311,20195008,WA,5,2019,Thursday,00:29,Pedestrian,2,No,Yes,No,-9,Outer Regional Australia,Western Australia - Wheat Belt,Brookton (S),National or State Highway,No,No,Weekday,Night
-1323,20195068,WA,5,2019,Thursday,17:55,Pedestrian,1,No,Yes,No,110,Very Remote Australia,Western Australia - Outback (North),Derby-West Kimberley (S),National or State Highway,No,No,Weekday,Day
-1331,20195138,WA,5,2019,Thursday,21:17,Single,1,No,No,No,60,Major Cities of Australia,Perth - South East,Victoria Park (T),Local Road,No,No,Weekday,Night
-1333,20195114,WA,5,2019,Wednesday,06:00,Single,1,No,No,No,-9,Very Remote Australia,Western Australia - Outback (South),Coolgardie (S),Access road,No,No,Weekday,Day
-1345,20195140,WA,5,2019,Thursday,16:01,Single,1,No,No,No,110,Inner Regional Australia,Mandurah,Murray (S),National or State Highway,No,No,Weekday,Day
-1346,20195014,WA,5,2019,Wednesday,12:17,Single,1,No,No,No,20,,,,,No,No,Weekday,Day
-1347,20195020,WA,5,2019,Friday,13:20,Single,1,No,No,No,70,Outer Regional Australia,Western Australia - Wheat Belt,Victoria Plains (S),Arterial Road,No,No,Weekday,Day
-1348,20195067,WA,5,2019,Friday,18:49,Single,1,No,No,No,60,Inner Regional Australia,Bunbury,Harvey (S),Local Road,No,No,Weekend,Night
-1358,20195119,WA,5,2019,Saturday,11:35,Single,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Vincent (C),Arterial Road,No,No,Weekend,Day
-1363,20195040,WA,5,2019,Saturday,11:00,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Halls Creek (S),Arterial Road,No,No,Weekend,Day
-1372,20195058,WA,5,2019,Wednesday,16:16,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North East,Swan (C),Local Road,No,No,Weekday,Day
-1381,20195150,WA,4,2019,Saturday,11:45,Single,1,No,No,No,110,,,,,No,No,Weekend,Day
-1382,20195052,WA,4,2019,Sunday,00:05,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),National or State Highway,No,No,Weekend,Night
-1383,20195085,WA,4,2019,Wednesday,03:02,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Yilgarn (S),Arterial Road,No,No,Weekday,Night
-1393,20195144,WA,4,2019,Saturday,10:41,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Collie (S),Local Road,No,Yes,Weekend,Day
-1394,20195017,WA,4,2019,Wednesday,15:53,Single,1,No,No,No,50,Inner Regional Australia,Bunbury,Waroona (S),National or State Highway,No,No,Weekday,Day
-1417,20195118,WA,4,2019,Sunday,04:32,Pedestrian,1,No,No,No,100,Major Cities of Australia,Perth - South West,Cockburn (C),National or State Highway,No,No,Weekend,Night
-1418,20195005,WA,4,2019,Saturday,11:35,Multiple,1,No,No,No,110,Inner Regional Australia,Bunbury,Donnybrook-Balingup (S),Local Road,No,No,Weekend,Day
-1427,20195131,WA,4,2019,Sunday,20:13,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Cranbrook (S),National or State Highway,No,No,Weekend,Night
-1428,20195031,WA,4,2019,Friday,20:45,Single,1,No,No,No,60,Major Cities of Australia,Perth - South East,Armadale (C),National or State Highway,No,Yes,Weekend,Night
-1429,20195054,WA,4,2019,Monday,13:10,Multiple,1,No,No,Yes,-9,Major Cities of Australia,Perth - South East,Armadale (C),National or State Highway,No,No,Weekday,Day
-1454,20195113,WA,4,2019,Sunday,01:18,Single,1,No,No,No,100,Major Cities of Australia,Perth - North East,Swan (C),National or State Highway,No,No,Weekend,Night
-1455,20195012,WA,4,2019,Friday,15:41,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Plantagenet (S),Local Road,No,No,Weekday,Day
-1456,20195041,WA,4,2019,Sunday,16:16,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - Inner,Vincent (C),Local Road,No,No,Weekend,Day
-1457,20195073,WA,4,2019,Friday,16:20,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Plantagenet (S),Local Road,No,No,Weekday,Day
-1464,20195043,WA,4,2019,Monday,00:55,Single,1,No,No,No,80,Major Cities of Australia,Perth - South East,Kalamunda (C),National or State Highway,No,No,Weekend,Night
-1473,20195117,WA,3,2019,Saturday,20:30,Multiple,1,No,No,No,60,Major Cities of Australia,Mandurah,Mandurah (C),Arterial Road,No,No,Weekend,Night
-1474,20195122,WA,3,2019,Thursday,10:38,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - South East,Armadale (C),Arterial Road,No,No,Weekday,Day
-1501,20195112,WA,3,2019,Sunday,14:57,Multiple,1,No,No,No,110,Outer Regional Australia,Western Australia - Outback (South),Greater Geraldton (C),National or State Highway,No,No,Weekend,Day
-1511,20195086,WA,3,2019,Tuesday,22:10,Single,1,No,No,No,90,Inner Regional Australia,Perth - North West,Wanneroo (C),Arterial Road,No,No,Weekday,Night
-1537,20195127,WA,3,2019,Sunday,01:40,Single,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),Arterial Road,No,No,Weekend,Night
-1538,20195139,WA,3,2019,Friday,17:21,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Victoria Plains (S),Arterial Road,No,No,Weekday,Day
-1546,20195100,WA,3,2019,Sunday,13:11,Single,1,No,No,No,110,,,,,No,No,Weekend,Day
-1547,20195124,WA,3,2019,Tuesday,15:20,Single,1,No,No,No,60,,,,,No,No,Weekday,Day
-1548,20195024,WA,3,2019,Sunday,17:58,Multiple,1,No,No,No,80,Inner Regional Australia,Perth - South East,Serpentine-Jarrahdale (S),Local Road,No,No,Weekend,Day
-1549,20195066,WA,3,2019,Thursday,18:33,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Albany (C),Arterial Road,No,No,Weekday,Night
-1565,20195111,WA,3,2019,Friday,03:23,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),National or State Highway,No,No,Weekday,Night
-1566,20195088,WA,3,2019,Sunday,17:15,Multiple,1,No,No,No,90,Major Cities of Australia,Mandurah,Murray (S),Local Road,No,No,Weekend,Day
-1594,20195103,WA,2,2019,Wednesday,21:51,Pedestrian,1,No,No,Yes,70,Outer Regional Australia,Western Australia - Outback (South),Kalgoorlie/Boulder (C),National or State Highway,No,No,Weekday,Night
-1605,20195133,WA,2,2019,Saturday,15:15,Single,1,No,No,No,90,Major Cities of Australia,Mandurah,Murray (S),Local Road,No,No,Weekend,Day
-1606,20195010,WA,2,2019,Friday,10:42,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Busselton (C),Local Road,No,No,Weekday,Day
-1607,20195018,WA,2,2019,Wednesday,15:39,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Plantagenet (S),Local Road,No,No,Weekday,Day
-1619,20195051,WA,2,2019,Friday,02:52,Single,1,No,No,No,110,Major Cities of Australia,Perth - North West,Joondalup (C),National or State Highway,No,No,Weekday,Night
-1620,20195053,WA,2,2019,Thursday,22:49,Single,1,No,No,No,90,Inner Regional Australia,Bunbury,Collie (S),Local Road,No,No,Weekday,Night
-1621,20195072,WA,2,2019,Thursday,00:25,Multiple,1,No,No,No,80,Major Cities of Australia,Perth - South East,Canning (C),National or State Highway,No,No,Weekday,Night
-1627,20195090,WA,2,2019,Friday,10:30,Single,1,No,No,No,80,Major Cities of Australia,Perth - North West,Wanneroo (C),Arterial Road,No,No,Weekday,Day
-1637,20195108,WA,2,2019,Thursday,11:27,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Port Hedland (T),National or State Highway,No,No,Weekday,Day
-1638,20195143,WA,2,2019,Tuesday,13:04,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - Inner,Perth (C),Local Road,No,No,Weekday,Day
-1639,20195146,WA,2,2019,Tuesday,11:20,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Yilgarn (S),Arterial Road,No,No,Weekday,Day
-1640,20195049,WA,2,2019,Saturday,01:50,Single,1,No,No,No,100,Outer Regional Australia,Bunbury,Manjimup (S),Local Road,No,No,Weekend,Night
-1652,20195059,WA,2,2019,Thursday,10:43,Pedestrian,1,No,No,No,60,Major Cities of Australia,Mandurah,Mandurah (C),Arterial Road,No,No,Weekday,Day
-1654,20195027,WA,1,2019,Tuesday,22:30,Pedestrian,1,No,No,No,50,,,,,No,No,Weekday,Night
-1664,20195145,WA,1,2019,Friday,02:00,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Halls Creek (S),Arterial Road,No,No,Weekday,Night
-1665,20195147,WA,1,2019,Tuesday,21:15,Pedestrian,1,No,No,No,60,Outer Regional Australia,Western Australia - Outback (South),Kalgoorlie/Boulder (C),Local Road,No,No,Weekday,Night
-1666,20195007,WA,1,2019,Sunday,19:48,Multiple,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Esperance (S),Arterial Road,No,No,Weekend,Night
-1674,20195137,WA,1,2019,Monday,19:15,Single,1,No,No,No,40,Major Cities of Australia,Perth - South West,Fremantle (C),Local Road,No,No,Weekday,Night
-1675,20195069,WA,1,2019,Sunday,18:52,Single,1,No,No,No,50,,,,,No,No,Weekend,Night
-1687,20195003,WA,1,2019,Tuesday,15:48,Single,1,No,Yes,No,110,Inner Regional Australia,Bunbury,Waroona (S),Local Road,No,No,Weekday,Day
-1707,20195106,WA,1,2019,Saturday,18:30,Single,1,No,No,No,60,Major Cities of Australia,Perth - South East,Canning (C),Arterial Road,No,No,Weekend,Night
-1708,20195153,WA,1,2019,Friday,08:00,Multiple,1,No,No,No,90,Outer Regional Australia,Western Australia - Outback (South),Greater Geraldton (C),National or State Highway,No,No,Weekday,Day
-1709,20195039,WA,1,2019,Tuesday,10:29,Single,1,No,No,No,80,Inner Regional Australia,Perth - South East,Serpentine-Jarrahdale (S),Arterial Road,No,No,Weekday,Day
-1722,20195082,WA,1,2019,Monday,20:30,Single,1,No,No,No,110,,,,,No,No,Weekday,Night
-1733,20195105,WA,1,2019,Friday,13:15,Multiple,1,No,No,No,110,Inner Regional Australia,Bunbury,Busselton (C),National or State Highway,No,No,Weekday,Day
-1734,20195107,WA,1,2019,Wednesday,05:45,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Harvey (S),Arterial Road,No,No,Weekday,Night
-1735,20195154,WA,1,2019,Saturday,07:26,Single,2,No,No,No,50,Major Cities of Australia,Perth - South East,Armadale (C),Arterial Road,No,No,Weekend,Day
-1736,20195091,WA,1,2019,Monday,09:47,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Ashburton (S),National or State Highway,No,No,Weekday,Day
-1742,20195148,WA,1,2019,Friday,16:27,Multiple,2,No,No,No,100,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),National or State Highway,No,No,Weekday,Day
-1743,20195060,WA,1,2019,Saturday,03:40,Single,1,No,No,No,90,Outer Regional Australia,Western Australia - Outback (South),Chapman Valley (S),Arterial Road,No,No,Weekend,Night
-1744,20195079,WA,1,2019,Thursday,09:03,Pedestrian,1,No,No,Yes,50,Major Cities of Australia,Perth - North East,Mundaring (S),National or State Highway,No,No,Weekday,Day
-1761,20195071,WA,1,2019,Friday,12:29,Multiple,1,No,No,No,100,Major Cities of Australia,Perth - South East,Serpentine-Jarrahdale (S),Arterial Road,No,No,Weekday,Day
-1762,20195081,WA,1,2019,Monday,11:11,Single,1,No,No,No,90,Inner Regional Australia,Bunbury,Waroona (S),Local Road,No,No,Weekday,Day
-1781,20185035,WA,12,2018,Thursday,02:40,Pedestrian,1,No,No,No,50,,Western Australia - Outback (South),,,Yes,No,Weekday,Night
-1782,20185097,WA,12,2018,Thursday,12:00,Multiple,1,No,Yes,No,110,Remote Australia,Western Australia - Outback (South),Esperance (S),National or State Highway,Yes,No,Weekday,Day
-1787,20185036,WA,12,2018,Wednesday,12:31,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - North West,Joondalup (C),Local Road,Yes,No,Weekday,Day
-1795,20185134,WA,12,2018,Saturday,20:01,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - North West,Stirling (C),Local Road,No,No,Weekend,Night
-1796,20185114,WA,12,2018,Saturday,09:02,Multiple,1,No,No,Yes,110,Outer Regional Australia,Western Australia - Wheat Belt,Dandaragan (S),National or State Highway,No,No,Weekend,Day
-1802,20185100,WA,12,2018,Friday,21:40,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Waroona (S),National or State Highway,No,No,Weekend,Night
-1812,20185132,WA,12,2018,Tuesday,12:30,Single,1,No,No,No,110,Inner Regional Australia,Mandurah,Mandurah (C),Local Road,No,No,Weekday,Day
-1823,20185138,WA,12,2018,Thursday,06:20,Single,1,No,No,No,110,Inner Regional Australia,Perth - South East,Armadale (C),National or State Highway,No,No,Weekday,Day
-1832,20185139,WA,12,2018,Sunday,15:18,Multiple,3,Yes,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Gingin (S),Arterial Road,No,No,Weekend,Day
-1833,20185076,WA,12,2018,Sunday,17:20,Single,1,No,No,No,90,Inner Regional Australia,Bunbury,Harvey (S),National or State Highway,No,No,Weekend,Day
-1845,20185085,WA,12,2018,Tuesday,23:05,Single,1,No,No,No,80,Inner Regional Australia,Bunbury,Harvey (S),National or State Highway,No,No,Weekday,Night
-1859,20185041,WA,11,2018,Thursday,06:32,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Toodyay (S),Local Road,No,No,Weekday,Day
-1863,20185001,WA,11,2018,Wednesday,06:00,Single,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Greater Geraldton (C),Local Road,No,No,Weekday,Day
-1870,20185016,WA,11,2018,Monday,02:04,Single,1,No,No,No,90,Major Cities of Australia,Perth - North West,Stirling (C),National or State Highway,No,No,Weekend,Night
-1873,20185049,WA,11,2018,Sunday,11:01,Multiple,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),National or State Highway,No,No,Weekend,Day
-1874,20185007,WA,11,2018,Sunday,06:32,Single,2,No,No,No,110,Inner Regional Australia,Bunbury,Capel (S),National or State Highway,No,No,Weekend,Day
-1879,20185008,WA,11,2018,Saturday,05:00,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Broome (S),Local Road,No,No,Weekend,Night
-1881,20185067,WA,11,2018,Friday,15:45,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,York (S),Arterial Road,No,No,Weekday,Day
-1915,20185104,WA,11,2018,Sunday,00:08,Multiple,1,No,No,No,100,Inner Regional Australia,Mandurah,Murray (S),National or State Highway,No,No,Weekend,Night
-1920,20185048,WA,11,2018,Saturday,15:14,Multiple,1,No,No,No,110,Major Cities of Australia,Perth - South East,Armadale (C),Arterial Road,No,No,Weekend,Day
-1922,20185044,WA,11,2018,Thursday,16:00,Multiple,1,No,No,Yes,110,Inner Regional Australia,Bunbury,Waroona (S),National or State Highway,No,No,Weekday,Day
-1925,20185111,WA,11,2018,Tuesday,08:37,Multiple,1,No,No,No,80,Inner Regional Australia,Bunbury,Dardanup (S),National or State Highway,No,No,Weekday,Day
-1932,20185052,WA,11,2018,Sunday,10:53,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North East,Mundaring (S),Arterial Road,No,No,Weekend,Day
-1939,20185005,WA,11,2018,Saturday,08:30,Single,1,No,No,No,70,Outer Regional Australia,Western Australia - Wheat Belt,Denmark (S),Local Road,No,No,Weekend,Day
-1944,20185032,WA,11,2018,Thursday,13:55,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Brookton (S),National or State Highway,No,No,Weekday,Day
-1947,20185091,WA,10,2018,Wednesday,10:49,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - South East,Belmont (C),Local Road,No,No,Weekday,Day
-1957,20185094,WA,10,2018,Saturday,22:40,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Boddington (S),National or State Highway,No,No,Weekend,Night
-1958,20185106,WA,10,2018,Saturday,10:35,Single,1,No,No,No,70,Inner Regional Australia,Perth - South East,Kalamunda (C),Arterial Road,No,No,Weekend,Day
-1964,20185029,WA,10,2018,Wednesday,11:40,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Harvey (S),Local Road,No,No,Weekday,Day
-1984,20185031,WA,10,2018,Saturday,04:20,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Broomehill-Tambellup (S),Arterial Road,No,No,Weekend,Night
-1985,20185095,WA,10,2018,Saturday,19:30,Single,1,No,No,No,50,Outer Regional Australia,Western Australia - Wheat Belt,Plantagenet (S),Local Road,No,No,Weekend,Night
-1994,20185004,WA,10,2018,Tuesday,23:00,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),Local Road,No,No,Weekday,Night
-2008,20185092,WA,10,2018,Thursday,15:30,Single,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Northampton (S),National or State Highway,No,No,Weekday,Day
-2019,20185043,WA,9,2018,Saturday,21:16,Pedestrian,1,No,No,No,90,Major Cities of Australia,Perth - South West,Rockingham (C),National or State Highway,No,No,Weekend,Night
-2025,20185079,WA,9,2018,Friday,05:45,Single,1,No,No,No,50,Major Cities of Australia,Perth - South West,Kwinana (C),Local Road,No,No,Weekday,Night
-2035,20185103,WA,9,2018,Sunday,20:22,Multiple,1,No,No,No,110,Inner Regional Australia,Bunbury,Busselton (C),National or State Highway,No,No,Weekend,Night
-2041,20185070,WA,9,2018,Saturday,03:00,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Wyndham-East Kimberley (S),National or State Highway,No,No,Weekend,Night
-2042,20185034,WA,9,2018,Saturday,12:13,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Carnarvon (S),National or State Highway,No,No,Weekend,Day
-2061,20185028,WA,9,2018,Sunday,10:20,Multiple,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Carnamah (S),National or State Highway,No,No,Weekend,Day
-2071,20185050,WA,9,2018,Friday,21:15,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),East Pilbara (S),Arterial Road,No,No,Weekend,Night
-2084,20185056,WA,9,2018,Saturday,16:00,Single,1,No,No,No,60,,Western Australia - Wheat Belt,,,No,No,Weekend,Day
-2091,20185046,WA,9,2018,Thursday,23:15,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Kellerberrin (S),National or State Highway,No,No,Weekday,Night
-2092,20185078,WA,9,2018,Wednesday,15:27,Single,1,No,No,No,80,Inner Regional Australia,Perth - North East,Kalamunda (C),Arterial Road,No,No,Weekday,Day
-2095,20185021,WA,9,2018,Tuesday,14:15,Single,2,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Toodyay (S),Local Road,No,No,Weekday,Day
-2099,20185062,WA,9,2018,Monday,16:34,Multiple,1,No,Yes,No,90,Major Cities of Australia,Perth - South East,Serpentine-Jarrahdale (S),National or State Highway,No,No,Weekday,Day
-2100,20185140,WA,9,2018,Monday,07:02,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Kondinin (S),National or State Highway,No,No,Weekday,Day
-2105,20185098,WA,9,2018,Sunday,19:48,Multiple,1,No,No,Yes,110,Very Remote Australia,Western Australia - Outback (South),Meekatharra (S),National or State Highway,No,No,Weekend,Night
-2136,20185020,WA,8,2018,Friday,02:59,Single,1,No,No,No,70,Major Cities of Australia,Perth - South East,Victoria Park (T),National or State Highway,No,No,Weekday,Night
-2155,20185126,WA,8,2018,Sunday,23:40,Multiple,2,No,No,Yes,110,Remote Australia,Western Australia - Wheat Belt,Corrigin (S),National or State Highway,No,No,Weekend,Night
-2156,20185051,WA,8,2018,Sunday,12:33,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Dumbleyung (S),Arterial Road,No,No,Weekend,Day
-2172,20185003,WA,8,2018,Monday,13:50,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - North East,Swan (C),Arterial Road,No,No,Weekday,Day
-2177,20185127,WA,8,2018,Saturday,01:30,Pedestrian,1,No,No,No,70,Remote Australia,Western Australia - Outback (South),Esperance (S),Local Road,No,No,Weekend,Night
-2178,20185027,WA,8,2018,Saturday,03:46,Single,1,No,No,No,-9,,,Carnarvon,,No,No,Weekend,Night
-2179,20185083,WA,8,2018,Saturday,12:15,Single,1,No,No,No,110,,,,,No,No,Weekend,Day
-2183,20185093,WA,8,2018,Wednesday,05:56,Single,1,No,No,No,100,Major Cities of Australia,Perth - South East,Serpentine-Jarrahdale (S),Arterial Road,No,No,Weekday,Night
-2199,20185010,WA,8,2018,Saturday,00:10,Single,1,No,No,No,60,,Perth - North East,,,No,No,Weekend,Night
-2200,20185145,WA,8,2018,Saturday,07:45,Single,1,No,No,No,100,Major Cities of Australia,Perth - South East,Kalamunda (C),National or State Highway,No,No,Weekend,Day
-2201,20185119,WA,8,2018,Friday,23:39,Single,2,No,No,No,90,Very Remote Australia,Western Australia - Outback (North),Wyndham-East Kimberley (S),Arterial Road,No,No,Weekend,Night
-2204,20185022,WA,8,2018,Thursday,14:50,Multiple,2,No,No,No,110,Outer Regional Australia,Western Australia - Outback (South),Irwin (S),National or State Highway,No,No,Weekday,Day
-2209,20185011,WA,7,2018,Tuesday,18:23,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - North East,Mundaring (S),Arterial Road,No,No,Weekday,Night
-2212,20185024,WA,7,2018,Monday,18:10,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Dundas (S),National or State Highway,No,No,Weekday,Night
-2213,20185142,WA,7,2018,Monday,12:35,Single,1,No,No,No,70,Inner Regional Australia,Perth - North East,Kalamunda (C),Arterial Road,No,No,Weekday,Day
-2223,20185006,WA,7,2018,Wednesday,14:56,Single,1,No,No,No,80,Inner Regional Australia,Bunbury,Busselton (C),Local Road,No,No,Weekday,Day
-2229,20185025,WA,7,2018,Sunday,04:38,Single,1,No,No,No,90,Major Cities of Australia,Mandurah,Murray (S),Local Road,No,No,Weekend,Night
-2248,20185038,WA,7,2018,Tuesday,04:00,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Donnybrook-Balingup (S),Local Road,No,No,Weekday,Night
-2262,20185116,WA,7,2018,Thursday,02:40,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),Arterial Road,No,No,Weekday,Night
-2263,20185058,WA,7,2018,Thursday,08:43,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North West,Wanneroo (C),National or State Highway,No,No,Weekday,Day
-2266,20185033,WA,7,2018,Tuesday,10:00,Multiple,1,No,No,No,90,,Western Australia - Outback (North),,,No,No,Weekday,Day
-2273,20185115,WA,7,2018,Saturday,09:13,Multiple,1,No,Yes,No,70,Major Cities of Australia,Perth - South West,Rockingham (C),Local Road,No,No,Weekend,Day
-2285,20185087,WA,7,2018,Wednesday,06:30,Single,1,No,No,Yes,110,,,,,No,No,Weekday,Day
-2295,20185112,WA,6,2018,Saturday,01:20,Single,1,No,No,No,60,,Western Australia - Outback (North),,,No,No,Weekend,Night
-2296,20185118,WA,6,2018,Friday,12:42,Single,1,No,No,No,100,Inner Regional Australia,Bunbury,Harvey (S),National or State Highway,No,No,Weekday,Day
-2314,20185018,WA,6,2018,Saturday,03:15,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Outback (South),Greater Geraldton (C),Arterial Road,No,No,Weekend,Night
-2323,20185065,WA,6,2018,Sunday,10:22,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Cunderdin (S),Local Road,No,No,Weekend,Day
-2336,20185131,WA,6,2018,Wednesday,06:00,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),Arterial Road,No,No,Weekday,Day
-2337,20185128,WA,6,2018,Wednesday,11:26,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Cambridge (T),Arterial Road,No,No,Weekday,Day
-2342,20185045,WA,6,2018,Monday,10:30,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),Arterial Road,No,No,Weekday,Day
-2348,20185054,WA,6,2018,Sunday,01:24,Single,1,No,No,No,60,Major Cities of Australia,Perth - South West,Rockingham (C),Arterial Road,No,No,Weekend,Night
-2350,20185075,WA,6,2018,Saturday,01:35,Single,1,No,No,No,70,Major Cities of Australia,Perth - North West,Stirling (C),Arterial Road,No,No,Weekend,Night
-2366,20185014,WA,6,2018,Sunday,11:37,Multiple,1,No,No,Yes,110,Inner Regional Australia,Bunbury,Harvey (S),National or State Highway,No,No,Weekend,Day
-2369,20185013,WA,5,2018,Thursday,16:40,Pedestrian,1,No,No,No,50,,Western Australia - Outback (North),,,No,No,Weekday,Day
-2380,20185012,WA,5,2018,Sunday,10:56,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - South West,Fremantle (C),Local Road,No,No,Weekend,Day
-2388,20185125,WA,5,2018,Friday,09:40,Single,1,No,Yes,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Dandaragan (S),Local Road,No,No,Weekday,Day
-2409,20185080,WA,5,2018,Wednesday,20:29,Single,1,No,No,No,60,,Bunbury,,,No,No,Weekday,Night
-2425,20185109,WA,5,2018,Wednesday,15:11,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),Local Road,No,No,Weekday,Day
-2427,20185086,WA,5,2018,Tuesday,08:45,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - North West,Joondalup (C),Local Road,No,No,Weekday,Day
-2434,20185129,WA,5,2018,Sunday,15:12,Multiple,1,No,No,No,50,,Western Australia - Outback (South),,,No,No,Weekend,Day
-2435,20185144,WA,5,2018,Sunday,08:15,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Wandering (S),National or State Highway,No,No,Weekend,Day
-2442,20185074,WA,5,2018,Saturday,02:50,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),National or State Highway,No,No,Weekend,Night
-2447,20185120,WA,5,2018,Thursday,15:24,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - South East,Canning (C),Local Road,No,No,Weekday,Day
-2453,20185123,WA,5,2018,Tuesday,20:54,Single,1,No,No,No,100,Outer Regional Australia,Western Australia - Wheat Belt,Quairading (S),Local Road,No,No,Weekday,Night
-2454,20185135,WA,5,2018,Tuesday,21:00,Single,1,No,No,No,60,Inner Regional Australia,Bunbury,Donnybrook-Balingup (S),Arterial Road,No,No,Weekday,Night
-2459,20185047,WA,4,2018,Sunday,11:28,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Gingin (S),Arterial Road,No,No,Weekend,Day
-2461,20185066,WA,4,2018,Saturday,05:44,Single,2,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Lake Grace (S),Arterial Road,No,No,Weekend,Night
-2465,20185026,WA,4,2018,Friday,19:47,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Wongan-Ballidu (S),Arterial Road,No,No,Weekend,Night
-2468,20185023,WA,4,2018,Wednesday,00:10,Single,1,No,No,No,50,Inner Regional Australia,Western Australia - Wheat Belt,Boddington (S),Arterial Road,No,No,Weekday,Night
-2469,20185073,WA,4,2018,Wednesday,15:30,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North East,Mundaring (S),Arterial Road,No,No,Weekday,Day
-2481,20185117,WA,4,2018,Sunday,10:30,Multiple,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Karratha (C),National or State Highway,No,No,Weekend,Day
-2487,20185141,WA,4,2018,Friday,23:49,Single,1,No,No,No,100,Major Cities of Australia,Perth - South West,Rockingham (C),National or State Highway,No,No,Weekend,Night
-2488,20185102,WA,4,2018,Friday,16:21,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - South West,Cockburn (C),Arterial Road,No,No,Weekday,Day
-2491,20185040,WA,4,2018,Thursday,17:20,Multiple,1,No,No,No,80,Major Cities of Australia,Perth - South East,Armadale (C),National or State Highway,No,No,Weekday,Day
-2495,20185039,WA,4,2018,Wednesday,11:28,Multiple,2,No,No,Yes,110,Outer Regional Australia,Western Australia - Wheat Belt,Dandaragan (S),National or State Highway,No,No,Weekday,Day
-2500,20185064,WA,4,2018,Monday,11:00,Single,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Greater Geraldton (C),National or State Highway,No,No,Weekday,Day
-2509,20185082,WA,4,2018,Friday,18:06,Multiple,1,No,No,No,100,Major Cities of Australia,Perth - South West,Cockburn (C),National or State Highway,No,No,Weekend,Night
-2510,20185042,WA,4,2018,Thursday,13:23,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Dundas (S),National or State Highway,No,No,Weekday,Day
-2512,20185077,WA,4,2018,Wednesday,16:07,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - South East,Canning (C),Local Road,No,No,Weekday,Day
-2516,20185019,WA,4,2018,Tuesday,18:37,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - South West,Melville (C),National or State Highway,No,No,Weekday,Night
-2520,20185017,WA,4,2018,Sunday,22:15,Single,1,No,No,No,-9,Inner Regional Australia,Western Australia - Wheat Belt,Murray (S),Local Road,No,No,Weekend,Night
-2531,20185063,WA,4,2018,Monday,12:00,Multiple,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Williams (S),National or State Highway,No,Yes,Weekday,Day
-2535,20185136,WA,4,2018,Sunday,11:33,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - South East,Kalamunda (C),Arterial Road,No,Yes,Weekend,Day
-2547,20185099,WA,3,2018,Wednesday,12:45,Single,1,No,Yes,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Kellerberrin (S),Local Road,No,No,Weekday,Day
-2562,20185069,WA,3,2018,Saturday,04:56,Single,1,No,No,No,100,Major Cities of Australia,Perth - South West,Kwinana (C),National or State Highway,No,No,Weekend,Night
-2563,20185110,WA,3,2018,Saturday,17:25,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - South West,Rockingham (C),Arterial Road,No,No,Weekend,Day
-2570,20185059,WA,3,2018,Friday,06:23,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - South East,Gosnells (C),National or State Highway,No,No,Weekday,Day
-2574,20185072,WA,3,2018,Thursday,15:34,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - South East,Armadale (C),National or State Highway,No,No,Weekday,Day
-2580,20185105,WA,3,2018,Monday,12:02,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - South West,Fremantle (C),Arterial Road,No,No,Weekday,Day
-2583,20185137,WA,3,2018,Sunday,03:30,Single,1,No,No,No,50,Major Cities of Australia,Perth - Inner,Vincent (C),Arterial Road,No,No,Weekend,Night
-2584,20185060,WA,3,2018,Sunday,22:47,Single,1,No,No,No,80,Inner Regional Australia,Bunbury,Busselton (C),Local Road,No,No,Weekend,Night
-2596,20185143,WA,3,2018,Wednesday,15:40,Multiple,2,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Victoria Plains (S),National or State Highway,No,No,Weekday,Day
-2605,20185088,WA,3,2018,Saturday,14:00,Multiple,1,No,No,No,90,Outer Regional Australia,Bunbury,Nannup (S),Arterial Road,No,No,Weekend,Day
-2614,20185030,WA,3,2018,Friday,13:05,Single,1,No,No,Yes,80,Outer Regional Australia,Bunbury,Manjimup (S),Local Road,No,No,Weekday,Day
-2632,20185071,WA,3,2018,Saturday,21:12,Multiple,1,No,No,No,70,,,,,No,No,Weekend,Night
-2638,20185107,WA,3,2018,Friday,22:15,Single,1,No,No,No,80,Inner Regional Australia,Bunbury,Dardanup (S),Local Road,No,No,Weekend,Night
-2639,20185061,WA,3,2018,Friday,18:50,Multiple,1,Yes,No,No,50,Major Cities of Australia,Perth - Inner,Perth (C),Arterial Road,No,No,Weekend,Night
-2644,20185089,WA,2,2018,Tuesday,16:30,Single,1,No,No,No,70,Inner Regional Australia,Bunbury,Harvey (S),Local Road,No,No,Weekday,Day
-2650,20185055,WA,2,2018,Sunday,12:20,Single,1,No,No,No,60,,Bunbury,,,No,No,Weekend,Day
-2660,20185057,WA,2,2018,Friday,21:28,Single,1,No,No,No,50,Major Cities of Australia,Perth - South West,Cockburn (C),Local Road,No,No,Weekend,Night
-2666,20185009,WA,2,2018,Wednesday,15:37,Single,1,No,No,No,110,Outer Regional Australia,Bunbury,Manjimup (S),Local Road,No,No,Weekday,Day
-2669,20185084,WA,2,2018,Tuesday,06:46,Single,1,No,No,No,70,Major Cities of Australia,Perth - North West,Wanneroo (C),Arterial Road,No,No,Weekday,Day
-2692,20185002,WA,2,2018,Sunday,03:35,Pedestrian,1,No,No,No,70,Major Cities of Australia,Perth - North West,Joondalup (C),Arterial Road,No,No,Weekend,Night
-2695,20185121,WA,2,2018,Friday,00:25,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Moora (S),Arterial Road,No,No,Weekday,Night
-2698,20185053,WA,2,2018,Thursday,11:45,Single,1,No,No,No,90,,,,,No,No,Weekday,Day
-2699,20185133,WA,2,2018,Thursday,17:54,Single,1,No,No,No,80,Major Cities of Australia,Perth - North East,Mundaring (S),National or State Highway,No,No,Weekday,Day
-2719,20185108,WA,2,2018,Saturday,19:40,Single,1,No,No,No,70,Major Cities of Australia,Perth - South West,Cockburn (C),Arterial Road,No,No,Weekend,Night
-2720,20185124,WA,2,2018,Saturday,10:37,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Broomehill-Tambellup (S),Arterial Road,No,No,Weekend,Day
-2727,20185096,WA,1,2018,Tuesday,06:25,Multiple,1,No,No,No,70,Inner Regional Australia,Bunbury,Harvey (S),Local Road,No,No,Weekday,Day
-2733,20185015,WA,1,2018,Monday,02:50,Single,1,No,No,No,50,,Western Australia - Wheat Belt,,,No,No,Weekend,Night
-2739,20185130,WA,1,2018,Sunday,16:40,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Augusta-Margaret River (S),National or State Highway,No,No,Weekend,Day
-2746,20185090,WA,1,2018,Thursday,17:17,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),Arterial Road,No,No,Weekday,Day
-2757,20185068,WA,1,2018,Saturday,06:00,Multiple,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Karratha (C),National or State Highway,No,No,Weekend,Day
-2776,20185101,WA,1,2018,Thursday,13:41,Multiple,1,No,No,Yes,100,Major Cities of Australia,Perth - South West,Cockburn (C),National or State Highway,No,No,Weekday,Day
-2782,20185081,WA,1,2018,Wednesday,12:14,Multiple,3,No,No,No,110,Outer Regional Australia,Western Australia - Outback (South),Irwin (S),National or State Highway,No,No,Weekday,Day
-2786,20185113,WA,1,2018,Tuesday,16:16,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - South West,Cockburn (C),Local Road,No,No,Weekday,Day
-2797,20185122,WA,1,2018,Friday,06:26,Single,2,No,No,No,110,Inner Regional Australia,Bunbury,Harvey (S),National or State Highway,No,No,Weekday,Day
-2808,20185037,WA,1,2018,Tuesday,05:30,Single,1,No,No,No,110,Major Cities of Australia,Perth - North West,Wanneroo (C),Local Road,Yes,No,Weekday,Night
-2817,20175017,WA,12,2017,Sunday,18:00,Single,1,No,No,No,-9,,,Esperance,,Yes,No,Weekend,Night
-2822,20175084,WA,12,2017,Friday,20:00,Single,1,No,No,No,50,Major Cities of Australia,Perth - North East,Swan (C),Local Road,Yes,No,Weekend,Night
-2837,20175142,WA,12,2017,Tuesday,15:25,Multiple,1,No,No,No,100,Major Cities of Australia,Perth - North West,Joondalup (C),National or State Highway,Yes,No,Weekday,Day
-2841,20175053,WA,12,2017,Monday,05:06,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Brookton (S),National or State Highway,Yes,No,Weekend,Night
-2860,20175067,WA,12,2017,Thursday,13:39,Multiple,1,No,No,No,60,Outer Regional Australia,Western Australia - Wheat Belt,Albany (C),National or State Highway,No,No,Weekday,Day
-2862,20175021,WA,12,2017,Wednesday,15:30,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Carnarvon (S),National or State Highway,No,No,Weekday,Day
-2863,20175043,WA,12,2017,Wednesday,17:08,Single,1,No,Yes,No,110,Very Remote Australia,Western Australia - Outback (North),Broome (S),National or State Highway,No,No,Weekday,Day
-2879,20175051,WA,12,2017,Saturday,11:27,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Chittering (S),Arterial Road,No,No,Weekend,Day
-2882,20175029,WA,12,2017,Friday,05:39,Multiple,1,No,No,No,60,Inner Regional Australia,Bunbury,Bunbury (C),National or State Highway,No,No,Weekday,Night
-2888,20175126,WA,12,2017,Thursday,21:15,Multiple,1,No,No,Yes,100,Inner Regional Australia,Bunbury,Dardanup (S),National or State Highway,No,No,Weekday,Night
-2889,20175054,WA,12,2017,Wednesday,03:40,Single,1,No,Yes,No,110,Very Remote Australia,Western Australia - Outback (South),Ravensthorpe (S),National or State Highway,No,No,Weekday,Night
-2890,20175119,WA,12,2017,Wednesday,15:20,Multiple,1,No,Yes,No,110,Outer Regional Australia,Bunbury,Bridgetown-Greenbushes (S),National or State Highway,No,No,Weekday,Day
-2894,20175046,WA,12,2017,Tuesday,16:20,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - South East,Kalamunda (C),Arterial Road,No,No,Weekday,Day
-2904,20175026,WA,12,2017,Sunday,17:09,Single,1,No,No,No,70,Major Cities of Australia,Perth - North West,Stirling (C),Arterial Road,No,No,Weekend,Day
-2912,20175151,WA,12,2017,Friday,11:50,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - South East,Kalamunda (C),Local Road,No,No,Weekday,Day
-2918,20175073,WA,12,2017,Thursday,14:00,Single,1,No,No,No,80,Inner Regional Australia,Western Australia - Wheat Belt,Toodyay (S),Local Road,No,No,Weekday,Day
-2922,20175004,WA,12,2017,Tuesday,20:12,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - South East,South Perth (C),Local Road,No,No,Weekday,Night
-2923,20175123,WA,12,2017,Tuesday,16:27,Single,1,No,No,No,50,Major Cities of Australia,Perth - South West,Cockburn (C),Local Road,No,No,Weekday,Day
-2925,20175052,WA,12,2017,Monday,19:50,Multiple,1,No,No,No,50,Outer Regional Australia,Western Australia - Outback (South),Kalgoorlie/Boulder (C),Local Road,No,No,Weekday,Night
-2926,20175117,WA,12,2017,Monday,08:20,Multiple,1,No,Yes,No,70,Major Cities of Australia,Perth - North East,Swan (C),Arterial Road,No,No,Weekday,Day
-2949,20175045,WA,11,2017,Saturday,06:10,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Augusta-Margaret River (S),Local Road,No,No,Weekend,Day
-2954,20175078,WA,11,2017,Friday,04:04,Multiple,1,No,Yes,Yes,90,Inner Regional Australia,Mandurah,Murray (S),Arterial Road,No,No,Weekday,Night
-2973,20175122,WA,11,2017,Saturday,01:37,Single,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Perenjori (S),Arterial Road,No,No,Weekend,Night
-2974,20175083,WA,11,2017,Saturday,05:31,Multiple,1,No,No,No,80,Major Cities of Australia,Perth - Inner,Perth (C),National or State Highway,No,No,Weekend,Night
-2975,20175012,WA,11,2017,Saturday,23:49,Pedestrian,1,No,No,No,50,Very Remote Australia,Western Australia - Outback (North),Halls Creek (S),Local Road,No,No,Weekend,Night
-2978,20175072,WA,11,2017,Thursday,00:20,Pedestrian,1,No,No,No,60,,,,,No,No,Weekday,Night
-2983,20175010,WA,11,2017,Wednesday,07:30,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Halls Creek (S),Arterial Road,No,No,Weekday,Day
-3004,20175014,WA,11,2017,Tuesday,03:15,Single,1,No,No,No,90,Inner Regional Australia,Western Australia - Wheat Belt,Toodyay (S),Arterial Road,No,No,Weekday,Night
-3009,20175036,WA,11,2017,Monday,13:09,Multiple,1,No,No,Yes,110,Inner Regional Australia,Bunbury,Donnybrook-Balingup (S),National or State Highway,No,No,Weekday,Day
-3019,20175140,WA,11,2017,Sunday,08:19,Single,2,No,No,No,80,Outer Regional Australia,Western Australia - Wheat Belt,Albany (C),Local Road,No,No,Weekend,Day
-3024,20175079,WA,11,2017,Saturday,22:18,Pedestrian,1,No,No,No,50,,,Derby - West Ki,,No,No,Weekend,Night
-3035,20175033,WA,10,2017,Tuesday,16:42,Multiple,1,No,Yes,Yes,110,Inner Regional Australia,Perth - South East,Armadale (C),National or State Highway,No,No,Weekday,Day
-3044,20175145,WA,10,2017,Saturday,00:35,Single,1,No,No,No,50,Remote Australia,Western Australia - Wheat Belt,Kent (S),Arterial Road,No,No,Weekend,Night
-3055,20175086,WA,10,2017,Thursday,23:47,Multiple,1,No,No,Yes,110,Very Remote Australia,Western Australia - Outback (North),East Pilbara (S),National or State Highway,No,No,Weekday,Night
-3059,20175022,WA,10,2017,Tuesday,08:00,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Dundas (S),National or State Highway,No,No,Weekday,Day
-3074,20175090,WA,10,2017,Wednesday,19:44,Single,1,No,No,No,60,,,,,No,No,Weekday,Night
-3089,20175121,WA,10,2017,Saturday,13:22,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Broome (S),Local Road,No,No,Weekend,Day
-3092,20175087,WA,10,2017,Friday,07:20,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,York (S),Local Road,No,No,Weekday,Day
-3094,20175076,WA,10,2017,Thursday,11:36,Multiple,1,No,No,No,50,Outer Regional Australia,Western Australia - Outback (South),Greater Geraldton (C),Local Road,No,No,Weekday,Day
-3098,20175002,WA,10,2017,Tuesday,17:00,Single,1,No,No,No,100,Outer Regional Australia,Bunbury,Nannup (S),Arterial Road,No,No,Weekday,Day
-3100,20175055,WA,10,2017,Monday,12:52,Multiple,1,No,No,No,50,Inner Regional Australia,Bunbury,Collie (S),Local Road,No,No,Weekday,Day
-3101,20175131,WA,10,2017,Monday,11:55,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Victoria Plains (S),National or State Highway,No,No,Weekday,Day
-3105,20175107,WA,10,2017,Sunday,10:10,Multiple,1,No,No,No,80,Major Cities of Australia,Perth - North West,Joondalup (C),Arterial Road,No,No,Weekend,Day
-3111,20175038,WA,10,2017,Friday,22:12,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - South West,Cockburn (C),National or State Highway,No,No,Weekend,Night
-3112,20175132,WA,10,2017,Friday,19:45,Single,2,No,No,No,50,Major Cities of Australia,Perth - South West,Rockingham (C),Local Road,No,No,Weekend,Night
-3114,20175050,WA,10,2017,Thursday,12:30,Pedestrian,1,Yes,No,No,20,,,Mandurah (C),,No,No,Weekday,Day
-3122,20175035,WA,10,2017,Monday,08:48,Multiple,1,No,Yes,No,50,Major Cities of Australia,Perth - North East,Swan (C),Local Road,No,No,Weekday,Day
-3150,20175088,WA,9,2017,Friday,15:29,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Capel (S),Arterial Road,No,No,Weekday,Day
-3158,20175102,WA,9,2017,Wednesday,17:15,Single,1,No,No,No,70,Major Cities of Australia,Perth - South West,Rockingham (C),National or State Highway,No,No,Weekday,Day
-3162,20175019,WA,9,2017,Monday,18:17,Single,1,No,No,No,70,Major Cities of Australia,Perth - North East,Swan (C),Arterial Road,No,No,Weekday,Night
-3163,20175008,WA,9,2017,Monday,19:50,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),National or State Highway,No,No,Weekday,Night
-3164,20175059,WA,9,2017,Monday,15:49,Multiple,1,No,Yes,Yes,80,Major Cities of Australia,Perth - South West,Cockburn (C),Arterial Road,No,No,Weekday,Day
-3169,20175093,WA,9,2017,Sunday,06:09,Multiple,1,No,No,No,110,Inner Regional Australia,Bunbury,Dardanup (S),Arterial Road,No,No,Weekend,Day
-3172,20175101,WA,9,2017,Thursday,05:30,Multiple,1,No,Yes,No,90,Outer Regional Australia,Western Australia - Outback (South),Greater Geraldton (C),National or State Highway,No,No,Weekday,Night
-3175,20175028,WA,9,2017,Wednesday,13:40,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Harvey (S),Local Road,No,No,Weekday,Day
-3187,20175130,WA,9,2017,Friday,16:07,Single,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Mosman Park (T),National or State Highway,No,No,Weekday,Day
-3209,20175027,WA,9,2017,Saturday,14:54,Single,1,No,No,No,100,Major Cities of Australia,Perth - North West,Stirling (C),National or State Highway,No,No,Weekend,Day
-3213,20175037,WA,9,2017,Friday,19:30,Pedestrian,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Derby-West Kimberley (S),National or State Highway,No,No,Weekend,Night
-3214,20175040,WA,9,2017,Friday,11:48,Single,1,No,No,No,60,,,,,No,No,Weekday,Day
-3241,20175094,WA,8,2017,Thursday,16:40,Multiple,1,Yes,No,No,60,Major Cities of Australia,Perth - South West,Melville (C),Arterial Road,No,No,Weekday,Day
-3246,20175057,WA,8,2017,Wednesday,10:25,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Narrogin (S),Local Road,No,No,Weekday,Day
-3260,20175100,WA,8,2017,Thursday,07:15,Multiple,3,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Gingin (S),Arterial Road,No,No,Weekday,Day
-3261,20175141,WA,8,2017,Thursday,16:08,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Albany (C),Local Road,No,No,Weekday,Day
-3292,20175047,WA,8,2017,Tuesday,12:55,Pedestrian,1,No,No,No,70,Major Cities of Australia,Perth - South West,Melville (C),National or State Highway,No,No,Weekday,Day
-3304,20175034,WA,8,2017,Friday,20:40,Single,1,No,No,No,90,Very Remote Australia,Western Australia - Outback (North),Broome (S),National or State Highway,No,No,Weekend,Night
-3305,20175066,WA,8,2017,Friday,11:34,Multiple,1,No,No,No,100,Major Cities of Australia,Perth - South West,Rockingham (C),National or State Highway,No,No,Weekday,Day
-3310,20175041,WA,8,2017,Wednesday,13:25,Multiple,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Carnamah (S),Arterial Road,No,No,Weekday,Day
-3315,20175138,WA,8,2017,Tuesday,07:10,Multiple,1,No,Yes,No,70,Major Cities of Australia,Perth - South East,Canning (C),Local Road,No,No,Weekday,Day
-3318,20175009,WA,7,2017,Sunday,08:55,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North East,Bayswater (C),Arterial Road,No,No,Weekend,Day
-3321,20175127,WA,7,2017,Saturday,19:25,Multiple,1,No,No,No,110,Inner Regional Australia,Bunbury,Harvey (S),National or State Highway,No,No,Weekend,Night
-3323,20175016,WA,7,2017,Friday,15:50,Single,1,No,No,No,50,Major Cities of Australia,Perth - South West,Rockingham (C),Local Road,No,No,Weekday,Day
-3326,20175031,WA,7,2017,Thursday,17:50,Multiple,1,No,No,No,60,Major Cities of Australia,Mandurah,Mandurah (C),Local Road,No,No,Weekday,Day
-3328,20175113,WA,7,2017,Wednesday,23:15,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Merredin (S),Local Road,No,No,Weekday,Night
-3364,20175074,WA,7,2017,Sunday,20:50,Single,1,No,No,No,80,Inner Regional Australia,Perth - North West,Wanneroo (C),Arterial Road,No,No,Weekend,Night
-3376,20175081,WA,7,2017,Tuesday,09:00,Multiple,1,No,No,No,50,Outer Regional Australia,Western Australia - Outback (South),Kalgoorlie/Boulder (C),Local Road,No,No,Weekday,Day
-3378,20175133,WA,7,2017,Monday,16:20,Single,1,No,No,No,80,Major Cities of Australia,Perth - South West,Cockburn (C),Arterial Road,No,No,Weekday,Day
-3399,20175104,WA,7,2017,Wednesday,13:15,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),Local Road,No,No,Weekday,Day
-3408,20175015,WA,7,2017,Monday,21:14,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Outback (South),Greater Geraldton (C),National or State Highway,No,No,Weekday,Night
-3413,20175001,WA,7,2017,Sunday,17:15,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),Local Road,No,No,Weekend,Day
-3421,20175111,WA,6,2017,Friday,18:20,Single,1,No,No,No,100,Outer Regional Australia,Western Australia - Wheat Belt,Beverley (S),National or State Highway,No,No,Weekend,Night
-3422,20175011,WA,6,2017,Friday,15:00,Multiple,2,No,No,Yes,40,Very Remote Australia,Western Australia - Outback (North),Port Hedland (T),National or State Highway,No,No,Weekday,Day
-3424,20175091,WA,6,2017,Thursday,07:00,Single,1,No,Yes,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Albany (C),National or State Highway,No,No,Weekday,Day
-3436,20175063,WA,6,2017,Saturday,08:08,Multiple,1,No,Yes,Yes,80,Major Cities of Australia,Perth - South West,Kwinana (C),Local Road,No,No,Weekend,Day
-3460,20175070,WA,6,2017,Sunday,08:52,Multiple,1,No,No,No,110,,,,,No,No,Weekend,Day
-3474,20175143,WA,6,2017,Tuesday,16:35,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - North East,Bassendean (T),Local Road,No,No,Weekday,Day
-3486,20175095,WA,6,2017,Friday,17:30,Multiple,1,No,No,No,60,,,,,No,No,Weekday,Day
-3491,20175007,WA,6,2017,Thursday,09:20,Single,1,No,No,No,110,,,,,No,No,Weekday,Day
-3497,20175006,WA,6,2017,Monday,12:45,Multiple,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Gingin (S),Arterial Road,No,No,Weekday,Day
-3506,20175147,WA,6,2017,Friday,17:17,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),National or State Highway,No,No,Weekday,Day
-3510,20175061,WA,6,2017,Thursday,13:45,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Broome (S),Local Road,No,No,Weekday,Day
-3516,20175110,WA,5,2017,Monday,19:00,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Outback (South),Irwin (S),National or State Highway,No,No,Weekday,Night
-3517,20175060,WA,5,2017,Monday,07:30,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Pingelly (S),Arterial Road,No,No,Weekday,Day
-3525,20175075,WA,5,2017,Sunday,12:30,Single,1,No,No,No,100,,,,,No,No,Weekend,Day
-3534,20175048,WA,5,2017,Wednesday,00:14,Single,1,No,No,No,60,,,,,No,No,Weekday,Night
-3544,20175098,WA,5,2017,Sunday,10:55,Single,1,No,No,No,60,,,,,No,No,Weekend,Day
-3546,20175124,WA,5,2017,Saturday,10:38,Pedestrian,1,No,No,No,50,,,,,No,No,Weekend,Day
-3571,20175152,WA,5,2017,Friday,11:00,Multiple,1,No,Yes,No,110,Remote Australia,Western Australia - Wheat Belt,Westonia (S),National or State Highway,No,No,Weekday,Day
-3610,20175092,WA,4,2017,Saturday,20:19,Single,2,No,No,No,70,Inner Regional Australia,Western Australia - Wheat Belt,Gingin (S),Arterial Road,No,No,Weekend,Night
-3611,20175080,WA,4,2017,Friday,14:03,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),Arterial Road,No,No,Weekday,Day
-3623,20175071,WA,4,2017,Monday,10:25,Single,1,No,No,No,90,Outer Regional Australia,Western Australia - Wheat Belt,Denmark (S),National or State Highway,No,No,Weekday,Day
-3629,20175005,WA,4,2017,Friday,17:29,Multiple,1,No,No,No,80,Major Cities of Australia,Mandurah,Murray (S),National or State Highway,No,No,Weekday,Day
-3631,20175108,WA,4,2017,Thursday,14:00,Single,1,No,No,No,60,Major Cities of Australia,Perth - South East,Kalamunda (C),Arterial Road,No,No,Weekday,Day
-3638,20175103,WA,4,2017,Wednesday,21:00,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Dandaragan (S),Local Road,No,No,Weekday,Night
-3645,20175030,WA,4,2017,Tuesday,14:50,Multiple,1,No,No,No,60,Inner Regional Australia,Bunbury,Bunbury (C),Local Road,No,No,Weekday,Day
-3652,20175099,WA,4,2017,Friday,00:04,Single,1,No,No,No,50,Inner Regional Australia,Bunbury,Collie (S),Local Road,No,Yes,Weekday,Night
-3661,20175135,WA,4,2017,Tuesday,06:16,Multiple,1,No,Yes,No,100,Major Cities of Australia,Perth - South East,Armadale (C),Arterial Road,No,No,Weekday,Day
-3663,20175069,WA,4,2017,Monday,18:50,Single,1,No,No,No,50,Major Cities of Australia,Perth - North West,Wanneroo (C),Local Road,No,No,Weekday,Night
-3669,20175025,WA,4,2017,Saturday,18:20,Multiple,2,No,No,No,110,Outer Regional Australia,Western Australia - Outback (South),Irwin (S),National or State Highway,No,No,Weekend,Night
-3670,20175116,WA,4,2017,Saturday,12:00,Single,1,No,No,No,80,Outer Regional Australia,Bunbury,Bridgetown-Greenbushes (S),Arterial Road,No,No,Weekend,Day
-3677,20175096,WA,4,2017,Friday,02:50,Single,1,No,No,No,80,Major Cities of Australia,Perth - South East,Armadale (C),Local Road,No,No,Weekday,Night
-3688,20175049,WA,4,2017,Monday,17:30,Single,1,No,No,No,50,Major Cities of Australia,Perth - South East,Armadale (C),Local Road,No,No,Weekday,Day
-3690,20175085,WA,4,2017,Sunday,04:30,Single,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Morawa (S),Local Road,No,No,Weekend,Night
-3694,20175114,WA,4,2017,Saturday,20:06,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - Inner,Nedlands (C),Local Road,No,No,Weekend,Night
-3695,20175136,WA,4,2017,Saturday,22:05,Multiple,1,Yes,No,No,70,Major Cities of Australia,Perth - South East,Belmont (C),Arterial Road,No,No,Weekend,Night
-3699,20175125,WA,3,2017,Friday,12:40,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Dandaragan (S),Arterial Road,No,No,Weekday,Day
-3704,20175077,WA,3,2017,Thursday,17:40,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Moora (S),Arterial Road,No,No,Weekday,Day
-3709,20175039,WA,3,2017,Wednesday,14:40,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Chittering (S),National or State Highway,No,No,Weekday,Day
-3729,20175120,WA,3,2017,Friday,11:02,Multiple,1,No,No,Yes,80,Major Cities of Australia,Perth - North East,Mundaring (S),National or State Highway,No,No,Weekday,Day
-3732,20175109,WA,3,2017,Thursday,14:28,Multiple,1,No,No,No,50,Outer Regional Australia,Western Australia - Outback (South),Kalgoorlie/Boulder (C),Local Road,No,No,Weekday,Day
-3733,20175115,WA,3,2017,Wednesday,09:45,Multiple,1,No,No,No,70,Inner Regional Australia,Bunbury,Busselton (C),Arterial Road,No,No,Weekday,Day
-3737,20175018,WA,3,2017,Tuesday,08:00,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Wandering (S),National or State Highway,No,No,Weekday,Day
-3752,20175137,WA,3,2017,Tuesday,19:39,Pedestrian,1,No,No,No,50,Outer Regional Australia,Western Australia - Outback (South),Mingenew (S),Local Road,No,No,Weekday,Night
-3755,20175056,WA,3,2017,Monday,15:15,Single,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Nedlands (C),National or State Highway,No,No,Weekday,Day
-3762,20175068,WA,3,2017,Saturday,04:45,Single,1,No,No,No,20,,,Bunbury (C),,No,No,Weekend,Night
-3768,20175112,WA,3,2017,Thursday,02:00,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Westonia (S),Local Road,No,No,Weekday,Night
-3769,20175106,WA,3,2017,Thursday,20:20,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Claremont (T),Arterial Road,No,No,Weekday,Night
-3772,20175148,WA,3,2017,Tuesday,17:15,Single,1,No,No,No,50,Inner Regional Australia,Bunbury,Busselton (C),Local Road,No,No,Weekday,Day
-3774,20175105,WA,3,2017,Monday,11:00,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Wandering (S),National or State Highway,No,No,Weekday,Day
-3775,20175042,WA,3,2017,Sunday,14:43,Multiple,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Gingin (S),National or State Highway,No,No,Weekend,Day
-3807,20175065,WA,2,2017,Sunday,05:21,Single,1,No,No,No,110,,,,,No,No,Weekend,Night
-3811,20175149,WA,2,2017,Saturday,16:45,Multiple,1,No,No,No,110,Inner Regional Australia,Bunbury,Capel (S),National or State Highway,No,No,Weekend,Day
-3829,20175134,WA,2,2017,Saturday,15:35,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Merredin (S),National or State Highway,No,No,Weekend,Day
-3833,20175118,WA,2,2017,Friday,18:15,Single,1,No,No,No,50,Major Cities of Australia,Perth - North West,Wanneroo (C),Undetermined,No,No,Weekend,Night
-3834,20175023,WA,2,2017,Friday,09:30,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Plantagenet (S),National or State Highway,No,No,Weekday,Day
-3835,20175032,WA,2,2017,Friday,16:45,Multiple,1,No,No,No,100,Inner Regional Australia,Bunbury,Donnybrook-Balingup (S),National or State Highway,No,No,Weekday,Day
-3850,20175003,WA,2,2017,Friday,15:55,Multiple,1,No,Yes,No,110,Inner Regional Australia,Perth - South East,Serpentine-Jarrahdale (S),National or State Highway,No,No,Weekday,Day
-3860,20175064,WA,1,2017,Sunday,12:11,Multiple,2,No,No,No,110,Inner Regional Australia,Perth - South East,Armadale (C),National or State Highway,No,No,Weekend,Day
-3863,20175139,WA,1,2017,Saturday,01:33,Single,1,No,No,No,70,Inner Regional Australia,Bunbury,Busselton (C),Arterial Road,No,No,Weekend,Night
-3864,20175144,WA,1,2017,Saturday,21:30,Single,1,No,No,No,20,,,Wanneroo (C),,No,No,Weekend,Night
-3874,20175097,WA,1,2017,Tuesday,19:58,Multiple,1,No,No,No,60,Outer Regional Australia,Western Australia - Outback (South),Greater Geraldton (C),Local Road,No,No,Weekday,Night
-3875,20175129,WA,1,2017,Tuesday,12:48,Pedestrian,1,No,No,No,60,Very Remote Australia,Western Australia - Outback (North),Derby-West Kimberley (S),National or State Highway,No,No,Weekday,Day
-3878,20175146,WA,1,2017,Monday,11:43,Single,1,No,No,No,80,Major Cities of Australia,Perth - South West,Cockburn (C),National or State Highway,No,No,Weekday,Day
-3889,20175024,WA,1,2017,Wednesday,05:15,Single,1,No,No,No,110,Major Cities of Australia,Perth - North West,Wanneroo (C),Local Road,No,No,Weekday,Night
-3896,20175128,WA,1,2017,Monday,01:20,Multiple,1,No,Yes,No,50,Major Cities of Australia,Perth - Inner,Perth (C),Arterial Road,No,No,Weekend,Night
-3908,20175150,WA,1,2017,Friday,17:30,Single,1,No,No,No,90,Inner Regional Australia,Bunbury,Donnybrook-Balingup (S),National or State Highway,No,No,Weekday,Day
-3917,20175044,WA,1,2017,Wednesday,18:30,Single,1,No,No,No,80,Very Remote Australia,Western Australia - Outback (South),Coolgardie (S),National or State Highway,No,No,Weekday,Night
-3924,20175013,WA,1,2017,Sunday,10:23,Single,1,No,No,No,-9,Major Cities of Australia,Perth - North West,Stirling (C),Arterial Road,No,No,Weekend,Day
-3935,20175062,WA,1,2017,Tuesday,15:21,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - North West,Joondalup (C),Local Road,Yes,No,Weekday,Day
-3939,20175082,WA,1,2017,Monday,18:27,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Harvey (S),Local Road,Yes,No,Weekday,Night
-3941,20175058,WA,1,2017,Sunday,16:30,Multiple,1,No,No,No,100,Major Cities of Australia,Perth - South East,Canning (C),National or State Highway,Yes,No,Weekend,Day
-3942,20175089,WA,1,2017,Sunday,17:14,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - North West,Joondalup (C),Arterial Road,Yes,No,Weekend,Day
-3952,20165036,WA,12,2016,Wednesday,19:30,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - South West,Cockburn (C),LOCAL ROAD,Yes,No,Weekday,Night
-3960,20165027,WA,12,2016,Monday,15:29,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Murray (S),LOCAL ROAD,Yes,No,Weekday,Day
-3968,20165081,WA,12,2016,Saturday,01:10,Multiple,1,No,No,Yes,110,Inner Regional Australia,Bunbury,Capel (S),NATIONAL OR STATE HIGHWAY,Yes,No,Weekend,Night
-3969,20165025,WA,12,2016,Friday,04:50,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Dundas (S),NATIONAL OR STATE HIGHWAY,Yes,No,Weekday,Night
-3972,20165151,WA,12,2016,Wednesday,16:19,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Donnybrook-Balingup (S),LOCAL ROAD,No,No,Weekday,Day
-3984,20165039,WA,12,2016,Saturday,05:20,Single,1,No,No,No,70,Major Cities of Australia,Perth - North West,Stirling (C),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-3993,20165012,WA,12,2016,Thursday,22:31,Single,2,No,No,No,50,Major Cities of Australia,Mandurah,Mandurah (C),LOCAL ROAD,No,No,Weekday,Night
-3998,20165158,WA,12,2016,Wednesday,14:30,Single,1,No,No,No,90,Outer Regional Australia,Bunbury,Nannup (S),ARTERIAL ROAD,No,No,Weekday,Day
-3999,20165088,WA,12,2016,Wednesday,10:15,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Bruce Rock (S),LOCAL ROAD,No,No,Weekday,Day
-4004,20165162,WA,12,2016,Monday,05:00,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Narrogin (S),ARTERIAL ROAD,No,No,Weekend,Night
-4005,20165062,WA,12,2016,Monday,11:40,Multiple,2,No,No,Yes,110,Remote Australia,Western Australia - Wheat Belt,Jerramungup (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4018,20165105,WA,12,2016,Saturday,19:38,Single,1,No,No,No,70,Major Cities of Australia,Perth - North East,Swan (C),ARTERIAL ROAD,No,No,Weekend,Night
-4021,20165032,WA,12,2016,Friday,15:20,Single,1,No,No,No,110,,,,,No,No,Weekday,Day
-4022,20165110,WA,12,2016,Friday,15:25,Single,2,No,No,No,110,Very Remote Australia,Western Australia - Wheat Belt,Kondinin (S),LOCAL ROAD,No,No,Weekday,Day
-4029,20165131,WA,12,2016,Tuesday,21:00,Pedestrian,1,No,No,No,60,Very Remote Australia,Western Australia - Outback (North),Derby-West Kimberley (S),LOCAL ROAD,No,No,Weekday,Night
-4034,20165113,WA,12,2016,Sunday,03:33,Multiple,1,No,Yes,Yes,110,Outer Regional Australia,Western Australia - Outback (South),Chapman Valley (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-4057,20165066,WA,11,2016,Monday,15:40,Multiple,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Plantagenet (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4063,20165078,WA,11,2016,Sunday,20:55,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - South West,Kwinana (C),ARTERIAL ROAD,No,No,Weekend,Night
-4069,20165126,WA,11,2016,Friday,06:35,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Wongan-Ballidu (S),ARTERIAL ROAD,No,No,Weekday,Day
-4070,20165003,WA,11,2016,Thursday,06:45,Pedestrian,1,No,No,No,100,Major Cities of Australia,Perth - South East,Gosnells (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4080,20165160,WA,11,2016,Tuesday,00:20,Single,1,No,No,No,50,Outer Regional Australia,Western Australia - Outback (South),Kalgoorlie/Boulder (C),LOCAL ROAD,No,No,Weekday,Night
-4092,20165156,WA,11,2016,Sunday,12:50,Single,2,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Plantagenet (S),LOCAL ROAD,No,No,Weekend,Day
-4097,20165041,WA,11,2016,Saturday,22:00,Multiple,1,No,No,No,70,Outer Regional Australia,Western Australia - Outback (South),Greater Geraldton (C),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-4098,20165136,WA,11,2016,Saturday,22:21,Multiple,1,No,No,No,80,Major Cities of Australia,Perth - South West,Rockingham (C),ARTERIAL ROAD,No,No,Weekend,Night
-4100,20165043,WA,11,2016,Friday,00:10,Single,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),ARTERIAL ROAD,No,No,Weekday,Night
-4114,20165125,WA,11,2016,Tuesday,17:25,Multiple,1,No,Yes,Yes,80,,,,,No,No,Weekday,Day
-4118,20165168,WA,11,2016,Sunday,17:45,Single,1,No,No,No,90,Outer Regional Australia,Western Australia - Wheat Belt,West Arthur (S),LOCAL ROAD,No,No,Weekend,Day
-4119,20165077,WA,11,2016,Sunday,14:07,Single,1,No,No,No,80,Inner Regional Australia,Perth - South East,Serpentine-Jarrahdale (S),ARTERIAL ROAD,No,No,Weekend,Day
-4123,20165089,WA,11,2016,Saturday,21:45,Single,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Vincent (C),ARTERIAL ROAD,No,No,Weekend,Night
-4125,20165117,WA,11,2016,Friday,05:56,Multiple,1,No,Yes,No,100,Inner Regional Australia,Bunbury,Dardanup (S),LOCAL ROAD,No,No,Weekday,Night
-4142,20165011,WA,11,2016,Saturday,22:20,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Denmark (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-4144,20165119,WA,11,2016,Thursday,00:15,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Boddington (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-4151,20165034,WA,10,2016,Sunday,16:02,Single,1,No,No,No,-9,Outer Regional Australia,Western Australia - Outback (South),Irwin (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-4165,20165071,WA,10,2016,Tuesday,18:35,Single,1,No,No,No,70,Major Cities of Australia,Perth - North East,Swan (C),ARTERIAL ROAD,No,No,Weekday,Night
-4173,20165167,WA,10,2016,Sunday,16:12,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Dardanup (S),LOCAL ROAD,No,No,Weekend,Day
-4178,20165138,WA,10,2016,Saturday,11:55,Single,2,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),East Pilbara (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-4187,20165022,WA,10,2016,Thursday,18:17,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - North West,Wanneroo (C),LOCAL ROAD,No,No,Weekday,Night
-4188,20165101,WA,10,2016,Thursday,15:05,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - North West,Joondalup (C),LOCAL ROAD,No,No,Weekday,Day
-4191,20165086,WA,10,2016,Wednesday,15:19,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Williams (S),ARTERIAL ROAD,No,No,Weekday,Day
-4203,20165023,WA,10,2016,Saturday,00:27,Single,1,No,No,No,60,Major Cities of Australia,Perth - South West,Fremantle (C),ARTERIAL ROAD,No,No,Weekend,Night
-4215,20165097,WA,10,2016,Wednesday,20:48,Single,1,No,No,No,70,Major Cities of Australia,Perth - South East,Gosnells (C),ARTERIAL ROAD,No,No,Weekday,Night
-4216,20165128,WA,10,2016,Wednesday,10:48,Multiple,1,No,No,No,80,Major Cities of Australia,Mandurah,Murray (S),LOCAL ROAD,No,No,Weekday,Day
-4218,20165038,WA,10,2016,Tuesday,19:35,Pedestrian,1,No,No,No,80,Major Cities of Australia,Perth - South West,Cockburn (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-4225,20165170,WA,10,2016,Sunday,21:31,Multiple,1,No,No,No,70,Major Cities of Australia,Mandurah,Mandurah (C),ARTERIAL ROAD,No,No,Weekend,Night
-4235,20165087,WA,10,2016,Friday,09:20,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),ARTERIAL ROAD,No,No,Weekday,Day
-4247,20165018,WA,10,2016,Sunday,03:30,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Goomalling (S),LOCAL ROAD,No,No,Weekend,Night
-4248,20165069,WA,10,2016,Sunday,09:48,Multiple,2,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Ashburton (S),ARTERIAL ROAD,No,No,Weekend,Day
-4253,20165122,WA,10,2016,Saturday,23:30,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Dardanup (S),ARTERIAL ROAD,No,No,Weekend,Night
-4254,20165121,WA,10,2016,Saturday,11:50,Single,3,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Halls Creek (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-4265,20165102,WA,9,2016,Tuesday,20:00,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),East Pilbara (S),ARTERIAL ROAD,No,No,Weekday,Night
-4276,20165085,WA,9,2016,Saturday,08:56,Single,1,No,No,No,90,Inner Regional Australia,Bunbury,Waroona (S),LOCAL ROAD,No,No,Weekend,Day
-4285,20165010,WA,9,2016,Wednesday,16:00,Single,1,No,No,No,100,Inner Regional Australia,Perth - South East,Serpentine-Jarrahdale (S),LOCAL ROAD,No,No,Weekday,Day
-4286,20165165,WA,9,2016,Tuesday,18:47,Pedestrian,1,No,No,No,70,Major Cities of Australia,Perth - North East,Swan (C),ARTERIAL ROAD,No,No,Weekday,Night
-4298,20165007,WA,9,2016,Saturday,19:31,Multiple,2,No,No,No,70,Major Cities of Australia,Perth - North West,Joondalup (C),LOCAL ROAD,No,No,Weekend,Night
-4307,20165157,WA,9,2016,Tuesday,22:20,Single,1,No,No,No,90,Inner Regional Australia,Western Australia - Wheat Belt,Gingin (S),ARTERIAL ROAD,No,No,Weekday,Night
-4310,20165149,WA,9,2016,Monday,00:22,Single,1,No,No,No,80,Inner Regional Australia,Perth - North East,Mundaring (S),LOCAL ROAD,No,No,Weekend,Night
-4316,20165115,WA,9,2016,Saturday,14:58,Single,1,No,No,No,50,Major Cities of Australia,Perth - North West,Wanneroo (C),LOCAL ROAD,No,No,Weekend,Day
-4326,20165053,WA,9,2016,Monday,16:35,Multiple,1,No,No,No,100,Major Cities of Australia,Perth - North West,Wanneroo (C),LOCAL ROAD,No,No,Weekday,Day
-4337,20165109,WA,9,2016,Friday,15:40,Multiple,1,No,Yes,No,60,Major Cities of Australia,Perth - South East,Armadale (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4342,20165146,WA,9,2016,Thursday,15:45,Single,1,No,No,No,70,Major Cities of Australia,Perth - North West,Joondalup (C),ARTERIAL ROAD,No,No,Weekday,Day
-4344,20165099,WA,8,2016,Wednesday,22:41,Single,1,No,Yes,No,110,Very Remote Australia,Western Australia - Outback (North),East Pilbara (S),ARTERIAL ROAD,No,No,Weekday,Night
-4362,20165024,WA,8,2016,Friday,13:45,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Halls Creek (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4370,20165058,WA,8,2016,Wednesday,22:55,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Harvey (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-4379,20165133,WA,8,2016,Saturday,11:55,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - North West,Wanneroo (C),LOCAL ROAD,No,No,Weekend,Day
-4390,20165068,WA,8,2016,Thursday,23:14,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Collie (S),ARTERIAL ROAD,No,No,Weekday,Night
-4392,20165028,WA,8,2016,Wednesday,12:09,Multiple,1,No,Yes,No,60,Major Cities of Australia,Perth - South East,Serpentine-Jarrahdale (S),ARTERIAL ROAD,No,No,Weekday,Day
-4396,20165123,WA,8,2016,Tuesday,11:45,Single,2,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Dundas (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4398,20165067,WA,8,2016,Monday,10:09,Multiple,1,Yes,No,No,60,Major Cities of Australia,Perth - South East,Armadale (C),ARTERIAL ROAD,No,No,Weekday,Day
-4402,20165103,WA,8,2016,Sunday,19:01,Multiple,3,No,No,No,90,Inner Regional Australia,Perth - North West,Wanneroo (C),ARTERIAL ROAD,No,No,Weekend,Night
-4403,20165009,WA,8,2016,Sunday,16:15,Multiple,1,No,No,No,100,Major Cities of Australia,Perth - Inner,Cambridge (T),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-4404,20165095,WA,8,2016,Sunday,13:54,Single,1,No,No,No,70,Inner Regional Australia,Perth - South East,Kalamunda (C),LOCAL ROAD,No,No,Weekend,Day
-4418,20165140,WA,8,2016,Thursday,11:05,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Stirling (C),ARTERIAL ROAD,No,No,Weekday,Day
-4430,20165050,WA,8,2016,Sunday,01:37,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Waroona (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-4433,20165107,WA,8,2016,Saturday,19:30,Single,1,No,No,No,-9,Major Cities of Australia,Perth - South West,Rockingham (C),ARTERIAL ROAD,No,No,Weekend,Night
-4454,20165152,WA,7,2016,Sunday,20:00,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Meekatharra (S),LOCAL ROAD,No,No,Weekend,Night
-4462,20165143,WA,7,2016,Friday,18:00,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Claremont (T),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-4483,20165017,WA,7,2016,Friday,10:30,Multiple,1,No,No,Yes,110,Very Remote Australia,Western Australia - Outback (South),Cue (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4490,20165144,WA,7,2016,Wednesday,00:35,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Quairading (S),ARTERIAL ROAD,No,No,Weekday,Night
-4494,20165083,WA,7,2016,Tuesday,17:09,Multiple,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Northampton (S),ARTERIAL ROAD,No,No,Weekday,Day
-4503,20165055,WA,7,2016,Sunday,22:39,Single,1,No,No,No,100,Major Cities of Australia,Perth - North East,Mundaring (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-4507,20165094,WA,7,2016,Saturday,21:30,Pedestrian,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Mount Magnet (S),ARTERIAL ROAD,No,No,Weekend,Night
-4508,20165045,WA,7,2016,Saturday,16:50,Multiple,1,No,No,No,80,Very Remote Australia,Western Australia - Outback (North),Wyndham-East Kimberley (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-4515,20165090,WA,7,2016,Thursday,15:48,Single,1,No,No,No,100,Inner Regional Australia,Bunbury,Collie (S),LOCAL ROAD,No,No,Weekday,Day
-4532,20165073,WA,7,2016,Saturday,07:48,Multiple,1,No,No,No,110,Inner Regional Australia,Perth - North East,Mundaring (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-4537,20165150,WA,7,2016,Friday,23:00,Single,1,No,No,No,50,Major Cities of Australia,Perth - South East,Victoria Park (T),LOCAL ROAD,No,No,Weekend,Night
-4538,20165106,WA,7,2016,Friday,19:08,Single,1,No,No,No,80,Inner Regional Australia,Bunbury,Harvey (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-4539,20165031,WA,7,2016,Friday,14:54,Multiple,1,No,No,No,80,Major Cities of Australia,Mandurah,Mandurah (C),LOCAL ROAD,No,No,Weekday,Day
-4541,20165084,WA,7,2016,Thursday,14:33,Multiple,1,No,No,Yes,50,Major Cities of Australia,Perth - North West,Wanneroo (C),LOCAL ROAD,No,No,Weekday,Day
-4543,20165056,WA,7,2016,Wednesday,21:58,Pedestrian,1,No,No,No,90,Major Cities of Australia,Perth - North East,Swan (C),ARTERIAL ROAD,No,No,Weekday,Night
-4544,20165005,WA,7,2016,Wednesday,06:55,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Dalwallinu (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4548,20165054,WA,7,2016,Sunday,15:50,Multiple,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Toodyay (S),ARTERIAL ROAD,No,No,Weekend,Day
-4555,20165046,WA,7,2016,Saturday,21:55,Single,1,No,No,No,80,Major Cities of Australia,Perth - North East,Mundaring (S),ARTERIAL ROAD,No,No,Weekend,Night
-4559,20165037,WA,7,2016,Friday,18:26,Single,1,No,No,No,50,Inner Regional Australia,Bunbury,Dardanup (S),LOCAL ROAD,No,No,Weekend,Night
-4591,20165134,WA,6,2016,Saturday,08:00,Single,1,No,No,No,110,,,,,No,No,Weekend,Day
-4600,20165064,WA,6,2016,Thursday,00:01,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Cuballing (S),LOCAL ROAD,No,No,Weekday,Night
-4606,20165042,WA,6,2016,Tuesday,08:07,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Busselton (C),LOCAL ROAD,No,No,Weekday,Day
-4612,20165130,WA,6,2016,Sunday,18:40,Single,1,No,No,No,-9,Inner Regional Australia,Bunbury,Harvey (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-4620,20165001,WA,6,2016,Friday,21:10,Single,1,No,No,No,60,Major Cities of Australia,Perth - North West,Wanneroo (C),ARTERIAL ROAD,No,No,Weekend,Night
-4625,20165048,WA,6,2016,Thursday,13:06,Single,1,No,No,No,80,Major Cities of Australia,Perth - South West,Rockingham (C),ARTERIAL ROAD,No,No,Weekday,Day
-4626,20165051,WA,6,2016,Thursday,15:20,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,West Arthur (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4632,20165029,WA,6,2016,Monday,19:14,Pedestrian,1,No,No,No,60,Very Remote Australia,Western Australia - Outback (North),Derby-West Kimberley (S),LOCAL ROAD,No,No,Weekday,Night
-4644,20165120,WA,6,2016,Thursday,16:11,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - North West,Stirling (C),LOCAL ROAD,No,No,Weekday,Day
-4647,20165166,WA,6,2016,Wednesday,05:40,Single,1,No,No,No,50,Major Cities of Australia,Perth - North West,Joondalup (C),LOCAL ROAD,No,No,Weekday,Night
-4649,20165139,WA,5,2016,Tuesday,22:08,Multiple,1,No,No,No,80,Major Cities of Australia,Perth - North East,Swan (C),ARTERIAL ROAD,No,No,Weekday,Night
-4650,20165112,WA,5,2016,Tuesday,08:50,Single,1,No,No,No,70,Inner Regional Australia,Bunbury,Augusta-Margaret River (S),LOCAL ROAD,No,No,Weekday,Day
-4660,20165163,WA,5,2016,Saturday,17:26,Multiple,1,No,No,No,80,Major Cities of Australia,Perth - South West,Kwinana (C),LOCAL ROAD,No,No,Weekend,Day
-4688,20165013,WA,5,2016,Friday,19:41,Single,1,No,No,No,100,Inner Regional Australia,Bunbury,Collie (S),LOCAL ROAD,No,No,Weekend,Night
-4692,20165100,WA,5,2016,Wednesday,19:50,Multiple,2,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Victoria Plains (S),ARTERIAL ROAD,No,No,Weekday,Night
-4712,20165061,WA,5,2016,Friday,06:53,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - Inner,Subiaco (C),ARTERIAL ROAD,No,No,Weekday,Day
-4717,20165063,WA,5,2016,Thursday,14:57,Multiple,1,No,Yes,No,110,Very Remote Australia,Western Australia - Outback (South),Coolgardie (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4723,20165008,WA,5,2016,Tuesday,10:30,Single,1,No,Yes,No,110,,,,,No,No,Weekday,Day
-4727,20165145,WA,5,2016,Sunday,22:30,Single,1,No,No,No,50,Remote Australia,Western Australia - Wheat Belt,Gnowangerup (S),ARTERIAL ROAD,No,No,Weekend,Night
-4728,20165164,WA,5,2016,Sunday,17:45,Multiple,1,No,No,No,70,Inner Regional Australia,Perth - South East,Serpentine-Jarrahdale (S),ARTERIAL ROAD,No,No,Weekend,Day
-4731,20165035,WA,5,2016,Saturday,15:35,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Trayning (S),ARTERIAL ROAD,No,No,Weekend,Day
-4736,20165002,WA,5,2016,Thursday,05:04,Multiple,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Chittering (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-4747,20165049,WA,5,2016,Sunday,08:00,Single,1,No,No,No,110,,,,,No,No,Weekend,Day
-4758,20165111,WA,4,2016,Wednesday,18:00,Pedestrian,1,No,No,No,90,,,,,No,No,Weekday,Night
-4785,20165006,WA,4,2016,Wednesday,15:56,Multiple,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Boddington (S),ARTERIAL ROAD,No,No,Weekday,Day
-4788,20165040,WA,4,2016,Tuesday,08:00,Single,2,No,No,No,110,,,,,No,No,Weekday,Day
-4794,20165129,WA,4,2016,Sunday,12:52,Multiple,2,No,No,No,50,Outer Regional Australia,Bunbury,Manjimup (S),ARTERIAL ROAD,No,No,Weekend,Day
-4795,20165135,WA,4,2016,Sunday,12:36,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Ravensthorpe (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-4804,20165091,WA,4,2016,Friday,17:41,Multiple,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Wagin (S),ARTERIAL ROAD,No,No,Weekday,Day
-4812,20165033,WA,4,2016,Wednesday,20:55,Single,1,No,No,No,-9,,,,,No,No,Weekday,Night
-4831,20165141,WA,4,2016,Friday,17:10,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - North West,Wanneroo (C),LOCAL ROAD,No,No,Weekday,Day
-4837,20165047,WA,4,2016,Monday,19:01,Multiple,1,Yes,No,No,60,Major Cities of Australia,Perth - North East,Bayswater (C),ARTERIAL ROAD,No,No,Weekday,Night
-4852,20165155,WA,3,2016,Tuesday,15:00,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - South East,Gosnells (C),ARTERIAL ROAD,No,No,Weekday,Day
-4853,20165052,WA,3,2016,Tuesday,10:15,Multiple,1,No,No,No,60,,,,,No,No,Weekday,Day
-4856,20165142,WA,3,2016,Monday,12:10,Single,1,No,No,No,80,Inner Regional Australia,Perth - North East,Swan (C),LOCAL ROAD,No,Yes,Weekday,Day
-4858,20165021,WA,3,2016,Friday,12:30,Multiple,1,No,Yes,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Gingin (S),ARTERIAL ROAD,No,Yes,Weekday,Day
-4861,20165093,WA,3,2016,Thursday,06:30,Single,1,No,No,No,60,Major Cities of Australia,Perth - South East,Armadale (C),LOCAL ROAD,No,Yes,Weekday,Day
-4862,20165148,WA,3,2016,Wednesday,21:00,Multiple,1,No,No,Yes,110,Very Remote Australia,Western Australia - Outback (South),Mount Magnet (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-4870,20165161,WA,3,2016,Monday,15:30,Multiple,1,Yes,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Quairading (S),LOCAL ROAD,No,No,Weekday,Day
-4876,20165153,WA,3,2016,Saturday,10:45,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Coolgardie (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-4888,20165075,WA,3,2016,Tuesday,21:07,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Ashburton (S),ARTERIAL ROAD,No,No,Weekday,Night
-4901,20165137,WA,3,2016,Saturday,15:15,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Waroona (S),LOCAL ROAD,No,No,Weekend,Day
-4919,20165019,WA,3,2016,Tuesday,13:26,Multiple,1,No,No,Yes,110,Outer Regional Australia,Western Australia - Wheat Belt,Plantagenet (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4922,20165116,WA,3,2016,Monday,08:00,Single,1,No,No,No,60,Remote Australia,Western Australia - Wheat Belt,Gnowangerup (S),ARTERIAL ROAD,No,No,Weekday,Day
-4926,20165044,WA,3,2016,Sunday,21:00,Multiple,3,No,No,No,90,Inner Regional Australia,Perth - North West,Wanneroo (C),ARTERIAL ROAD,No,No,Weekend,Night
-4927,20165015,WA,3,2016,Sunday,11:30,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Kondinin (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-4928,20165020,WA,3,2016,Sunday,07:15,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),ARTERIAL ROAD,No,No,Weekend,Day
-4934,20165059,WA,3,2016,Saturday,23:50,Single,3,No,No,No,60,Remote Australia,Western Australia - Wheat Belt,Bruce Rock (S),ARTERIAL ROAD,No,No,Weekend,Night
-4942,20165080,WA,3,2016,Thursday,08:00,Multiple,2,No,Yes,No,50,,,,,No,No,Weekday,Day
-4980,20165026,WA,2,2016,Saturday,13:26,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Albany (C),ARTERIAL ROAD,No,No,Weekend,Day
-4982,20165169,WA,2,2016,Friday,22:10,Single,2,No,No,No,110,Very Remote Australia,Western Australia - Wheat Belt,Lake Grace (S),LOCAL ROAD,No,No,Weekend,Night
-4993,20165004,WA,2,2016,Tuesday,18:15,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Collie (S),ARTERIAL ROAD,No,No,Weekday,Night
-4994,20165070,WA,2,2016,Tuesday,12:00,Pedestrian,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Dalwallinu (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-4995,20165132,WA,2,2016,Tuesday,12:00,Pedestrian,1,No,No,No,50,,,,,No,No,Weekday,Day
-5007,20165104,WA,2,2016,Thursday,00:45,Single,1,No,No,No,70,,,,,No,No,Weekday,Night
-5023,20165098,WA,2,2016,Sunday,12:26,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),ARTERIAL ROAD,No,No,Weekend,Day
-5028,20165124,WA,2,2016,Saturday,21:30,Single,1,No,No,No,110,,,,,No,No,Weekend,Night
-5029,20165147,WA,2,2016,Saturday,22:45,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),LOCAL ROAD,No,No,Weekend,Night
-5037,20165057,WA,2,2016,Wednesday,21:00,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Corrigin (S),ARTERIAL ROAD,No,No,Weekday,Night
-5038,20165016,WA,2,2016,Wednesday,06:39,Multiple,1,No,No,Yes,110,Outer Regional Australia,Western Australia - Wheat Belt,Williams (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5049,20165127,WA,1,2016,Friday,21:19,Single,1,No,No,No,80,Major Cities of Australia,Perth - North West,Wanneroo (C),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-5050,20165154,WA,1,2016,Friday,15:24,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Toodyay (S),ARTERIAL ROAD,No,No,Weekday,Day
-5061,20165072,WA,1,2016,Wednesday,05:00,Single,1,No,No,No,110,,,,,No,No,Weekday,Night
-5062,20165074,WA,1,2016,Wednesday,08:01,Single,1,No,No,No,110,,,,,No,No,Weekday,Day
-5073,20165014,WA,1,2016,Sunday,19:53,Single,1,No,No,No,80,Inner Regional Australia,Perth - North East,Swan (C),LOCAL ROAD,No,No,Weekend,Night
-5082,20165030,WA,1,2016,Friday,02:30,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Cue (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-5083,20165079,WA,1,2016,Friday,09:35,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Wandering (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5088,20165096,WA,1,2016,Wednesday,07:40,Multiple,2,No,No,No,110,Inner Regional Australia,Bunbury,Capel (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5095,20165082,WA,1,2016,Monday,17:29,Multiple,2,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Plantagenet (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5106,20165065,WA,1,2016,Thursday,18:45,Pedestrian,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Wyndham-East Kimberley (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-5107,20165118,WA,1,2016,Thursday,15:35,Multiple,1,No,Yes,No,110,Very Remote Australia,Western Australia - Outback (North),Karratha (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5118,20165092,WA,1,2016,Sunday,11:45,Single,1,No,No,No,90,Outer Regional Australia,Western Australia - Wheat Belt,Denmark (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-5124,20165060,WA,1,2016,Saturday,02:15,Single,1,No,No,No,100,Inner Regional Australia,Perth - South East,Serpentine-Jarrahdale (S),LOCAL ROAD,No,No,Weekend,Night
-5125,20165076,WA,1,2016,Saturday,16:10,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Port Hedland (T),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-5127,20165108,WA,1,2016,Friday,08:00,Multiple,1,No,No,No,70,,,,,No,No,Weekday,Day
-5133,20165114,WA,1,2016,Monday,15:47,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Quairading (S),LOCAL ROAD,No,No,Weekday,Day
-5138,20165159,WA,1,2016,Saturday,17:20,Multiple,1,No,No,Yes,110,Outer Regional Australia,Western Australia - Wheat Belt,Broomehill-Tambellup (S),ARTERIAL ROAD,Yes,No,Weekend,Day
-5161,20155003,WA,12,2015,Friday,17:30,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Esperance (S),NATIONAL OR STATE HIGHWAY,Yes,No,Weekday,Day
-5170,20155116,WA,12,2015,Tuesday,12:38,Multiple,1,Yes,No,No,60,Outer Regional Australia,Western Australia - Outback (South),Kalgoorlie/Boulder (C),LOCAL ROAD,No,No,Weekday,Day
-5175,20155081,WA,12,2015,Sunday,01:20,Pedestrian,1,No,No,Yes,80,Very Remote Australia,Western Australia - Outback (North),Derby-West Kimberley (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-5176,20155035,WA,12,2015,Sunday,10:10,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Ashburton (S),ARTERIAL ROAD,No,No,Weekend,Day
-5183,20155139,WA,12,2015,Friday,15:15,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Kojonup (S),ARTERIAL ROAD,No,No,Weekday,Day
-5186,20155045,WA,12,2015,Thursday,04:55,Single,1,No,No,No,110,,,,,No,No,Weekday,Night
-5191,20155102,WA,12,2015,Wednesday,06:12,Multiple,1,No,No,No,80,Major Cities of Australia,Perth - South West,Cockburn (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5192,20155080,WA,12,2015,Wednesday,14:45,Multiple,1,No,No,Yes,110,Very Remote Australia,Western Australia - Outback (North),Port Hedland (T),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5198,20155103,WA,12,2015,Sunday,18:18,Single,1,No,No,No,110,Outer Regional Australia,Bunbury,Bridgetown-Greenbushes (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-5200,20155021,WA,12,2015,Saturday,14:30,Single,1,No,No,No,100,Very Remote Australia,Western Australia - Outback (North),Broome (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-5215,20155009,WA,12,2015,Sunday,05:41,Multiple,1,No,No,No,80,Major Cities of Australia,Perth - North East,Swan (C),LOCAL ROAD,No,No,Weekend,Night
-5220,20155018,WA,12,2015,Friday,02:43,Single,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Gnowangerup (S),LOCAL ROAD,No,No,Weekday,Night
-5224,20155044,WA,12,2015,Wednesday,21:44,Single,3,No,No,No,70,Major Cities of Australia,Perth - South West,Cockburn (C),ARTERIAL ROAD,No,No,Weekday,Night
-5225,20155011,WA,12,2015,Wednesday,15:09,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - South West,Cockburn (C),LOCAL ROAD,No,No,Weekday,Day
-5226,20155034,WA,12,2015,Tuesday,23:18,Single,1,No,No,No,70,Major Cities of Australia,Perth - North West,Joondalup (C),ARTERIAL ROAD,No,No,Weekday,Night
-5234,20155121,WA,11,2015,Monday,08:15,Single,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Northampton (S),ARTERIAL ROAD,No,No,Weekday,Day
-5235,20155063,WA,11,2015,Monday,11:56,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - Inner,Perth (C),ARTERIAL ROAD,No,No,Weekday,Day
-5245,20155140,WA,11,2015,Thursday,00:56,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Ashburton (S),ARTERIAL ROAD,No,No,Weekday,Night
-5254,20155004,WA,11,2015,Monday,03:03,Single,2,No,No,No,90,Major Cities of Australia,Perth - South East,Serpentine-Jarrahdale (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-5258,20155006,WA,11,2015,Saturday,15:00,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Coolgardie (S),LOCAL ROAD,No,No,Weekend,Day
-5267,20155026,WA,11,2015,Wednesday,14:24,Multiple,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Victoria Plains (S),ARTERIAL ROAD,No,No,Weekday,Day
-5274,20155024,WA,11,2015,Monday,14:45,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - South West,Melville (C),ARTERIAL ROAD,No,No,Weekday,Day
-5297,20155112,WA,11,2015,Saturday,09:25,Single,1,No,No,Yes,110,Outer Regional Australia,Western Australia - Outback (South),Greater Geraldton (C),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-5303,20155058,WA,11,2015,Friday,18:03,Single,1,No,No,No,60,Major Cities of Australia,Perth - North East,Bayswater (C),ARTERIAL ROAD,No,No,Weekend,Night
-5314,20155071,WA,11,2015,Sunday,17:20,Multiple,1,No,No,Yes,80,Very Remote Australia,Western Australia - Outback (North),Port Hedland (T),ACCESS ROAD,No,No,Weekend,Day
-5324,20155042,WA,10,2015,Wednesday,20:15,Single,1,No,No,No,70,Very Remote Australia,Western Australia - Outback (South),Carnarvon (S),LOCAL ROAD,No,No,Weekday,Night
-5331,20155076,WA,10,2015,Monday,13:23,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - South West,Rockingham (C),ARTERIAL ROAD,No,No,Weekday,Day
-5332,20155130,WA,10,2015,Monday,14:20,Multiple,1,No,No,Yes,80,Major Cities of Australia,Perth - North East,Swan (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5354,20155015,WA,10,2015,Thursday,05:40,Multiple,1,No,Yes,No,90,Major Cities of Australia,Perth - North West,Wanneroo (C),LOCAL ROAD,No,No,Weekday,Night
-5361,20155114,WA,10,2015,Monday,00:50,Multiple,1,No,No,No,70,,,,,No,No,Weekend,Night
-5362,20155086,WA,10,2015,Monday,16:10,Multiple,1,No,No,No,110,,,,,No,No,Weekday,Day
-5373,20155053,WA,10,2015,Saturday,20:30,Single,1,No,No,No,110,,,,,No,No,Weekend,Night
-5399,20155097,WA,10,2015,Saturday,05:39,Single,1,No,No,No,110,Inner Regional Australia,Perth - South East,Serpentine-Jarrahdale (S),ARTERIAL ROAD,No,No,Weekend,Night
-5400,20155029,WA,10,2015,Friday,17:32,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - North East,Swan (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5415,20155008,WA,10,2015,Monday,13:20,Multiple,2,No,Yes,Yes,110,,,,,No,No,Weekday,Day
-5430,20155137,WA,10,2015,Thursday,16:41,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - South East,Gosnells (C),LOCAL ROAD,No,No,Weekday,Day
-5438,20155072,WA,9,2015,Monday,16:48,Single,2,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5441,20155129,WA,9,2015,Sunday,07:09,Multiple,1,No,No,No,80,,,,,No,No,Weekend,Day
-5442,20155111,WA,9,2015,Sunday,14:40,Single,1,No,No,No,-9,Inner Regional Australia,Bunbury,Busselton (C),ARTERIAL ROAD,No,No,Weekend,Day
-5446,20155030,WA,9,2015,Saturday,15:00,Single,1,No,No,No,110,,,,,No,No,Weekend,Day
-5450,20155117,WA,9,2015,Friday,19:58,Multiple,1,No,No,No,90,,,,,No,No,Weekend,Night
-5453,20155135,WA,9,2015,Thursday,22:22,Single,2,No,No,No,80,Very Remote Australia,Western Australia - Outback (North),Wyndham-East Kimberley (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-5469,20155099,WA,9,2015,Saturday,16:00,Single,1,No,No,No,90,Outer Regional Australia,Western Australia - Wheat Belt,Chittering (S),ARTERIAL ROAD,No,No,Weekend,Day
-5471,20155122,WA,9,2015,Friday,14:20,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Brookton (S),ARTERIAL ROAD,No,No,Weekday,Day
-5475,20155106,WA,9,2015,Thursday,21:01,Single,1,No,No,No,50,Major Cities of Australia,Mandurah,Mandurah (C),LOCAL ROAD,No,No,Weekday,Night
-5495,20155120,WA,9,2015,Saturday,23:09,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - North East,Bayswater (C),ARTERIAL ROAD,No,No,Weekend,Night
-5498,20155037,WA,9,2015,Thursday,17:56,Single,1,No,No,No,90,Inner Regional Australia,Bunbury,Collie (S),LOCAL ROAD,No,No,Weekday,Day
-5514,20155096,WA,9,2015,Thursday,18:51,Pedestrian,1,No,No,No,60,Inner Regional Australia,Bunbury,Harvey (S),ARTERIAL ROAD,No,No,Weekday,Night
-5517,20155043,WA,9,2015,Tuesday,18:52,Pedestrian,1,No,No,No,50,Major Cities of Australia,Perth - South East,Belmont (C),LOCAL ROAD,No,No,Weekday,Night
-5522,20155020,WA,8,2015,Sunday,07:53,Single,1,No,No,No,90,Outer Regional Australia,Western Australia - Wheat Belt,Albany (C),LOCAL ROAD,No,No,Weekend,Day
-5537,20155094,WA,8,2015,Monday,05:30,Multiple,1,No,No,Yes,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-5553,20155032,WA,8,2015,Thursday,15:12,Pedestrian,1,No,No,No,80,Major Cities of Australia,Perth - South East,Kalamunda (C),ARTERIAL ROAD,No,No,Weekday,Day
-5563,20155056,WA,8,2015,Tuesday,23:45,Single,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Greater Geraldton (C),ARTERIAL ROAD,No,No,Weekday,Night
-5564,20155041,WA,8,2015,Tuesday,15:00,Single,1,No,No,No,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5570,20155027,WA,8,2015,Monday,02:19,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Busselton (C),ARTERIAL ROAD,No,No,Weekend,Night
-5571,20155108,WA,8,2015,Monday,02:05,Multiple,3,No,No,No,90,Outer Regional Australia,Western Australia - Outback (South),Greater Geraldton (C),ARTERIAL ROAD,No,No,Weekend,Night
-5572,20155119,WA,8,2015,Monday,15:23,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - South West,Rockingham (C),ARTERIAL ROAD,No,No,Weekday,Day
-5594,20155061,WA,8,2015,Tuesday,13:45,Single,1,No,No,No,50,Major Cities of Australia,Perth - South West,Kwinana (C),LOCAL ROAD,No,No,Weekday,Day
-5597,20155059,WA,8,2015,Monday,10:01,Single,1,No,No,No,110,Major Cities of Australia,Mandurah,Murray (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5610,20155074,WA,8,2015,Wednesday,19:20,Multiple,1,No,No,No,110,Remote Australia,Western Australia - Wheat Belt,Dumbleyung (S),ARTERIAL ROAD,No,No,Weekday,Night
-5611,20155062,WA,8,2015,Wednesday,09:38,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - North West,Joondalup (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5615,20155028,WA,8,2015,Tuesday,21:06,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - South West,Cockburn (C),LOCAL ROAD,No,No,Weekday,Night
-5616,20155101,WA,8,2015,Tuesday,01:49,Single,1,No,No,No,60,Major Cities of Australia,Perth - South East,Kalamunda (C),ARTERIAL ROAD,No,No,Weekday,Night
-5622,20155051,WA,8,2015,Sunday,14:00,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Port Hedland (T),LOCAL ROAD,No,No,Weekend,Day
-5628,20155012,WA,8,2015,Saturday,06:51,Multiple,4,No,No,No,70,Major Cities of Australia,Perth - South East,Gosnells (C),ARTERIAL ROAD,No,No,Weekend,Day
-5641,20155040,WA,7,2015,Tuesday,22:49,Single,1,No,No,No,100,Major Cities of Australia,Mandurah,Mandurah (C),ARTERIAL ROAD,No,No,Weekday,Night
-5660,20155093,WA,7,2015,Wednesday,22:44,Multiple,1,No,No,Yes,110,Outer Regional Australia,Western Australia - Wheat Belt,Gingin (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-5671,20155019,WA,7,2015,Saturday,19:15,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Busselton (C),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-5697,20155001,WA,7,2015,Monday,22:25,Pedestrian,1,No,No,No,100,Major Cities of Australia,Perth - South West,Rockingham (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-5710,20155113,WA,7,2015,Friday,17:00,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Dardanup (S),ARTERIAL ROAD,No,No,Weekday,Day
-5719,20155067,WA,6,2015,Tuesday,19:39,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Pingelly (S),ARTERIAL ROAD,No,No,Weekday,Night
-5739,20155002,WA,6,2015,Wednesday,10:54,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - South East,Gosnells (C),LOCAL ROAD,No,No,Weekday,Day
-5743,20155064,WA,6,2015,Saturday,04:20,Single,1,No,No,No,80,Inner Regional Australia,Perth - South East,Serpentine-Jarrahdale (S),ARTERIAL ROAD,No,No,Weekend,Night
-5759,20155005,WA,6,2015,Tuesday,17:00,Pedestrian,1,No,No,No,60,Major Cities of Australia,Perth - South East,Gosnells (C),ARTERIAL ROAD,No,No,Weekday,Day
-5769,20155068,WA,6,2015,Saturday,19:30,Single,1,No,No,No,100,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),LOCAL ROAD,No,No,Weekend,Night
-5774,20155133,WA,6,2015,Wednesday,15:28,Multiple,1,No,Yes,No,90,Inner Regional Australia,Western Australia - Wheat Belt,Toodyay (S),ARTERIAL ROAD,No,No,Weekday,Day
-5775,20155090,WA,6,2015,Wednesday,15:22,Multiple,1,No,No,No,100,Inner Regional Australia,Perth - North East,Swan (C),ARTERIAL ROAD,No,No,Weekday,Day
-5779,20155092,WA,6,2015,Monday,02:34,Single,1,No,Yes,No,110,Inner Regional Australia,Bunbury,Harvey (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-5780,20155031,WA,6,2015,Monday,13:50,Single,2,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Derby-West Kimberley (S),ARTERIAL ROAD,No,No,Weekday,Day
-5809,20155052,WA,5,2015,Saturday,09:31,Single,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Northampton (S),ARTERIAL ROAD,No,No,Weekend,Day
-5817,20155107,WA,5,2015,Thursday,18:13,Single,1,No,No,No,90,Outer Regional Australia,Bunbury,Manjimup (S),ARTERIAL ROAD,No,No,Weekday,Night
-5836,20155131,WA,5,2015,Friday,11:18,Multiple,1,No,Yes,Yes,110,Inner Regional Australia,Western Australia - Wheat Belt,Northam (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5854,20155127,WA,5,2015,Saturday,03:16,Single,1,No,No,No,110,,,,,No,No,Weekend,Night
-5856,20155083,WA,5,2015,Friday,10:49,Multiple,1,No,No,No,50,,,,,No,No,Weekday,Day
-5873,20155016,WA,5,2015,Saturday,12:12,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Waroona (S),LOCAL ROAD,No,No,Weekend,Day
-5876,20155033,WA,5,2015,Friday,07:43,Pedestrian,1,No,No,No,110,Inner Regional Australia,Mandurah,Murray (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5894,20155091,WA,5,2015,Saturday,15:45,Multiple,1,No,No,No,110,Outer Regional Australia,Western Australia - Outback (South),Irwin (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-5898,20155078,WA,5,2015,Friday,03:30,Single,1,No,No,No,110,Inner Regional Australia,Perth - South West,Rockingham (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-5899,20155132,WA,5,2015,Friday,14:15,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Shark Bay (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-5908,20155136,WA,4,2015,Sunday,00:15,Pedestrian,1,No,No,No,50,Remote Australia,Western Australia - Outback (North),Port Hedland (T),LOCAL ROAD,No,No,Weekend,Night
-5924,20155050,WA,4,2015,Monday,18:55,Multiple,1,No,No,No,100,Inner Regional Australia,Perth - South East,Serpentine-Jarrahdale (S),ARTERIAL ROAD,No,No,Weekday,Night
-5931,20155085,WA,4,2015,Sunday,15:00,Single,2,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Exmouth (S),ARTERIAL ROAD,No,No,Weekend,Day
-5936,20155069,WA,4,2015,Saturday,12:43,Multiple,1,No,Yes,No,60,Major Cities of Australia,Perth - South West,Fremantle (C),ARTERIAL ROAD,No,No,Weekend,Day
-5940,20155013,WA,4,2015,Friday,09:15,Single,1,No,No,No,90,Outer Regional Australia,Western Australia - Wheat Belt,Kojonup (S),ARTERIAL ROAD,No,No,Weekday,Day
-5943,20155128,WA,4,2015,Thursday,13:25,Multiple,1,No,No,Yes,60,Major Cities of Australia,Perth - South West,Cockburn (C),LOCAL ROAD,No,No,Weekday,Day
-5954,20155010,WA,4,2015,Sunday,07:45,Single,2,No,No,No,80,Outer Regional Australia,Western Australia - Outback (South),Greater Geraldton (C),LOCAL ROAD,No,No,Weekend,Day
-5955,20155110,WA,4,2015,Sunday,08:42,Single,2,No,No,No,60,Major Cities of Australia,Perth - North East,Bayswater (C),ARTERIAL ROAD,No,No,Weekend,Day
-5970,20155065,WA,4,2015,Monday,23:30,Multiple,1,No,No,No,110,Inner Regional Australia,Bunbury,Augusta-Margaret River (S),NATIONAL OR STATE HIGHWAY,No,Yes,Weekday,Night
-5984,20155070,WA,4,2015,Friday,09:30,Single,1,No,No,No,110,Remote Australia,Western Australia - Outback (South),Northampton (S),NATIONAL OR STATE HIGHWAY,No,Yes,Weekday,Day
-5985,20155138,WA,4,2015,Thursday,12:34,Single,1,No,No,No,60,,,,,No,Yes,Weekday,Day
-5995,20155073,WA,3,2015,Monday,05:45,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - South East,Canning (C),ARTERIAL ROAD,No,No,Weekend,Night
-5997,20155109,WA,3,2015,Sunday,06:06,Multiple,1,No,No,No,90,Inner Regional Australia,Bunbury,Busselton (C),LOCAL ROAD,No,No,Weekend,Day
-5999,20155036,WA,3,2015,Saturday,04:40,Multiple,2,No,Yes,No,100,Major Cities of Australia,Perth - South West,Kwinana (C),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-6000,20155039,WA,3,2015,Saturday,08:48,Multiple,1,No,No,No,100,Major Cities of Australia,Perth - North West,Joondalup (C),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-6001,20155007,WA,3,2015,Saturday,08:45,Multiple,1,No,No,No,80,Inner Regional Australia,Perth - North East,Mundaring (S),ARTERIAL ROAD,No,No,Weekend,Day
-6009,20155088,WA,3,2015,Wednesday,20:15,Single,1,No,No,No,60,Major Cities of Australia,Perth - South East,Kalamunda (C),ARTERIAL ROAD,No,No,Weekday,Night
-6015,20155017,WA,3,2015,Saturday,15:30,Single,2,No,No,No,110,Very Remote Australia,Western Australia - Outback (South),Sandstone (S),ARTERIAL ROAD,No,No,Weekend,Day
-6021,20155125,WA,3,2015,Friday,10:45,Multiple,2,No,No,No,110,Major Cities of Australia,Perth - South East,Armadale (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-6034,20155057,WA,3,2015,Saturday,22:00,Single,1,No,No,No,80,Major Cities of Australia,Perth - North West,Wanneroo (C),ARTERIAL ROAD,No,No,Weekend,Night
-6039,20155134,WA,3,2015,Friday,15:00,Multiple,1,No,No,Yes,80,Major Cities of Australia,Perth - North East,Swan (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-6049,20155025,WA,3,2015,Monday,05:45,Single,1,No,No,No,40,Outer Regional Australia,Western Australia - Wheat Belt,West Arthur (S),ARTERIAL ROAD,No,No,Weekend,Night
-6050,20155126,WA,3,2015,Monday,18:30,Pedestrian,1,No,No,No,-9,,,,,No,No,Weekday,Night
-6059,20155054,WA,3,2015,Saturday,03:35,Single,1,No,No,No,110,Outer Regional Australia,Bunbury,Manjimup (S),LOCAL ROAD,No,No,Weekend,Night
-6063,20155118,WA,3,2015,Thursday,10:28,Multiple,1,No,No,No,80,Remote Australia,Western Australia - Outback (North),Port Hedland (T),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-6066,20155047,WA,3,2015,Tuesday,08:35,Single,1,No,No,No,110,,,,,No,No,Weekday,Day
-6077,20155077,WA,3,2015,Sunday,14:07,Multiple,1,No,No,No,60,,,,,No,No,Weekend,Day
-6078,20155124,WA,3,2015,Sunday,09:00,Single,1,No,No,No,110,,,,,No,No,Weekend,Day
-6080,20155038,WA,2,2015,Saturday,18:00,Single,1,No,No,No,110,,,,,No,No,Weekend,Night
-6083,20155087,WA,2,2015,Friday,14:59,Multiple,1,Yes,No,No,80,Outer Regional Australia,Western Australia - Wheat Belt,Williams (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-6087,20155141,WA,2,2015,Sunday,07:30,Single,1,No,No,No,110,,,,,No,No,Weekend,Day
-6098,20155095,WA,2,2015,Thursday,04:05,Single,1,No,No,No,110,,,,,No,No,Weekday,Night
-6106,20155104,WA,2,2015,Monday,05:17,Multiple,1,No,Yes,No,100,Inner Regional Australia,Perth - North East,Swan (C),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-6108,20155048,WA,2,2015,Friday,21:20,Single,2,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),Derby-West Kimberley (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-6109,20155060,WA,2,2015,Friday,02:30,Single,1,No,No,No,60,Major Cities of Australia,Perth - North West,Stirling (C),ARTERIAL ROAD,No,No,Weekday,Night
-6114,20155123,WA,2,2015,Tuesday,18:45,Multiple,1,No,No,No,60,Major Cities of Australia,Perth - North East,Bayswater (C),ARTERIAL ROAD,No,No,Weekday,Night
-6118,20155084,WA,2,2015,Monday,11:50,Single,1,No,No,No,60,Inner Regional Australia,Bunbury,Busselton (C),ARTERIAL ROAD,No,No,Weekday,Day
-6124,20155105,WA,2,2015,Sunday,08:30,Single,1,No,No,No,80,Major Cities of Australia,Perth - South East,Serpentine-Jarrahdale (S),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
-6128,20155014,WA,2,2015,Saturday,11:19,Single,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,West Arthur (S),LOCAL ROAD,No,No,Weekend,Day
-6141,20155075,WA,2,2015,Monday,09:23,Single,1,No,No,No,50,Major Cities of Australia,Perth - North West,Stirling (C),LOCAL ROAD,No,No,Weekday,Day
-6142,20155022,WA,2,2015,Monday,08:00,Pedestrian,1,No,No,No,60,,,,,No,No,Weekday,Day
-6155,20155023,WA,1,2015,Wednesday,17:41,Multiple,1,No,No,No,50,Major Cities of Australia,Perth - North East,Swan (C),LOCAL ROAD,No,No,Weekday,Day
-6158,20155055,WA,1,2015,Tuesday,14:46,Single,1,No,No,No,110,Very Remote Australia,Western Australia - Outback (North),East Pilbara (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-6165,20155049,WA,1,2015,Monday,15:56,Single,1,No,No,No,90,Major Cities of Australia,Perth - North East,Bayswater (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-6170,20155089,WA,1,2015,Sunday,16:49,Multiple,1,No,No,No,110,Outer Regional Australia,Western Australia - Wheat Belt,Wagin (S),ARTERIAL ROAD,No,No,Weekend,Day
-6193,20155100,WA,1,2015,Sunday,14:32,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - South East,Armadale (C),LOCAL ROAD,No,No,Weekend,Day
-6208,20155066,WA,1,2015,Thursday,17:38,Multiple,1,No,No,Yes,110,Outer Regional Australia,Western Australia - Wheat Belt,Wandering (S),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
-6213,20155098,WA,1,2015,Tuesday,18:04,Multiple,1,No,Yes,No,100,Major Cities of Australia,Perth - South West,Melville (C),NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
-6231,20155079,WA,1,2015,Monday,16:00,Single,1,No,No,No,80,Outer Regional Australia,Western Australia - Wheat Belt,Brookton (S),LOCAL ROAD,No,No,Weekday,Day
-6233,20155115,WA,1,2015,Sunday,22:20,Multiple,1,No,No,No,70,Major Cities of Australia,Perth - North West,Stirling (C),NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
-6240,20155082,WA,1,2015,Thursday,21:45,Single,1,No,No,No,110,Inner Regional Australia,Bunbury,Harvey (S),NATIONAL OR STATE HIGHWAY,Yes,No,Weekday,Night
+,Crash ID,Month,Year,Dayweek,Time,Crash Type,Number Fatalities,Speed Limit,National Road Type,Christmas Period,Easter Period,Day of week,Time of Day
+685,20195026,12,2019,Tuesday,2:40,Multiple,1,110,Arterial Road,No,No,Weekday,Night
+692,20195109,12,2019,Wednesday,5:07,Pedestrian,1,90,Arterial Road,Yes,No,Weekday,Night
+693,20195055,12,2019,Sunday,10:40,Multiple,1,100,National or State Highway,No,No,Weekend,Day
+694,20195098,12,2019,Sunday,13:30,Single,1,80,Local Road,No,No,Weekend,Day
+715,20195115,12,2019,Saturday,12:48,Single,1,110,National or State Highway,No,No,Weekend,Day
+716,20195083,12,2019,Saturday,13:50,Single,1,110,Arterial Road,No,No,Weekend,Day
+717,20195099,12,2019,Sunday,15:00,Multiple,1,110,National or State Highway,No,No,Weekend,Day
+726,20195120,12,2019,Sunday,3:45,Pedestrian,1,110,Arterial Road,No,No,Weekend,Night
+727,20195037,12,2019,Saturday,12:48,Single,1,110,,No,No,Weekend,Day
+728,20195070,12,2019,Friday,20:35,Single,1,110,National or State Highway,No,No,Weekend,Night
+744,20195096,12,2019,Wednesday,14:50,Multiple,1,110,Arterial Road,No,No,Weekday,Day
+757,20195033,12,2019,Thursday,0:05,Single,1,80,Local Road,Yes,No,Weekday,Night
+758,20195046,12,2019,Friday,16:53,Multiple,2,100,National or State Highway,No,No,Weekday,Day
+766,20195048,11,2019,Wednesday,19:07,Single,1,110,Arterial Road,No,No,Weekday,Night
+776,20195011,11,2019,Thursday,17:32,Single,1,80,Local Road,No,No,Weekday,Day
+777,20195093,11,2019,Thursday,19:31,Pedestrian,1,60,Arterial Road,No,No,Weekday,Night
+778,20195097,11,2019,Wednesday,14:38,Single,1,70,Arterial Road,No,No,Weekday,Day
+791,20195045,11,2019,Sunday,6:10,Single,1,110,Arterial Road,No,No,Weekend,Day
+817,20195149,11,2019,Sunday,20:55,Pedestrian,1,50,Arterial Road,No,No,Weekend,Night
+818,20195151,11,2019,Saturday,10:40,Single,1,110,Local Road,No,No,Weekend,Day
+836,20195036,11,2019,Thursday,12:30,Single,1,50,Local Road,No,No,Weekday,Day
+837,20195002,11,2019,Friday,5:22,Single,1,110,Arterial Road,No,No,Weekday,Night
+855,20195141,10,2019,Friday,22:09,Single,2,50,Local Road,No,No,Weekend,Night
+869,20195030,10,2019,Thursday,8:10,Single,1,110,National or State Highway,No,No,Weekday,Day
+870,20195034,10,2019,Tuesday,17:29,Single,1,110,National or State Highway,No,No,Weekday,Day
+878,20195101,10,2019,Thursday,11:33,Single,1,110,Arterial Road,No,No,Weekday,Day
+896,20195016,10,2019,Tuesday,17:30,Multiple,2,80,Local Road,No,No,Weekday,Day
+906,20195080,10,2019,Wednesday,16:00,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+920,20195126,10,2019,Thursday,18:35,Single,1,80,National or State Highway,No,No,Weekday,Night
+944,20195062,9,2019,Wednesday,20:38,Multiple,1,60,Arterial Road,No,No,Weekday,Night
+945,20195074,9,2019,Tuesday,18:25,Pedestrian,1,50,,No,No,Weekday,Night
+956,20195110,9,2019,Tuesday,10:17,Single,1,60,Arterial Road,No,No,Weekday,Day
+960,20195104,9,2019,Thursday,13:54,Single,1,100,Arterial Road,No,No,Weekday,Day
+967,20195077,9,2019,Thursday,12:26,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+997,20195056,9,2019,Friday,12:03,Single,1,80,National or State Highway,No,No,Weekday,Day
+998,20195116,9,2019,Monday,22:20,Multiple,1,110,National or State Highway,No,No,Weekday,Night
+999,20195152,9,2019,Wednesday,10:45,Multiple,1,60,National or State Highway,No,No,Weekday,Day
+1000,20195022,9,2019,Sunday,11:40,Multiple,1,60,Arterial Road,No,No,Weekend,Day
+1001,20195075,9,2019,Sunday,13:51,Multiple,2,100,Arterial Road,No,No,Weekend,Day
+1016,20195021,9,2019,Monday,11:45,Single,1,110,National or State Highway,No,No,Weekday,Day
+1035,20195078,8,2019,Tuesday,15:10,Single,1,110,Local Road,No,No,Weekday,Day
+1043,20195135,8,2019,Wednesday,19:31,Multiple,1,50,Local Road,No,No,Weekday,Night
+1044,20195050,8,2019,Thursday,0:02,Single,1,60,Arterial Road,No,No,Weekday,Night
+1048,20195038,8,2019,Sunday,16:50,Multiple,1,50,Local Road,No,No,Weekend,Day
+1060,20195125,8,2019,Saturday,17:10,Single,2,110,,No,No,Weekend,Day
+1061,20195129,8,2019,Thursday,3:57,Single,1,110,National or State Highway,No,No,Weekday,Night
+1062,20195064,8,2019,Saturday,15:57,Single,1,110,National or State Highway,No,No,Weekend,Day
+1063,20195084,8,2019,Monday,19:29,Single,1,110,Arterial Road,No,No,Weekday,Night
+1075,20195057,8,2019,Friday,17:55,Single,1,80,Local Road,No,No,Weekday,Day
+1086,20195102,8,2019,Wednesday,9:09,Multiple,1,60,Local Road,No,No,Weekday,Day
+1087,20195028,8,2019,Saturday,17:44,Multiple,1,50,Local Road,No,No,Weekend,Day
+1088,20195029,8,2019,Tuesday,18:20,Multiple,1,110,Arterial Road,No,No,Weekday,Night
+1100,20195019,8,2019,Tuesday,19:20,Multiple,1,60,Arterial Road,No,No,Weekday,Night
+1101,20195092,8,2019,Wednesday,14:32,Single,1,110,Arterial Road,No,No,Weekday,Day
+1109,20195076,8,2019,Saturday,6:09,Single,1,60,Arterial Road,No,No,Weekend,Day
+1120,20195142,7,2019,Monday,14:56,Single,1,80,Local Road,No,No,Weekday,Day
+1133,20195136,7,2019,Tuesday,2:40,Multiple,1,60,Arterial Road,No,No,Weekday,Night
+1141,20195130,7,2019,Tuesday,23:44,Single,1,110,National or State Highway,No,No,Weekday,Night
+1142,20195013,7,2019,Wednesday,21:25,Single,1,50,Local Road,No,No,Weekday,Night
+1152,20195063,7,2019,Thursday,17:07,Single,1,110,Local Road,No,No,Weekday,Day
+1160,20195025,7,2019,Saturday,4:00,Single,1,100,National or State Highway,No,No,Weekend,Night
+1161,20195044,7,2019,Tuesday,6:30,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+1162,20195065,7,2019,Tuesday,8:47,Single,1,110,Local Road,No,No,Weekday,Day
+1175,20195094,7,2019,Friday,21:40,Single,1,90,Local Road,No,No,Weekend,Night
+1182,20195123,7,2019,Sunday,4:45,Pedestrian,1,50,Local Road,No,No,Weekend,Night
+1203,20195095,6,2019,Friday,6:44,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+1209,20195134,6,2019,Thursday,6:20,Single,1,110,Local Road,No,No,Weekday,Day
+1210,20195035,6,2019,Saturday,14:40,Single,1,110,Arterial Road,No,No,Weekend,Day
+1211,20195042,6,2019,Saturday,1:20,Multiple,1,110,Local Road,No,No,Weekend,Night
+1212,20195047,6,2019,Monday,10:37,Single,1,20,Local Road,No,No,Weekday,Day
+1213,20195089,6,2019,Wednesday,23:04,Single,1,110,National or State Highway,No,No,Weekday,Night
+1222,20195015,6,2019,Sunday,12:55,Single,1,100,Local Road,No,No,Weekend,Day
+1230,20195128,6,2019,Saturday,15:46,Pedestrian,1,60,Arterial Road,No,No,Weekend,Day
+1231,20195006,6,2019,Monday,15:10,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+1232,20195009,6,2019,Saturday,1:11,Single,1,50,Local Road,No,No,Weekend,Night
+1244,20195032,6,2019,Tuesday,21:23,Single,1,80,Local Road,No,No,Weekday,Night
+1245,20195061,6,2019,Wednesday,22:15,Multiple,1,110,National or State Highway,No,No,Weekday,Night
+1253,20195121,6,2019,Wednesday,0:30,Single,2,110,National or State Highway,No,No,Weekday,Night
+1254,20195132,6,2019,Thursday,6:43,Multiple,1,70,Arterial Road,No,No,Weekday,Day
+1255,20195087,6,2019,Saturday,5:03,Multiple,1,110,National or State Highway,No,No,Weekend,Night
+1268,20195023,6,2019,Saturday,12:00,Multiple,1,70,Local Road,No,No,Weekend,Day
+1291,20195001,5,2019,Saturday,6:49,Single,1,110,National or State Highway,No,No,Weekend,Day
+1310,20195004,5,2019,Saturday,21:14,Multiple,1,110,National or State Highway,No,No,Weekend,Night
+1311,20195008,5,2019,Thursday,0:29,Pedestrian,2,-9,National or State Highway,No,No,Weekday,Night
+1323,20195068,5,2019,Thursday,17:55,Pedestrian,1,110,National or State Highway,No,No,Weekday,Day
+1331,20195138,5,2019,Thursday,21:17,Single,1,60,Local Road,No,No,Weekday,Night
+1333,20195114,5,2019,Wednesday,6:00,Single,1,-9,Access road,No,No,Weekday,Day
+1345,20195140,5,2019,Thursday,16:01,Single,1,110,National or State Highway,No,No,Weekday,Day
+1346,20195014,5,2019,Wednesday,12:17,Single,1,20,,No,No,Weekday,Day
+1347,20195020,5,2019,Friday,13:20,Single,1,70,Arterial Road,No,No,Weekday,Day
+1348,20195067,5,2019,Friday,18:49,Single,1,60,Local Road,No,No,Weekend,Night
+1358,20195119,5,2019,Saturday,11:35,Single,1,60,Arterial Road,No,No,Weekend,Day
+1363,20195040,5,2019,Saturday,11:00,Single,1,110,Arterial Road,No,No,Weekend,Day
+1372,20195058,5,2019,Wednesday,16:16,Multiple,1,60,Local Road,No,No,Weekday,Day
+1381,20195150,4,2019,Saturday,11:45,Single,1,110,,No,No,Weekend,Day
+1382,20195052,4,2019,Sunday,0:05,Multiple,1,60,National or State Highway,No,No,Weekend,Night
+1383,20195085,4,2019,Wednesday,3:02,Single,1,110,Arterial Road,No,No,Weekday,Night
+1393,20195144,4,2019,Saturday,10:41,Single,1,110,Local Road,No,Yes,Weekend,Day
+1394,20195017,4,2019,Wednesday,15:53,Single,1,50,National or State Highway,No,No,Weekday,Day
+1417,20195118,4,2019,Sunday,4:32,Pedestrian,1,100,National or State Highway,No,No,Weekend,Night
+1418,20195005,4,2019,Saturday,11:35,Multiple,1,110,Local Road,No,No,Weekend,Day
+1427,20195131,4,2019,Sunday,20:13,Single,1,110,National or State Highway,No,No,Weekend,Night
+1428,20195031,4,2019,Friday,20:45,Single,1,60,National or State Highway,No,Yes,Weekend,Night
+1429,20195054,4,2019,Monday,13:10,Multiple,1,-9,National or State Highway,No,No,Weekday,Day
+1454,20195113,4,2019,Sunday,1:18,Single,1,100,National or State Highway,No,No,Weekend,Night
+1455,20195012,4,2019,Friday,15:41,Single,1,110,Local Road,No,No,Weekday,Day
+1456,20195041,4,2019,Sunday,16:16,Multiple,1,50,Local Road,No,No,Weekend,Day
+1457,20195073,4,2019,Friday,16:20,Single,1,110,Local Road,No,No,Weekday,Day
+1464,20195043,4,2019,Monday,0:55,Single,1,80,National or State Highway,No,No,Weekend,Night
+1473,20195117,3,2019,Saturday,20:30,Multiple,1,60,Arterial Road,No,No,Weekend,Night
+1474,20195122,3,2019,Thursday,10:38,Multiple,1,60,Arterial Road,No,No,Weekday,Day
+1501,20195112,3,2019,Sunday,14:57,Multiple,1,110,National or State Highway,No,No,Weekend,Day
+1511,20195086,3,2019,Tuesday,22:10,Single,1,90,Arterial Road,No,No,Weekday,Night
+1537,20195127,3,2019,Sunday,1:40,Single,1,60,Arterial Road,No,No,Weekend,Night
+1538,20195139,3,2019,Friday,17:21,Single,1,110,Arterial Road,No,No,Weekday,Day
+1546,20195100,3,2019,Sunday,13:11,Single,1,110,,No,No,Weekend,Day
+1547,20195124,3,2019,Tuesday,15:20,Single,1,60,,No,No,Weekday,Day
+1548,20195024,3,2019,Sunday,17:58,Multiple,1,80,Local Road,No,No,Weekend,Day
+1549,20195066,3,2019,Thursday,18:33,Single,1,110,Arterial Road,No,No,Weekday,Night
+1565,20195111,3,2019,Friday,3:23,Single,1,110,National or State Highway,No,No,Weekday,Night
+1566,20195088,3,2019,Sunday,17:15,Multiple,1,90,Local Road,No,No,Weekend,Day
+1594,20195103,2,2019,Wednesday,21:51,Pedestrian,1,70,National or State Highway,No,No,Weekday,Night
+1605,20195133,2,2019,Saturday,15:15,Single,1,90,Local Road,No,No,Weekend,Day
+1606,20195010,2,2019,Friday,10:42,Single,1,110,Local Road,No,No,Weekday,Day
+1607,20195018,2,2019,Wednesday,15:39,Single,1,110,Local Road,No,No,Weekday,Day
+1619,20195051,2,2019,Friday,2:52,Single,1,110,National or State Highway,No,No,Weekday,Night
+1620,20195053,2,2019,Thursday,22:49,Single,1,90,Local Road,No,No,Weekday,Night
+1621,20195072,2,2019,Thursday,0:25,Multiple,1,80,National or State Highway,No,No,Weekday,Night
+1627,20195090,2,2019,Friday,10:30,Single,1,80,Arterial Road,No,No,Weekday,Day
+1637,20195108,2,2019,Thursday,11:27,Single,1,110,National or State Highway,No,No,Weekday,Day
+1638,20195143,2,2019,Tuesday,13:04,Pedestrian,1,50,Local Road,No,No,Weekday,Day
+1639,20195146,2,2019,Tuesday,11:20,Single,1,110,Arterial Road,No,No,Weekday,Day
+1640,20195049,2,2019,Saturday,1:50,Single,1,100,Local Road,No,No,Weekend,Night
+1652,20195059,2,2019,Thursday,10:43,Pedestrian,1,60,Arterial Road,No,No,Weekday,Day
+1654,20195027,1,2019,Tuesday,22:30,Pedestrian,1,50,,No,No,Weekday,Night
+1664,20195145,1,2019,Friday,2:00,Single,1,110,Arterial Road,No,No,Weekday,Night
+1665,20195147,1,2019,Tuesday,21:15,Pedestrian,1,60,Local Road,No,No,Weekday,Night
+1666,20195007,1,2019,Sunday,19:48,Multiple,1,110,Arterial Road,No,No,Weekend,Night
+1674,20195137,1,2019,Monday,19:15,Single,1,40,Local Road,No,No,Weekday,Night
+1675,20195069,1,2019,Sunday,18:52,Single,1,50,,No,No,Weekend,Night
+1687,20195003,1,2019,Tuesday,15:48,Single,1,110,Local Road,No,No,Weekday,Day
+1707,20195106,1,2019,Saturday,18:30,Single,1,60,Arterial Road,No,No,Weekend,Night
+1708,20195153,1,2019,Friday,8:00,Multiple,1,90,National or State Highway,No,No,Weekday,Day
+1709,20195039,1,2019,Tuesday,10:29,Single,1,80,Arterial Road,No,No,Weekday,Day
+1722,20195082,1,2019,Monday,20:30,Single,1,110,,No,No,Weekday,Night
+1733,20195105,1,2019,Friday,13:15,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+1734,20195107,1,2019,Wednesday,5:45,Single,1,110,Arterial Road,No,No,Weekday,Night
+1735,20195154,1,2019,Saturday,7:26,Single,2,50,Arterial Road,No,No,Weekend,Day
+1736,20195091,1,2019,Monday,9:47,Single,1,110,National or State Highway,No,No,Weekday,Day
+1742,20195148,1,2019,Friday,16:27,Multiple,2,100,National or State Highway,No,No,Weekday,Day
+1743,20195060,1,2019,Saturday,3:40,Single,1,90,Arterial Road,No,No,Weekend,Night
+1744,20195079,1,2019,Thursday,9:03,Pedestrian,1,50,National or State Highway,No,No,Weekday,Day
+1761,20195071,1,2019,Friday,12:29,Multiple,1,100,Arterial Road,No,No,Weekday,Day
+1762,20195081,1,2019,Monday,11:11,Single,1,90,Local Road,No,No,Weekday,Day
+1781,20185035,12,2018,Thursday,2:40,Pedestrian,1,50,,Yes,No,Weekday,Night
+1782,20185097,12,2018,Thursday,12:00,Multiple,1,110,National or State Highway,Yes,No,Weekday,Day
+1787,20185036,12,2018,Wednesday,12:31,Pedestrian,1,50,Local Road,Yes,No,Weekday,Day
+1795,20185134,12,2018,Saturday,20:01,Pedestrian,1,50,Local Road,No,No,Weekend,Night
+1796,20185114,12,2018,Saturday,9:02,Multiple,1,110,National or State Highway,No,No,Weekend,Day
+1802,20185100,12,2018,Friday,21:40,Single,1,110,National or State Highway,No,No,Weekend,Night
+1812,20185132,12,2018,Tuesday,12:30,Single,1,110,Local Road,No,No,Weekday,Day
+1823,20185138,12,2018,Thursday,6:20,Single,1,110,National or State Highway,No,No,Weekday,Day
+1832,20185139,12,2018,Sunday,15:18,Multiple,3,110,Arterial Road,No,No,Weekend,Day
+1833,20185076,12,2018,Sunday,17:20,Single,1,90,National or State Highway,No,No,Weekend,Day
+1845,20185085,12,2018,Tuesday,23:05,Single,1,80,National or State Highway,No,No,Weekday,Night
+1859,20185041,11,2018,Thursday,6:32,Single,1,110,Local Road,No,No,Weekday,Day
+1863,20185001,11,2018,Wednesday,6:00,Single,1,110,Local Road,No,No,Weekday,Day
+1870,20185016,11,2018,Monday,2:04,Single,1,90,National or State Highway,No,No,Weekend,Night
+1873,20185049,11,2018,Sunday,11:01,Multiple,1,110,National or State Highway,No,No,Weekend,Day
+1874,20185007,11,2018,Sunday,6:32,Single,2,110,National or State Highway,No,No,Weekend,Day
+1879,20185008,11,2018,Saturday,5:00,Single,1,110,Local Road,No,No,Weekend,Night
+1881,20185067,11,2018,Friday,15:45,Single,1,110,Arterial Road,No,No,Weekday,Day
+1915,20185104,11,2018,Sunday,0:08,Multiple,1,100,National or State Highway,No,No,Weekend,Night
+1920,20185048,11,2018,Saturday,15:14,Multiple,1,110,Arterial Road,No,No,Weekend,Day
+1922,20185044,11,2018,Thursday,16:00,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+1925,20185111,11,2018,Tuesday,8:37,Multiple,1,80,National or State Highway,No,No,Weekday,Day
+1932,20185052,11,2018,Sunday,10:53,Multiple,1,60,Arterial Road,No,No,Weekend,Day
+1939,20185005,11,2018,Saturday,8:30,Single,1,70,Local Road,No,No,Weekend,Day
+1944,20185032,11,2018,Thursday,13:55,Single,1,110,National or State Highway,No,No,Weekday,Day
+1947,20185091,10,2018,Wednesday,10:49,Multiple,1,50,Local Road,No,No,Weekday,Day
+1957,20185094,10,2018,Saturday,22:40,Single,1,110,National or State Highway,No,No,Weekend,Night
+1958,20185106,10,2018,Saturday,10:35,Single,1,70,Arterial Road,No,No,Weekend,Day
+1964,20185029,10,2018,Wednesday,11:40,Single,1,110,Local Road,No,No,Weekday,Day
+1984,20185031,10,2018,Saturday,4:20,Single,1,110,Arterial Road,No,No,Weekend,Night
+1985,20185095,10,2018,Saturday,19:30,Single,1,50,Local Road,No,No,Weekend,Night
+1994,20185004,10,2018,Tuesday,23:00,Single,1,110,Local Road,No,No,Weekday,Night
+2008,20185092,10,2018,Thursday,15:30,Single,1,110,National or State Highway,No,No,Weekday,Day
+2019,20185043,9,2018,Saturday,21:16,Pedestrian,1,90,National or State Highway,No,No,Weekend,Night
+2025,20185079,9,2018,Friday,5:45,Single,1,50,Local Road,No,No,Weekday,Night
+2035,20185103,9,2018,Sunday,20:22,Multiple,1,110,National or State Highway,No,No,Weekend,Night
+2041,20185070,9,2018,Saturday,3:00,Single,1,110,National or State Highway,No,No,Weekend,Night
+2042,20185034,9,2018,Saturday,12:13,Single,1,110,National or State Highway,No,No,Weekend,Day
+2061,20185028,9,2018,Sunday,10:20,Multiple,1,110,National or State Highway,No,No,Weekend,Day
+2071,20185050,9,2018,Friday,21:15,Single,1,110,Arterial Road,No,No,Weekend,Night
+2084,20185056,9,2018,Saturday,16:00,Single,1,60,,No,No,Weekend,Day
+2091,20185046,9,2018,Thursday,23:15,Single,1,110,National or State Highway,No,No,Weekday,Night
+2092,20185078,9,2018,Wednesday,15:27,Single,1,80,Arterial Road,No,No,Weekday,Day
+2095,20185021,9,2018,Tuesday,14:15,Single,2,110,Local Road,No,No,Weekday,Day
+2099,20185062,9,2018,Monday,16:34,Multiple,1,90,National or State Highway,No,No,Weekday,Day
+2100,20185140,9,2018,Monday,7:02,Single,1,110,National or State Highway,No,No,Weekday,Day
+2105,20185098,9,2018,Sunday,19:48,Multiple,1,110,National or State Highway,No,No,Weekend,Night
+2136,20185020,8,2018,Friday,2:59,Single,1,70,National or State Highway,No,No,Weekday,Night
+2155,20185126,8,2018,Sunday,23:40,Multiple,2,110,National or State Highway,No,No,Weekend,Night
+2156,20185051,8,2018,Sunday,12:33,Single,1,110,Arterial Road,No,No,Weekend,Day
+2172,20185003,8,2018,Monday,13:50,Multiple,1,70,Arterial Road,No,No,Weekday,Day
+2177,20185127,8,2018,Saturday,1:30,Pedestrian,1,70,Local Road,No,No,Weekend,Night
+2178,20185027,8,2018,Saturday,3:46,Single,1,-9,,No,No,Weekend,Night
+2179,20185083,8,2018,Saturday,12:15,Single,1,110,,No,No,Weekend,Day
+2183,20185093,8,2018,Wednesday,5:56,Single,1,100,Arterial Road,No,No,Weekday,Night
+2199,20185010,8,2018,Saturday,0:10,Single,1,60,,No,No,Weekend,Night
+2200,20185145,8,2018,Saturday,7:45,Single,1,100,National or State Highway,No,No,Weekend,Day
+2201,20185119,8,2018,Friday,23:39,Single,2,90,Arterial Road,No,No,Weekend,Night
+2204,20185022,8,2018,Thursday,14:50,Multiple,2,110,National or State Highway,No,No,Weekday,Day
+2209,20185011,7,2018,Tuesday,18:23,Pedestrian,1,50,Arterial Road,No,No,Weekday,Night
+2212,20185024,7,2018,Monday,18:10,Single,1,110,National or State Highway,No,No,Weekday,Night
+2213,20185142,7,2018,Monday,12:35,Single,1,70,Arterial Road,No,No,Weekday,Day
+2223,20185006,7,2018,Wednesday,14:56,Single,1,80,Local Road,No,No,Weekday,Day
+2229,20185025,7,2018,Sunday,4:38,Single,1,90,Local Road,No,No,Weekend,Night
+2248,20185038,7,2018,Tuesday,4:00,Single,1,110,Local Road,No,No,Weekday,Night
+2262,20185116,7,2018,Thursday,2:40,Multiple,1,60,Arterial Road,No,No,Weekday,Night
+2263,20185058,7,2018,Thursday,8:43,Multiple,1,60,National or State Highway,No,No,Weekday,Day
+2266,20185033,7,2018,Tuesday,10:00,Multiple,1,90,,No,No,Weekday,Day
+2273,20185115,7,2018,Saturday,9:13,Multiple,1,70,Local Road,No,No,Weekend,Day
+2285,20185087,7,2018,Wednesday,6:30,Single,1,110,,No,No,Weekday,Day
+2295,20185112,6,2018,Saturday,1:20,Single,1,60,,No,No,Weekend,Night
+2296,20185118,6,2018,Friday,12:42,Single,1,100,National or State Highway,No,No,Weekday,Day
+2314,20185018,6,2018,Saturday,3:15,Single,1,110,Arterial Road,No,No,Weekend,Night
+2323,20185065,6,2018,Sunday,10:22,Single,1,110,Local Road,No,No,Weekend,Day
+2336,20185131,6,2018,Wednesday,6:00,Pedestrian,1,60,Arterial Road,No,No,Weekday,Day
+2337,20185128,6,2018,Wednesday,11:26,Multiple,1,60,Arterial Road,No,No,Weekday,Day
+2342,20185045,6,2018,Monday,10:30,Single,1,110,Arterial Road,No,No,Weekday,Day
+2348,20185054,6,2018,Sunday,1:24,Single,1,60,Arterial Road,No,No,Weekend,Night
+2350,20185075,6,2018,Saturday,1:35,Single,1,70,Arterial Road,No,No,Weekend,Night
+2366,20185014,6,2018,Sunday,11:37,Multiple,1,110,National or State Highway,No,No,Weekend,Day
+2369,20185013,5,2018,Thursday,16:40,Pedestrian,1,50,,No,No,Weekday,Day
+2380,20185012,5,2018,Sunday,10:56,Pedestrian,1,50,Local Road,No,No,Weekend,Day
+2388,20185125,5,2018,Friday,9:40,Single,1,110,Local Road,No,No,Weekday,Day
+2409,20185080,5,2018,Wednesday,20:29,Single,1,60,,No,No,Weekday,Night
+2425,20185109,5,2018,Wednesday,15:11,Single,1,110,Local Road,No,No,Weekday,Day
+2427,20185086,5,2018,Tuesday,8:45,Multiple,1,50,Local Road,No,No,Weekday,Day
+2434,20185129,5,2018,Sunday,15:12,Multiple,1,50,,No,No,Weekend,Day
+2435,20185144,5,2018,Sunday,8:15,Single,1,110,National or State Highway,No,No,Weekend,Day
+2442,20185074,5,2018,Saturday,2:50,Single,1,110,National or State Highway,No,No,Weekend,Night
+2447,20185120,5,2018,Thursday,15:24,Multiple,1,70,Local Road,No,No,Weekday,Day
+2453,20185123,5,2018,Tuesday,20:54,Single,1,100,Local Road,No,No,Weekday,Night
+2454,20185135,5,2018,Tuesday,21:00,Single,1,60,Arterial Road,No,No,Weekday,Night
+2459,20185047,4,2018,Sunday,11:28,Single,1,110,Arterial Road,No,No,Weekend,Day
+2461,20185066,4,2018,Saturday,5:44,Single,2,110,Arterial Road,No,No,Weekend,Night
+2465,20185026,4,2018,Friday,19:47,Single,1,110,Arterial Road,No,No,Weekend,Night
+2468,20185023,4,2018,Wednesday,0:10,Single,1,50,Arterial Road,No,No,Weekday,Night
+2469,20185073,4,2018,Wednesday,15:30,Multiple,1,60,Arterial Road,No,No,Weekday,Day
+2481,20185117,4,2018,Sunday,10:30,Multiple,1,110,National or State Highway,No,No,Weekend,Day
+2487,20185141,4,2018,Friday,23:49,Single,1,100,National or State Highway,No,No,Weekend,Night
+2488,20185102,4,2018,Friday,16:21,Multiple,1,60,Arterial Road,No,No,Weekday,Day
+2491,20185040,4,2018,Thursday,17:20,Multiple,1,80,National or State Highway,No,No,Weekday,Day
+2495,20185039,4,2018,Wednesday,11:28,Multiple,2,110,National or State Highway,No,No,Weekday,Day
+2500,20185064,4,2018,Monday,11:00,Single,1,110,National or State Highway,No,No,Weekday,Day
+2509,20185082,4,2018,Friday,18:06,Multiple,1,100,National or State Highway,No,No,Weekend,Night
+2510,20185042,4,2018,Thursday,13:23,Single,1,110,National or State Highway,No,No,Weekday,Day
+2512,20185077,4,2018,Wednesday,16:07,Multiple,1,70,Local Road,No,No,Weekday,Day
+2516,20185019,4,2018,Tuesday,18:37,Multiple,1,70,National or State Highway,No,No,Weekday,Night
+2520,20185017,4,2018,Sunday,22:15,Single,1,-9,Local Road,No,No,Weekend,Night
+2531,20185063,4,2018,Monday,12:00,Multiple,1,110,National or State Highway,No,Yes,Weekday,Day
+2535,20185136,4,2018,Sunday,11:33,Multiple,1,50,Arterial Road,No,Yes,Weekend,Day
+2547,20185099,3,2018,Wednesday,12:45,Single,1,110,Local Road,No,No,Weekday,Day
+2562,20185069,3,2018,Saturday,4:56,Single,1,100,National or State Highway,No,No,Weekend,Night
+2563,20185110,3,2018,Saturday,17:25,Pedestrian,1,50,Arterial Road,No,No,Weekend,Day
+2570,20185059,3,2018,Friday,6:23,Pedestrian,1,60,National or State Highway,No,No,Weekday,Day
+2574,20185072,3,2018,Thursday,15:34,Multiple,1,70,National or State Highway,No,No,Weekday,Day
+2580,20185105,3,2018,Monday,12:02,Pedestrian,1,60,Arterial Road,No,No,Weekday,Day
+2583,20185137,3,2018,Sunday,3:30,Single,1,50,Arterial Road,No,No,Weekend,Night
+2584,20185060,3,2018,Sunday,22:47,Single,1,80,Local Road,No,No,Weekend,Night
+2596,20185143,3,2018,Wednesday,15:40,Multiple,2,110,National or State Highway,No,No,Weekday,Day
+2605,20185088,3,2018,Saturday,14:00,Multiple,1,90,Arterial Road,No,No,Weekend,Day
+2614,20185030,3,2018,Friday,13:05,Single,1,80,Local Road,No,No,Weekday,Day
+2632,20185071,3,2018,Saturday,21:12,Multiple,1,70,,No,No,Weekend,Night
+2638,20185107,3,2018,Friday,22:15,Single,1,80,Local Road,No,No,Weekend,Night
+2639,20185061,3,2018,Friday,18:50,Multiple,1,50,Arterial Road,No,No,Weekend,Night
+2644,20185089,2,2018,Tuesday,16:30,Single,1,70,Local Road,No,No,Weekday,Day
+2650,20185055,2,2018,Sunday,12:20,Single,1,60,,No,No,Weekend,Day
+2660,20185057,2,2018,Friday,21:28,Single,1,50,Local Road,No,No,Weekend,Night
+2666,20185009,2,2018,Wednesday,15:37,Single,1,110,Local Road,No,No,Weekday,Day
+2669,20185084,2,2018,Tuesday,6:46,Single,1,70,Arterial Road,No,No,Weekday,Day
+2692,20185002,2,2018,Sunday,3:35,Pedestrian,1,70,Arterial Road,No,No,Weekend,Night
+2695,20185121,2,2018,Friday,0:25,Single,1,110,Arterial Road,No,No,Weekday,Night
+2698,20185053,2,2018,Thursday,11:45,Single,1,90,,No,No,Weekday,Day
+2699,20185133,2,2018,Thursday,17:54,Single,1,80,National or State Highway,No,No,Weekday,Day
+2719,20185108,2,2018,Saturday,19:40,Single,1,70,Arterial Road,No,No,Weekend,Night
+2720,20185124,2,2018,Saturday,10:37,Single,1,110,Arterial Road,No,No,Weekend,Day
+2727,20185096,1,2018,Tuesday,6:25,Multiple,1,70,Local Road,No,No,Weekday,Day
+2733,20185015,1,2018,Monday,2:50,Single,1,50,,No,No,Weekend,Night
+2739,20185130,1,2018,Sunday,16:40,Single,1,110,National or State Highway,No,No,Weekend,Day
+2746,20185090,1,2018,Thursday,17:17,Pedestrian,1,60,Arterial Road,No,No,Weekday,Day
+2757,20185068,1,2018,Saturday,6:00,Multiple,1,110,National or State Highway,No,No,Weekend,Day
+2776,20185101,1,2018,Thursday,13:41,Multiple,1,100,National or State Highway,No,No,Weekday,Day
+2782,20185081,1,2018,Wednesday,12:14,Multiple,3,110,National or State Highway,No,No,Weekday,Day
+2786,20185113,1,2018,Tuesday,16:16,Multiple,1,60,Local Road,No,No,Weekday,Day
+2797,20185122,1,2018,Friday,6:26,Single,2,110,National or State Highway,No,No,Weekday,Day
+2808,20185037,1,2018,Tuesday,5:30,Single,1,110,Local Road,Yes,No,Weekday,Night
+2817,20175017,12,2017,Sunday,18:00,Single,1,-9,,Yes,No,Weekend,Night
+2822,20175084,12,2017,Friday,20:00,Single,1,50,Local Road,Yes,No,Weekend,Night
+2837,20175142,12,2017,Tuesday,15:25,Multiple,1,100,National or State Highway,Yes,No,Weekday,Day
+2841,20175053,12,2017,Monday,5:06,Single,1,110,National or State Highway,Yes,No,Weekend,Night
+2860,20175067,12,2017,Thursday,13:39,Multiple,1,60,National or State Highway,No,No,Weekday,Day
+2862,20175021,12,2017,Wednesday,15:30,Single,1,110,National or State Highway,No,No,Weekday,Day
+2863,20175043,12,2017,Wednesday,17:08,Single,1,110,National or State Highway,No,No,Weekday,Day
+2879,20175051,12,2017,Saturday,11:27,Single,1,110,Arterial Road,No,No,Weekend,Day
+2882,20175029,12,2017,Friday,5:39,Multiple,1,60,National or State Highway,No,No,Weekday,Night
+2888,20175126,12,2017,Thursday,21:15,Multiple,1,100,National or State Highway,No,No,Weekday,Night
+2889,20175054,12,2017,Wednesday,3:40,Single,1,110,National or State Highway,No,No,Weekday,Night
+2890,20175119,12,2017,Wednesday,15:20,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+2894,20175046,12,2017,Tuesday,16:20,Pedestrian,1,50,Arterial Road,No,No,Weekday,Day
+2904,20175026,12,2017,Sunday,17:09,Single,1,70,Arterial Road,No,No,Weekend,Day
+2912,20175151,12,2017,Friday,11:50,Pedestrian,1,50,Local Road,No,No,Weekday,Day
+2918,20175073,12,2017,Thursday,14:00,Single,1,80,Local Road,No,No,Weekday,Day
+2922,20175004,12,2017,Tuesday,20:12,Multiple,1,60,Local Road,No,No,Weekday,Night
+2923,20175123,12,2017,Tuesday,16:27,Single,1,50,Local Road,No,No,Weekday,Day
+2925,20175052,12,2017,Monday,19:50,Multiple,1,50,Local Road,No,No,Weekday,Night
+2926,20175117,12,2017,Monday,8:20,Multiple,1,70,Arterial Road,No,No,Weekday,Day
+2949,20175045,11,2017,Saturday,6:10,Single,1,110,Local Road,No,No,Weekend,Day
+2954,20175078,11,2017,Friday,4:04,Multiple,1,90,Arterial Road,No,No,Weekday,Night
+2973,20175122,11,2017,Saturday,1:37,Single,1,110,Arterial Road,No,No,Weekend,Night
+2974,20175083,11,2017,Saturday,5:31,Multiple,1,80,National or State Highway,No,No,Weekend,Night
+2975,20175012,11,2017,Saturday,23:49,Pedestrian,1,50,Local Road,No,No,Weekend,Night
+2978,20175072,11,2017,Thursday,0:20,Pedestrian,1,60,,No,No,Weekday,Night
+2983,20175010,11,2017,Wednesday,7:30,Single,1,110,Arterial Road,No,No,Weekday,Day
+3004,20175014,11,2017,Tuesday,3:15,Single,1,90,Arterial Road,No,No,Weekday,Night
+3009,20175036,11,2017,Monday,13:09,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+3019,20175140,11,2017,Sunday,8:19,Single,2,80,Local Road,No,No,Weekend,Day
+3024,20175079,11,2017,Saturday,22:18,Pedestrian,1,50,,No,No,Weekend,Night
+3035,20175033,10,2017,Tuesday,16:42,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+3044,20175145,10,2017,Saturday,0:35,Single,1,50,Arterial Road,No,No,Weekend,Night
+3055,20175086,10,2017,Thursday,23:47,Multiple,1,110,National or State Highway,No,No,Weekday,Night
+3059,20175022,10,2017,Tuesday,8:00,Single,1,110,National or State Highway,No,No,Weekday,Day
+3074,20175090,10,2017,Wednesday,19:44,Single,1,60,,No,No,Weekday,Night
+3089,20175121,10,2017,Saturday,13:22,Single,1,110,Local Road,No,No,Weekend,Day
+3092,20175087,10,2017,Friday,7:20,Single,1,110,Local Road,No,No,Weekday,Day
+3094,20175076,10,2017,Thursday,11:36,Multiple,1,50,Local Road,No,No,Weekday,Day
+3098,20175002,10,2017,Tuesday,17:00,Single,1,100,Arterial Road,No,No,Weekday,Day
+3100,20175055,10,2017,Monday,12:52,Multiple,1,50,Local Road,No,No,Weekday,Day
+3101,20175131,10,2017,Monday,11:55,Single,1,110,National or State Highway,No,No,Weekday,Day
+3105,20175107,10,2017,Sunday,10:10,Multiple,1,80,Arterial Road,No,No,Weekend,Day
+3111,20175038,10,2017,Friday,22:12,Multiple,1,70,National or State Highway,No,No,Weekend,Night
+3112,20175132,10,2017,Friday,19:45,Single,2,50,Local Road,No,No,Weekend,Night
+3114,20175050,10,2017,Thursday,12:30,Pedestrian,1,20,,No,No,Weekday,Day
+3122,20175035,10,2017,Monday,8:48,Multiple,1,50,Local Road,No,No,Weekday,Day
+3150,20175088,9,2017,Friday,15:29,Single,1,110,Arterial Road,No,No,Weekday,Day
+3158,20175102,9,2017,Wednesday,17:15,Single,1,70,National or State Highway,No,No,Weekday,Day
+3162,20175019,9,2017,Monday,18:17,Single,1,70,Arterial Road,No,No,Weekday,Night
+3163,20175008,9,2017,Monday,19:50,Pedestrian,1,60,National or State Highway,No,No,Weekday,Night
+3164,20175059,9,2017,Monday,15:49,Multiple,1,80,Arterial Road,No,No,Weekday,Day
+3169,20175093,9,2017,Sunday,6:09,Multiple,1,110,Arterial Road,No,No,Weekend,Day
+3172,20175101,9,2017,Thursday,5:30,Multiple,1,90,National or State Highway,No,No,Weekday,Night
+3175,20175028,9,2017,Wednesday,13:40,Single,1,110,Local Road,No,No,Weekday,Day
+3187,20175130,9,2017,Friday,16:07,Single,1,60,National or State Highway,No,No,Weekday,Day
+3209,20175027,9,2017,Saturday,14:54,Single,1,100,National or State Highway,No,No,Weekend,Day
+3213,20175037,9,2017,Friday,19:30,Pedestrian,1,110,National or State Highway,No,No,Weekend,Night
+3214,20175040,9,2017,Friday,11:48,Single,1,60,,No,No,Weekday,Day
+3241,20175094,8,2017,Thursday,16:40,Multiple,1,60,Arterial Road,No,No,Weekday,Day
+3246,20175057,8,2017,Wednesday,10:25,Single,1,110,Local Road,No,No,Weekday,Day
+3260,20175100,8,2017,Thursday,7:15,Multiple,3,110,Arterial Road,No,No,Weekday,Day
+3261,20175141,8,2017,Thursday,16:08,Single,1,110,Local Road,No,No,Weekday,Day
+3292,20175047,8,2017,Tuesday,12:55,Pedestrian,1,70,National or State Highway,No,No,Weekday,Day
+3304,20175034,8,2017,Friday,20:40,Single,1,90,National or State Highway,No,No,Weekend,Night
+3305,20175066,8,2017,Friday,11:34,Multiple,1,100,National or State Highway,No,No,Weekday,Day
+3310,20175041,8,2017,Wednesday,13:25,Multiple,1,110,Arterial Road,No,No,Weekday,Day
+3315,20175138,8,2017,Tuesday,7:10,Multiple,1,70,Local Road,No,No,Weekday,Day
+3318,20175009,7,2017,Sunday,8:55,Multiple,1,60,Arterial Road,No,No,Weekend,Day
+3321,20175127,7,2017,Saturday,19:25,Multiple,1,110,National or State Highway,No,No,Weekend,Night
+3323,20175016,7,2017,Friday,15:50,Single,1,50,Local Road,No,No,Weekday,Day
+3326,20175031,7,2017,Thursday,17:50,Multiple,1,60,Local Road,No,No,Weekday,Day
+3328,20175113,7,2017,Wednesday,23:15,Single,1,110,Local Road,No,No,Weekday,Night
+3364,20175074,7,2017,Sunday,20:50,Single,1,80,Arterial Road,No,No,Weekend,Night
+3376,20175081,7,2017,Tuesday,9:00,Multiple,1,50,Local Road,No,No,Weekday,Day
+3378,20175133,7,2017,Monday,16:20,Single,1,80,Arterial Road,No,No,Weekday,Day
+3399,20175104,7,2017,Wednesday,13:15,Single,1,110,Local Road,No,No,Weekday,Day
+3408,20175015,7,2017,Monday,21:14,Single,1,110,National or State Highway,No,No,Weekday,Night
+3413,20175001,7,2017,Sunday,17:15,Multiple,1,60,Local Road,No,No,Weekend,Day
+3421,20175111,6,2017,Friday,18:20,Single,1,100,National or State Highway,No,No,Weekend,Night
+3422,20175011,6,2017,Friday,15:00,Multiple,2,40,National or State Highway,No,No,Weekday,Day
+3424,20175091,6,2017,Thursday,7:00,Single,1,110,National or State Highway,No,No,Weekday,Day
+3436,20175063,6,2017,Saturday,8:08,Multiple,1,80,Local Road,No,No,Weekend,Day
+3460,20175070,6,2017,Sunday,8:52,Multiple,1,110,,No,No,Weekend,Day
+3474,20175143,6,2017,Tuesday,16:35,Pedestrian,1,60,Local Road,No,No,Weekday,Day
+3486,20175095,6,2017,Friday,17:30,Multiple,1,60,,No,No,Weekday,Day
+3491,20175007,6,2017,Thursday,9:20,Single,1,110,,No,No,Weekday,Day
+3497,20175006,6,2017,Monday,12:45,Multiple,1,110,Arterial Road,No,No,Weekday,Day
+3506,20175147,6,2017,Friday,17:17,Multiple,1,60,National or State Highway,No,No,Weekday,Day
+3510,20175061,6,2017,Thursday,13:45,Single,1,110,Local Road,No,No,Weekday,Day
+3516,20175110,5,2017,Monday,19:00,Single,1,110,National or State Highway,No,No,Weekday,Night
+3517,20175060,5,2017,Monday,7:30,Single,1,110,Arterial Road,No,No,Weekday,Day
+3525,20175075,5,2017,Sunday,12:30,Single,1,100,,No,No,Weekend,Day
+3534,20175048,5,2017,Wednesday,0:14,Single,1,60,,No,No,Weekday,Night
+3544,20175098,5,2017,Sunday,10:55,Single,1,60,,No,No,Weekend,Day
+3546,20175124,5,2017,Saturday,10:38,Pedestrian,1,50,,No,No,Weekend,Day
+3571,20175152,5,2017,Friday,11:00,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+3610,20175092,4,2017,Saturday,20:19,Single,2,70,Arterial Road,No,No,Weekend,Night
+3611,20175080,4,2017,Friday,14:03,Multiple,1,60,Arterial Road,No,No,Weekday,Day
+3623,20175071,4,2017,Monday,10:25,Single,1,90,National or State Highway,No,No,Weekday,Day
+3629,20175005,4,2017,Friday,17:29,Multiple,1,80,National or State Highway,No,No,Weekday,Day
+3631,20175108,4,2017,Thursday,14:00,Single,1,60,Arterial Road,No,No,Weekday,Day
+3638,20175103,4,2017,Wednesday,21:00,Single,1,110,Local Road,No,No,Weekday,Night
+3645,20175030,4,2017,Tuesday,14:50,Multiple,1,60,Local Road,No,No,Weekday,Day
+3652,20175099,4,2017,Friday,0:04,Single,1,50,Local Road,No,Yes,Weekday,Night
+3661,20175135,4,2017,Tuesday,6:16,Multiple,1,100,Arterial Road,No,No,Weekday,Day
+3663,20175069,4,2017,Monday,18:50,Single,1,50,Local Road,No,No,Weekday,Night
+3669,20175025,4,2017,Saturday,18:20,Multiple,2,110,National or State Highway,No,No,Weekend,Night
+3670,20175116,4,2017,Saturday,12:00,Single,1,80,Arterial Road,No,No,Weekend,Day
+3677,20175096,4,2017,Friday,2:50,Single,1,80,Local Road,No,No,Weekday,Night
+3688,20175049,4,2017,Monday,17:30,Single,1,50,Local Road,No,No,Weekday,Day
+3690,20175085,4,2017,Sunday,4:30,Single,1,110,Local Road,No,No,Weekend,Night
+3694,20175114,4,2017,Saturday,20:06,Pedestrian,1,50,Local Road,No,No,Weekend,Night
+3695,20175136,4,2017,Saturday,22:05,Multiple,1,70,Arterial Road,No,No,Weekend,Night
+3699,20175125,3,2017,Friday,12:40,Single,1,110,Arterial Road,No,No,Weekday,Day
+3704,20175077,3,2017,Thursday,17:40,Single,1,110,Arterial Road,No,No,Weekday,Day
+3709,20175039,3,2017,Wednesday,14:40,Single,1,110,National or State Highway,No,No,Weekday,Day
+3729,20175120,3,2017,Friday,11:02,Multiple,1,80,National or State Highway,No,No,Weekday,Day
+3732,20175109,3,2017,Thursday,14:28,Multiple,1,50,Local Road,No,No,Weekday,Day
+3733,20175115,3,2017,Wednesday,9:45,Multiple,1,70,Arterial Road,No,No,Weekday,Day
+3737,20175018,3,2017,Tuesday,8:00,Single,1,110,National or State Highway,No,No,Weekday,Day
+3752,20175137,3,2017,Tuesday,19:39,Pedestrian,1,50,Local Road,No,No,Weekday,Night
+3755,20175056,3,2017,Monday,15:15,Single,1,60,National or State Highway,No,No,Weekday,Day
+3762,20175068,3,2017,Saturday,4:45,Single,1,20,,No,No,Weekend,Night
+3768,20175112,3,2017,Thursday,2:00,Single,1,110,Local Road,No,No,Weekday,Night
+3769,20175106,3,2017,Thursday,20:20,Multiple,1,60,Arterial Road,No,No,Weekday,Night
+3772,20175148,3,2017,Tuesday,17:15,Single,1,50,Local Road,No,No,Weekday,Day
+3774,20175105,3,2017,Monday,11:00,Single,1,110,National or State Highway,No,No,Weekday,Day
+3775,20175042,3,2017,Sunday,14:43,Multiple,1,110,National or State Highway,No,No,Weekend,Day
+3807,20175065,2,2017,Sunday,5:21,Single,1,110,,No,No,Weekend,Night
+3811,20175149,2,2017,Saturday,16:45,Multiple,1,110,National or State Highway,No,No,Weekend,Day
+3829,20175134,2,2017,Saturday,15:35,Single,1,110,National or State Highway,No,No,Weekend,Day
+3833,20175118,2,2017,Friday,18:15,Single,1,50,Undetermined,No,No,Weekend,Night
+3834,20175023,2,2017,Friday,9:30,Single,1,110,National or State Highway,No,No,Weekday,Day
+3835,20175032,2,2017,Friday,16:45,Multiple,1,100,National or State Highway,No,No,Weekday,Day
+3850,20175003,2,2017,Friday,15:55,Multiple,1,110,National or State Highway,No,No,Weekday,Day
+3860,20175064,1,2017,Sunday,12:11,Multiple,2,110,National or State Highway,No,No,Weekend,Day
+3863,20175139,1,2017,Saturday,1:33,Single,1,70,Arterial Road,No,No,Weekend,Night
+3864,20175144,1,2017,Saturday,21:30,Single,1,20,,No,No,Weekend,Night
+3874,20175097,1,2017,Tuesday,19:58,Multiple,1,60,Local Road,No,No,Weekday,Night
+3875,20175129,1,2017,Tuesday,12:48,Pedestrian,1,60,National or State Highway,No,No,Weekday,Day
+3878,20175146,1,2017,Monday,11:43,Single,1,80,National or State Highway,No,No,Weekday,Day
+3889,20175024,1,2017,Wednesday,5:15,Single,1,110,Local Road,No,No,Weekday,Night
+3896,20175128,1,2017,Monday,1:20,Multiple,1,50,Arterial Road,No,No,Weekend,Night
+3908,20175150,1,2017,Friday,17:30,Single,1,90,National or State Highway,No,No,Weekday,Day
+3917,20175044,1,2017,Wednesday,18:30,Single,1,80,National or State Highway,No,No,Weekday,Night
+3924,20175013,1,2017,Sunday,10:23,Single,1,-9,Arterial Road,No,No,Weekend,Day
+3935,20175062,1,2017,Tuesday,15:21,Multiple,1,70,Local Road,Yes,No,Weekday,Day
+3939,20175082,1,2017,Monday,18:27,Single,1,110,Local Road,Yes,No,Weekday,Night
+3941,20175058,1,2017,Sunday,16:30,Multiple,1,100,National or State Highway,Yes,No,Weekend,Day
+3942,20175089,1,2017,Sunday,17:14,Multiple,1,70,Arterial Road,Yes,No,Weekend,Day
+3952,20165036,12,2016,Wednesday,19:30,Multiple,1,50,LOCAL ROAD,Yes,No,Weekday,Night
+3960,20165027,12,2016,Monday,15:29,Single,1,110,LOCAL ROAD,Yes,No,Weekday,Day
+3968,20165081,12,2016,Saturday,1:10,Multiple,1,110,NATIONAL OR STATE HIGHWAY,Yes,No,Weekend,Night
+3969,20165025,12,2016,Friday,4:50,Single,1,110,NATIONAL OR STATE HIGHWAY,Yes,No,Weekday,Night
+3972,20165151,12,2016,Wednesday,16:19,Single,1,110,LOCAL ROAD,No,No,Weekday,Day
+3984,20165039,12,2016,Saturday,5:20,Single,1,70,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+3993,20165012,12,2016,Thursday,22:31,Single,2,50,LOCAL ROAD,No,No,Weekday,Night
+3998,20165158,12,2016,Wednesday,14:30,Single,1,90,ARTERIAL ROAD,No,No,Weekday,Day
+3999,20165088,12,2016,Wednesday,10:15,Single,1,110,LOCAL ROAD,No,No,Weekday,Day
+4004,20165162,12,2016,Monday,5:00,Single,1,110,ARTERIAL ROAD,No,No,Weekend,Night
+4005,20165062,12,2016,Monday,11:40,Multiple,2,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4018,20165105,12,2016,Saturday,19:38,Single,1,70,ARTERIAL ROAD,No,No,Weekend,Night
+4021,20165032,12,2016,Friday,15:20,Single,1,110,,No,No,Weekday,Day
+4022,20165110,12,2016,Friday,15:25,Single,2,110,LOCAL ROAD,No,No,Weekday,Day
+4029,20165131,12,2016,Tuesday,21:00,Pedestrian,1,60,LOCAL ROAD,No,No,Weekday,Night
+4034,20165113,12,2016,Sunday,3:33,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+4057,20165066,11,2016,Monday,15:40,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4063,20165078,11,2016,Sunday,20:55,Pedestrian,1,60,ARTERIAL ROAD,No,No,Weekend,Night
+4069,20165126,11,2016,Friday,6:35,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+4070,20165003,11,2016,Thursday,6:45,Pedestrian,1,100,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4080,20165160,11,2016,Tuesday,0:20,Single,1,50,LOCAL ROAD,No,No,Weekday,Night
+4092,20165156,11,2016,Sunday,12:50,Single,2,110,LOCAL ROAD,No,No,Weekend,Day
+4097,20165041,11,2016,Saturday,22:00,Multiple,1,70,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+4098,20165136,11,2016,Saturday,22:21,Multiple,1,80,ARTERIAL ROAD,No,No,Weekend,Night
+4100,20165043,11,2016,Friday,0:10,Single,1,60,ARTERIAL ROAD,No,No,Weekday,Night
+4114,20165125,11,2016,Tuesday,17:25,Multiple,1,80,,No,No,Weekday,Day
+4118,20165168,11,2016,Sunday,17:45,Single,1,90,LOCAL ROAD,No,No,Weekend,Day
+4119,20165077,11,2016,Sunday,14:07,Single,1,80,ARTERIAL ROAD,No,No,Weekend,Day
+4123,20165089,11,2016,Saturday,21:45,Single,1,60,ARTERIAL ROAD,No,No,Weekend,Night
+4125,20165117,11,2016,Friday,5:56,Multiple,1,100,LOCAL ROAD,No,No,Weekday,Night
+4142,20165011,11,2016,Saturday,22:20,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+4144,20165119,11,2016,Thursday,0:15,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+4151,20165034,10,2016,Sunday,16:02,Single,1,-9,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+4165,20165071,10,2016,Tuesday,18:35,Single,1,70,ARTERIAL ROAD,No,No,Weekday,Night
+4173,20165167,10,2016,Sunday,16:12,Single,1,110,LOCAL ROAD,No,No,Weekend,Day
+4178,20165138,10,2016,Saturday,11:55,Single,2,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+4187,20165022,10,2016,Thursday,18:17,Multiple,1,50,LOCAL ROAD,No,No,Weekday,Night
+4188,20165101,10,2016,Thursday,15:05,Multiple,1,50,LOCAL ROAD,No,No,Weekday,Day
+4191,20165086,10,2016,Wednesday,15:19,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+4203,20165023,10,2016,Saturday,0:27,Single,1,60,ARTERIAL ROAD,No,No,Weekend,Night
+4215,20165097,10,2016,Wednesday,20:48,Single,1,70,ARTERIAL ROAD,No,No,Weekday,Night
+4216,20165128,10,2016,Wednesday,10:48,Multiple,1,80,LOCAL ROAD,No,No,Weekday,Day
+4218,20165038,10,2016,Tuesday,19:35,Pedestrian,1,80,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+4225,20165170,10,2016,Sunday,21:31,Multiple,1,70,ARTERIAL ROAD,No,No,Weekend,Night
+4235,20165087,10,2016,Friday,9:20,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+4247,20165018,10,2016,Sunday,3:30,Single,1,110,LOCAL ROAD,No,No,Weekend,Night
+4248,20165069,10,2016,Sunday,9:48,Multiple,2,110,ARTERIAL ROAD,No,No,Weekend,Day
+4253,20165122,10,2016,Saturday,23:30,Single,1,110,ARTERIAL ROAD,No,No,Weekend,Night
+4254,20165121,10,2016,Saturday,11:50,Single,3,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+4265,20165102,9,2016,Tuesday,20:00,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Night
+4276,20165085,9,2016,Saturday,8:56,Single,1,90,LOCAL ROAD,No,No,Weekend,Day
+4285,20165010,9,2016,Wednesday,16:00,Single,1,100,LOCAL ROAD,No,No,Weekday,Day
+4286,20165165,9,2016,Tuesday,18:47,Pedestrian,1,70,ARTERIAL ROAD,No,No,Weekday,Night
+4298,20165007,9,2016,Saturday,19:31,Multiple,2,70,LOCAL ROAD,No,No,Weekend,Night
+4307,20165157,9,2016,Tuesday,22:20,Single,1,90,ARTERIAL ROAD,No,No,Weekday,Night
+4310,20165149,9,2016,Monday,0:22,Single,1,80,LOCAL ROAD,No,No,Weekend,Night
+4316,20165115,9,2016,Saturday,14:58,Single,1,50,LOCAL ROAD,No,No,Weekend,Day
+4326,20165053,9,2016,Monday,16:35,Multiple,1,100,LOCAL ROAD,No,No,Weekday,Day
+4337,20165109,9,2016,Friday,15:40,Multiple,1,60,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4342,20165146,9,2016,Thursday,15:45,Single,1,70,ARTERIAL ROAD,No,No,Weekday,Day
+4344,20165099,8,2016,Wednesday,22:41,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Night
+4362,20165024,8,2016,Friday,13:45,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4370,20165058,8,2016,Wednesday,22:55,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+4379,20165133,8,2016,Saturday,11:55,Multiple,1,70,LOCAL ROAD,No,No,Weekend,Day
+4390,20165068,8,2016,Thursday,23:14,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Night
+4392,20165028,8,2016,Wednesday,12:09,Multiple,1,60,ARTERIAL ROAD,No,No,Weekday,Day
+4396,20165123,8,2016,Tuesday,11:45,Single,2,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4398,20165067,8,2016,Monday,10:09,Multiple,1,60,ARTERIAL ROAD,No,No,Weekday,Day
+4402,20165103,8,2016,Sunday,19:01,Multiple,3,90,ARTERIAL ROAD,No,No,Weekend,Night
+4403,20165009,8,2016,Sunday,16:15,Multiple,1,100,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+4404,20165095,8,2016,Sunday,13:54,Single,1,70,LOCAL ROAD,No,No,Weekend,Day
+4418,20165140,8,2016,Thursday,11:05,Multiple,1,60,ARTERIAL ROAD,No,No,Weekday,Day
+4430,20165050,8,2016,Sunday,1:37,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+4433,20165107,8,2016,Saturday,19:30,Single,1,-9,ARTERIAL ROAD,No,No,Weekend,Night
+4454,20165152,7,2016,Sunday,20:00,Single,1,110,LOCAL ROAD,No,No,Weekend,Night
+4462,20165143,7,2016,Friday,18:00,Pedestrian,1,60,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+4483,20165017,7,2016,Friday,10:30,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4490,20165144,7,2016,Wednesday,0:35,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Night
+4494,20165083,7,2016,Tuesday,17:09,Multiple,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+4503,20165055,7,2016,Sunday,22:39,Single,1,100,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+4507,20165094,7,2016,Saturday,21:30,Pedestrian,1,110,ARTERIAL ROAD,No,No,Weekend,Night
+4508,20165045,7,2016,Saturday,16:50,Multiple,1,80,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+4515,20165090,7,2016,Thursday,15:48,Single,1,100,LOCAL ROAD,No,No,Weekday,Day
+4532,20165073,7,2016,Saturday,7:48,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+4537,20165150,7,2016,Friday,23:00,Single,1,50,LOCAL ROAD,No,No,Weekend,Night
+4538,20165106,7,2016,Friday,19:08,Single,1,80,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+4539,20165031,7,2016,Friday,14:54,Multiple,1,80,LOCAL ROAD,No,No,Weekday,Day
+4541,20165084,7,2016,Thursday,14:33,Multiple,1,50,LOCAL ROAD,No,No,Weekday,Day
+4543,20165056,7,2016,Wednesday,21:58,Pedestrian,1,90,ARTERIAL ROAD,No,No,Weekday,Night
+4544,20165005,7,2016,Wednesday,6:55,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4548,20165054,7,2016,Sunday,15:50,Multiple,1,110,ARTERIAL ROAD,No,No,Weekend,Day
+4555,20165046,7,2016,Saturday,21:55,Single,1,80,ARTERIAL ROAD,No,No,Weekend,Night
+4559,20165037,7,2016,Friday,18:26,Single,1,50,LOCAL ROAD,No,No,Weekend,Night
+4591,20165134,6,2016,Saturday,8:00,Single,1,110,,No,No,Weekend,Day
+4600,20165064,6,2016,Thursday,0:01,Single,1,110,LOCAL ROAD,No,No,Weekday,Night
+4606,20165042,6,2016,Tuesday,8:07,Single,1,110,LOCAL ROAD,No,No,Weekday,Day
+4612,20165130,6,2016,Sunday,18:40,Single,1,-9,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+4620,20165001,6,2016,Friday,21:10,Single,1,60,ARTERIAL ROAD,No,No,Weekend,Night
+4625,20165048,6,2016,Thursday,13:06,Single,1,80,ARTERIAL ROAD,No,No,Weekday,Day
+4626,20165051,6,2016,Thursday,15:20,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4632,20165029,6,2016,Monday,19:14,Pedestrian,1,60,LOCAL ROAD,No,No,Weekday,Night
+4644,20165120,6,2016,Thursday,16:11,Multiple,1,50,LOCAL ROAD,No,No,Weekday,Day
+4647,20165166,6,2016,Wednesday,5:40,Single,1,50,LOCAL ROAD,No,No,Weekday,Night
+4649,20165139,5,2016,Tuesday,22:08,Multiple,1,80,ARTERIAL ROAD,No,No,Weekday,Night
+4650,20165112,5,2016,Tuesday,8:50,Single,1,70,LOCAL ROAD,No,No,Weekday,Day
+4660,20165163,5,2016,Saturday,17:26,Multiple,1,80,LOCAL ROAD,No,No,Weekend,Day
+4688,20165013,5,2016,Friday,19:41,Single,1,100,LOCAL ROAD,No,No,Weekend,Night
+4692,20165100,5,2016,Wednesday,19:50,Multiple,2,110,ARTERIAL ROAD,No,No,Weekday,Night
+4712,20165061,5,2016,Friday,6:53,Pedestrian,1,60,ARTERIAL ROAD,No,No,Weekday,Day
+4717,20165063,5,2016,Thursday,14:57,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4723,20165008,5,2016,Tuesday,10:30,Single,1,110,,No,No,Weekday,Day
+4727,20165145,5,2016,Sunday,22:30,Single,1,50,ARTERIAL ROAD,No,No,Weekend,Night
+4728,20165164,5,2016,Sunday,17:45,Multiple,1,70,ARTERIAL ROAD,No,No,Weekend,Day
+4731,20165035,5,2016,Saturday,15:35,Single,1,110,ARTERIAL ROAD,No,No,Weekend,Day
+4736,20165002,5,2016,Thursday,5:04,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+4747,20165049,5,2016,Sunday,8:00,Single,1,110,,No,No,Weekend,Day
+4758,20165111,4,2016,Wednesday,18:00,Pedestrian,1,90,,No,No,Weekday,Night
+4785,20165006,4,2016,Wednesday,15:56,Multiple,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+4788,20165040,4,2016,Tuesday,8:00,Single,2,110,,No,No,Weekday,Day
+4794,20165129,4,2016,Sunday,12:52,Multiple,2,50,ARTERIAL ROAD,No,No,Weekend,Day
+4795,20165135,4,2016,Sunday,12:36,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+4804,20165091,4,2016,Friday,17:41,Multiple,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+4812,20165033,4,2016,Wednesday,20:55,Single,1,-9,,No,No,Weekday,Night
+4831,20165141,4,2016,Friday,17:10,Pedestrian,1,50,LOCAL ROAD,No,No,Weekday,Day
+4837,20165047,4,2016,Monday,19:01,Multiple,1,60,ARTERIAL ROAD,No,No,Weekday,Night
+4852,20165155,3,2016,Tuesday,15:00,Multiple,1,60,ARTERIAL ROAD,No,No,Weekday,Day
+4853,20165052,3,2016,Tuesday,10:15,Multiple,1,60,,No,No,Weekday,Day
+4856,20165142,3,2016,Monday,12:10,Single,1,80,LOCAL ROAD,No,Yes,Weekday,Day
+4858,20165021,3,2016,Friday,12:30,Multiple,1,110,ARTERIAL ROAD,No,Yes,Weekday,Day
+4861,20165093,3,2016,Thursday,6:30,Single,1,60,LOCAL ROAD,No,Yes,Weekday,Day
+4862,20165148,3,2016,Wednesday,21:00,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+4870,20165161,3,2016,Monday,15:30,Multiple,1,110,LOCAL ROAD,No,No,Weekday,Day
+4876,20165153,3,2016,Saturday,10:45,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+4888,20165075,3,2016,Tuesday,21:07,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Night
+4901,20165137,3,2016,Saturday,15:15,Single,1,110,LOCAL ROAD,No,No,Weekend,Day
+4919,20165019,3,2016,Tuesday,13:26,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4922,20165116,3,2016,Monday,8:00,Single,1,60,ARTERIAL ROAD,No,No,Weekday,Day
+4926,20165044,3,2016,Sunday,21:00,Multiple,3,90,ARTERIAL ROAD,No,No,Weekend,Night
+4927,20165015,3,2016,Sunday,11:30,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+4928,20165020,3,2016,Sunday,7:15,Single,1,110,ARTERIAL ROAD,No,No,Weekend,Day
+4934,20165059,3,2016,Saturday,23:50,Single,3,60,ARTERIAL ROAD,No,No,Weekend,Night
+4942,20165080,3,2016,Thursday,8:00,Multiple,2,50,,No,No,Weekday,Day
+4980,20165026,2,2016,Saturday,13:26,Single,1,110,ARTERIAL ROAD,No,No,Weekend,Day
+4982,20165169,2,2016,Friday,22:10,Single,2,110,LOCAL ROAD,No,No,Weekend,Night
+4993,20165004,2,2016,Tuesday,18:15,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Night
+4994,20165070,2,2016,Tuesday,12:00,Pedestrian,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+4995,20165132,2,2016,Tuesday,12:00,Pedestrian,1,50,,No,No,Weekday,Day
+5007,20165104,2,2016,Thursday,0:45,Single,1,70,,No,No,Weekday,Night
+5023,20165098,2,2016,Sunday,12:26,Multiple,1,60,ARTERIAL ROAD,No,No,Weekend,Day
+5028,20165124,2,2016,Saturday,21:30,Single,1,110,,No,No,Weekend,Night
+5029,20165147,2,2016,Saturday,22:45,Multiple,1,60,LOCAL ROAD,No,No,Weekend,Night
+5037,20165057,2,2016,Wednesday,21:00,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Night
+5038,20165016,2,2016,Wednesday,6:39,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5049,20165127,1,2016,Friday,21:19,Single,1,80,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+5050,20165154,1,2016,Friday,15:24,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+5061,20165072,1,2016,Wednesday,5:00,Single,1,110,,No,No,Weekday,Night
+5062,20165074,1,2016,Wednesday,8:01,Single,1,110,,No,No,Weekday,Day
+5073,20165014,1,2016,Sunday,19:53,Single,1,80,LOCAL ROAD,No,No,Weekend,Night
+5082,20165030,1,2016,Friday,2:30,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+5083,20165079,1,2016,Friday,9:35,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5088,20165096,1,2016,Wednesday,7:40,Multiple,2,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5095,20165082,1,2016,Monday,17:29,Multiple,2,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5106,20165065,1,2016,Thursday,18:45,Pedestrian,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+5107,20165118,1,2016,Thursday,15:35,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5118,20165092,1,2016,Sunday,11:45,Single,1,90,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+5124,20165060,1,2016,Saturday,2:15,Single,1,100,LOCAL ROAD,No,No,Weekend,Night
+5125,20165076,1,2016,Saturday,16:10,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+5127,20165108,1,2016,Friday,8:00,Multiple,1,70,,No,No,Weekday,Day
+5133,20165114,1,2016,Monday,15:47,Single,1,110,LOCAL ROAD,No,No,Weekday,Day
+5138,20165159,1,2016,Saturday,17:20,Multiple,1,110,ARTERIAL ROAD,Yes,No,Weekend,Day
+5161,20155003,12,2015,Friday,17:30,Single,1,110,NATIONAL OR STATE HIGHWAY,Yes,No,Weekday,Day
+5170,20155116,12,2015,Tuesday,12:38,Multiple,1,60,LOCAL ROAD,No,No,Weekday,Day
+5175,20155081,12,2015,Sunday,1:20,Pedestrian,1,80,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+5176,20155035,12,2015,Sunday,10:10,Single,1,110,ARTERIAL ROAD,No,No,Weekend,Day
+5183,20155139,12,2015,Friday,15:15,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+5186,20155045,12,2015,Thursday,4:55,Single,1,110,,No,No,Weekday,Night
+5191,20155102,12,2015,Wednesday,6:12,Multiple,1,80,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5192,20155080,12,2015,Wednesday,14:45,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5198,20155103,12,2015,Sunday,18:18,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+5200,20155021,12,2015,Saturday,14:30,Single,1,100,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+5215,20155009,12,2015,Sunday,5:41,Multiple,1,80,LOCAL ROAD,No,No,Weekend,Night
+5220,20155018,12,2015,Friday,2:43,Single,1,110,LOCAL ROAD,No,No,Weekday,Night
+5224,20155044,12,2015,Wednesday,21:44,Single,3,70,ARTERIAL ROAD,No,No,Weekday,Night
+5225,20155011,12,2015,Wednesday,15:09,Multiple,1,50,LOCAL ROAD,No,No,Weekday,Day
+5226,20155034,12,2015,Tuesday,23:18,Single,1,70,ARTERIAL ROAD,No,No,Weekday,Night
+5234,20155121,11,2015,Monday,8:15,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+5235,20155063,11,2015,Monday,11:56,Pedestrian,1,50,ARTERIAL ROAD,No,No,Weekday,Day
+5245,20155140,11,2015,Thursday,0:56,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Night
+5254,20155004,11,2015,Monday,3:03,Single,2,90,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+5258,20155006,11,2015,Saturday,15:00,Single,1,110,LOCAL ROAD,No,No,Weekend,Day
+5267,20155026,11,2015,Wednesday,14:24,Multiple,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+5274,20155024,11,2015,Monday,14:45,Pedestrian,1,60,ARTERIAL ROAD,No,No,Weekday,Day
+5297,20155112,11,2015,Saturday,9:25,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+5303,20155058,11,2015,Friday,18:03,Single,1,60,ARTERIAL ROAD,No,No,Weekend,Night
+5314,20155071,11,2015,Sunday,17:20,Multiple,1,80,ACCESS ROAD,No,No,Weekend,Day
+5324,20155042,10,2015,Wednesday,20:15,Single,1,70,LOCAL ROAD,No,No,Weekday,Night
+5331,20155076,10,2015,Monday,13:23,Multiple,1,70,ARTERIAL ROAD,No,No,Weekday,Day
+5332,20155130,10,2015,Monday,14:20,Multiple,1,80,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5354,20155015,10,2015,Thursday,5:40,Multiple,1,90,LOCAL ROAD,No,No,Weekday,Night
+5361,20155114,10,2015,Monday,0:50,Multiple,1,70,,No,No,Weekend,Night
+5362,20155086,10,2015,Monday,16:10,Multiple,1,110,,No,No,Weekday,Day
+5373,20155053,10,2015,Saturday,20:30,Single,1,110,,No,No,Weekend,Night
+5399,20155097,10,2015,Saturday,5:39,Single,1,110,ARTERIAL ROAD,No,No,Weekend,Night
+5400,20155029,10,2015,Friday,17:32,Pedestrian,1,60,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5415,20155008,10,2015,Monday,13:20,Multiple,2,110,,No,No,Weekday,Day
+5430,20155137,10,2015,Thursday,16:41,Multiple,1,50,LOCAL ROAD,No,No,Weekday,Day
+5438,20155072,9,2015,Monday,16:48,Single,2,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5441,20155129,9,2015,Sunday,7:09,Multiple,1,80,,No,No,Weekend,Day
+5442,20155111,9,2015,Sunday,14:40,Single,1,-9,ARTERIAL ROAD,No,No,Weekend,Day
+5446,20155030,9,2015,Saturday,15:00,Single,1,110,,No,No,Weekend,Day
+5450,20155117,9,2015,Friday,19:58,Multiple,1,90,,No,No,Weekend,Night
+5453,20155135,9,2015,Thursday,22:22,Single,2,80,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+5469,20155099,9,2015,Saturday,16:00,Single,1,90,ARTERIAL ROAD,No,No,Weekend,Day
+5471,20155122,9,2015,Friday,14:20,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+5475,20155106,9,2015,Thursday,21:01,Single,1,50,LOCAL ROAD,No,No,Weekday,Night
+5495,20155120,9,2015,Saturday,23:09,Pedestrian,1,60,ARTERIAL ROAD,No,No,Weekend,Night
+5498,20155037,9,2015,Thursday,17:56,Single,1,90,LOCAL ROAD,No,No,Weekday,Day
+5514,20155096,9,2015,Thursday,18:51,Pedestrian,1,60,ARTERIAL ROAD,No,No,Weekday,Night
+5517,20155043,9,2015,Tuesday,18:52,Pedestrian,1,50,LOCAL ROAD,No,No,Weekday,Night
+5522,20155020,8,2015,Sunday,7:53,Single,1,90,LOCAL ROAD,No,No,Weekend,Day
+5537,20155094,8,2015,Monday,5:30,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+5553,20155032,8,2015,Thursday,15:12,Pedestrian,1,80,ARTERIAL ROAD,No,No,Weekday,Day
+5563,20155056,8,2015,Tuesday,23:45,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Night
+5564,20155041,8,2015,Tuesday,15:00,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5570,20155027,8,2015,Monday,2:19,Single,1,110,ARTERIAL ROAD,No,No,Weekend,Night
+5571,20155108,8,2015,Monday,2:05,Multiple,3,90,ARTERIAL ROAD,No,No,Weekend,Night
+5572,20155119,8,2015,Monday,15:23,Multiple,1,60,ARTERIAL ROAD,No,No,Weekday,Day
+5594,20155061,8,2015,Tuesday,13:45,Single,1,50,LOCAL ROAD,No,No,Weekday,Day
+5597,20155059,8,2015,Monday,10:01,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5610,20155074,8,2015,Wednesday,19:20,Multiple,1,110,ARTERIAL ROAD,No,No,Weekday,Night
+5611,20155062,8,2015,Wednesday,9:38,Multiple,1,70,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5615,20155028,8,2015,Tuesday,21:06,Multiple,1,70,LOCAL ROAD,No,No,Weekday,Night
+5616,20155101,8,2015,Tuesday,1:49,Single,1,60,ARTERIAL ROAD,No,No,Weekday,Night
+5622,20155051,8,2015,Sunday,14:00,Single,1,110,LOCAL ROAD,No,No,Weekend,Day
+5628,20155012,8,2015,Saturday,6:51,Multiple,4,70,ARTERIAL ROAD,No,No,Weekend,Day
+5641,20155040,7,2015,Tuesday,22:49,Single,1,100,ARTERIAL ROAD,No,No,Weekday,Night
+5660,20155093,7,2015,Wednesday,22:44,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+5671,20155019,7,2015,Saturday,19:15,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+5697,20155001,7,2015,Monday,22:25,Pedestrian,1,100,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+5710,20155113,7,2015,Friday,17:00,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Day
+5719,20155067,6,2015,Tuesday,19:39,Single,1,110,ARTERIAL ROAD,No,No,Weekday,Night
+5739,20155002,6,2015,Wednesday,10:54,Multiple,1,50,LOCAL ROAD,No,No,Weekday,Day
+5743,20155064,6,2015,Saturday,4:20,Single,1,80,ARTERIAL ROAD,No,No,Weekend,Night
+5759,20155005,6,2015,Tuesday,17:00,Pedestrian,1,60,ARTERIAL ROAD,No,No,Weekday,Day
+5769,20155068,6,2015,Saturday,19:30,Single,1,100,LOCAL ROAD,No,No,Weekend,Night
+5774,20155133,6,2015,Wednesday,15:28,Multiple,1,90,ARTERIAL ROAD,No,No,Weekday,Day
+5775,20155090,6,2015,Wednesday,15:22,Multiple,1,100,ARTERIAL ROAD,No,No,Weekday,Day
+5779,20155092,6,2015,Monday,2:34,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+5780,20155031,6,2015,Monday,13:50,Single,2,110,ARTERIAL ROAD,No,No,Weekday,Day
+5809,20155052,5,2015,Saturday,9:31,Single,1,110,ARTERIAL ROAD,No,No,Weekend,Day
+5817,20155107,5,2015,Thursday,18:13,Single,1,90,ARTERIAL ROAD,No,No,Weekday,Night
+5836,20155131,5,2015,Friday,11:18,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5854,20155127,5,2015,Saturday,3:16,Single,1,110,,No,No,Weekend,Night
+5856,20155083,5,2015,Friday,10:49,Multiple,1,50,,No,No,Weekday,Day
+5873,20155016,5,2015,Saturday,12:12,Single,1,110,LOCAL ROAD,No,No,Weekend,Day
+5876,20155033,5,2015,Friday,7:43,Pedestrian,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5894,20155091,5,2015,Saturday,15:45,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+5898,20155078,5,2015,Friday,3:30,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+5899,20155132,5,2015,Friday,14:15,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+5908,20155136,4,2015,Sunday,0:15,Pedestrian,1,50,LOCAL ROAD,No,No,Weekend,Night
+5924,20155050,4,2015,Monday,18:55,Multiple,1,100,ARTERIAL ROAD,No,No,Weekday,Night
+5931,20155085,4,2015,Sunday,15:00,Single,2,110,ARTERIAL ROAD,No,No,Weekend,Day
+5936,20155069,4,2015,Saturday,12:43,Multiple,1,60,ARTERIAL ROAD,No,No,Weekend,Day
+5940,20155013,4,2015,Friday,9:15,Single,1,90,ARTERIAL ROAD,No,No,Weekday,Day
+5943,20155128,4,2015,Thursday,13:25,Multiple,1,60,LOCAL ROAD,No,No,Weekday,Day
+5954,20155010,4,2015,Sunday,7:45,Single,2,80,LOCAL ROAD,No,No,Weekend,Day
+5955,20155110,4,2015,Sunday,8:42,Single,2,60,ARTERIAL ROAD,No,No,Weekend,Day
+5970,20155065,4,2015,Monday,23:30,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,Yes,Weekday,Night
+5984,20155070,4,2015,Friday,9:30,Single,1,110,NATIONAL OR STATE HIGHWAY,No,Yes,Weekday,Day
+5985,20155138,4,2015,Thursday,12:34,Single,1,60,,No,Yes,Weekday,Day
+5995,20155073,3,2015,Monday,5:45,Multiple,1,70,ARTERIAL ROAD,No,No,Weekend,Night
+5997,20155109,3,2015,Sunday,6:06,Multiple,1,90,LOCAL ROAD,No,No,Weekend,Day
+5999,20155036,3,2015,Saturday,4:40,Multiple,2,100,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+6000,20155039,3,2015,Saturday,8:48,Multiple,1,100,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+6001,20155007,3,2015,Saturday,8:45,Multiple,1,80,ARTERIAL ROAD,No,No,Weekend,Day
+6009,20155088,3,2015,Wednesday,20:15,Single,1,60,ARTERIAL ROAD,No,No,Weekday,Night
+6015,20155017,3,2015,Saturday,15:30,Single,2,110,ARTERIAL ROAD,No,No,Weekend,Day
+6021,20155125,3,2015,Friday,10:45,Multiple,2,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+6034,20155057,3,2015,Saturday,22:00,Single,1,80,ARTERIAL ROAD,No,No,Weekend,Night
+6039,20155134,3,2015,Friday,15:00,Multiple,1,80,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+6049,20155025,3,2015,Monday,5:45,Single,1,40,ARTERIAL ROAD,No,No,Weekend,Night
+6050,20155126,3,2015,Monday,18:30,Pedestrian,1,-9,,No,No,Weekday,Night
+6059,20155054,3,2015,Saturday,3:35,Single,1,110,LOCAL ROAD,No,No,Weekend,Night
+6063,20155118,3,2015,Thursday,10:28,Multiple,1,80,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+6066,20155047,3,2015,Tuesday,8:35,Single,1,110,,No,No,Weekday,Day
+6077,20155077,3,2015,Sunday,14:07,Multiple,1,60,,No,No,Weekend,Day
+6078,20155124,3,2015,Sunday,9:00,Single,1,110,,No,No,Weekend,Day
+6080,20155038,2,2015,Saturday,18:00,Single,1,110,,No,No,Weekend,Night
+6083,20155087,2,2015,Friday,14:59,Multiple,1,80,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+6087,20155141,2,2015,Sunday,7:30,Single,1,110,,No,No,Weekend,Day
+6098,20155095,2,2015,Thursday,4:05,Single,1,110,,No,No,Weekday,Night
+6106,20155104,2,2015,Monday,5:17,Multiple,1,100,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+6108,20155048,2,2015,Friday,21:20,Single,2,110,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+6109,20155060,2,2015,Friday,2:30,Single,1,60,ARTERIAL ROAD,No,No,Weekday,Night
+6114,20155123,2,2015,Tuesday,18:45,Multiple,1,60,ARTERIAL ROAD,No,No,Weekday,Night
+6118,20155084,2,2015,Monday,11:50,Single,1,60,ARTERIAL ROAD,No,No,Weekday,Day
+6124,20155105,2,2015,Sunday,8:30,Single,1,80,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Day
+6128,20155014,2,2015,Saturday,11:19,Single,1,110,LOCAL ROAD,No,No,Weekend,Day
+6141,20155075,2,2015,Monday,9:23,Single,1,50,LOCAL ROAD,No,No,Weekday,Day
+6142,20155022,2,2015,Monday,8:00,Pedestrian,1,60,,No,No,Weekday,Day
+6155,20155023,1,2015,Wednesday,17:41,Multiple,1,50,LOCAL ROAD,No,No,Weekday,Day
+6158,20155055,1,2015,Tuesday,14:46,Single,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+6165,20155049,1,2015,Monday,15:56,Single,1,90,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+6170,20155089,1,2015,Sunday,16:49,Multiple,1,110,ARTERIAL ROAD,No,No,Weekend,Day
+6193,20155100,1,2015,Sunday,14:32,Multiple,1,70,LOCAL ROAD,No,No,Weekend,Day
+6208,20155066,1,2015,Thursday,17:38,Multiple,1,110,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Day
+6213,20155098,1,2015,Tuesday,18:04,Multiple,1,100,NATIONAL OR STATE HIGHWAY,No,No,Weekday,Night
+6231,20155079,1,2015,Monday,16:00,Single,1,80,LOCAL ROAD,No,No,Weekday,Day
+6233,20155115,1,2015,Sunday,22:20,Multiple,1,70,NATIONAL OR STATE HIGHWAY,No,No,Weekend,Night
+6240,20155082,1,2015,Thursday,21:45,Single,1,110,NATIONAL OR STATE HIGHWAY,Yes,No,Weekday,Night
