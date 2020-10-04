@@ -1,8 +1,12 @@
 // Store our API endpoint inside queryUrl
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-var PlatesURL = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json"
+var PlatesURL = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json";
+const API_KEY = "pk.eyJ1Ijoia2FyaW1paSIsImEiOiJja2ZkdTNuNnMwN205MzFwNTF2eGszOHM1In0.jfNBiTctjlmbsc8qwQYmvA";
 
-  // Define streetmap and darkmap layers
+
+
+  // Define The Maps layers
+
   var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
     attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
     tileSize: 512,
@@ -41,7 +45,6 @@ var layers = {
   Magnitudes_5: new L.LayerGroup(),
   Magnitudes_7: new L.LayerGroup(),
   Magnitudes_O7: new L.LayerGroup(),
-  // Plates : new L.layerGroup()
 };
 
   // Create our map, giving it the satellite Map and earthquakes layers to display on load
@@ -49,12 +52,11 @@ var layers = {
     center:  [36.7783, -119.4179],
     zoom: 3,
     layers: [
-     layers.Bike, 
-     layers.Truck, 
-     layers.H_Truck, 
-     layers.MotorCycle, 
-     layers.Pedestrians, 
-    //  Plates      
+     layers.Magnitudes_1, 
+     layers.Magnitudes_3, 
+     layers.Magnitudes_5, 
+     layers.Magnitudes_7, 
+     layers.Magnitudes_O7, 
       ]
   });
 
@@ -63,18 +65,14 @@ satMap.addTo(myMap);
 
 // Create an overlays object to add to the layer control
 var overlays = {
-  "Magnitudes less than 1": layers.Bike,
-  "Magnitudes between (1-3)":layers.Truck,
-  "Magnitudes between (3-5)": layers.H_Truck,
-  "Magnitudes between (5-7)": layers.MotorCycle,
-  "Magnitudes Greater than 7": layers.Pedestrians,
+  "Magnitudes less than 1": layers.Magnitudes_1,
+  "Magnitudes between (1-3)":layers.Magnitudes_3,
+  "Magnitudes between (3-5)": layers.Magnitudes_5,
+  "Magnitudes between (5-7)": layers.Magnitudes_7,
+  "Magnitudes Greater than 7": layers.Magnitudes_O7,
   "Tectonic Plates": Plates  
 
 };
-
-// // Create a control for our layers, add our overlay layers to it
-// L.control.layers(null, overlays).addTo(myMap);
-
 
   // Define a baseMaps object to hold our base layers
   var baseMaps = {
@@ -83,7 +81,6 @@ var overlays = {
     "Light MAp":lightMap,
     "satellite Map":satMap,
   };
-
 
 
 function ColorSelector (Depth)
@@ -97,6 +94,7 @@ else Color="darkred";
 // console.log(Depth);
 return (Color);
 }
+
 
 function CreatCircle (lat,lng,depth,magnitudes)
 {
@@ -114,96 +112,71 @@ return (
 )}
 
 
-
-
 // Perform a GET request to the query URL
-d3.json(queryUrl, function(data) {
+d3.json(queryUrl).then( function(data) {
+  console.log(data);
+
+earthquakeData= data.features;
 
 
-
-
-  earthquakeData= data.features;
-
-
-  var cityCircles10 = [];
-  var cityCircles30 = [];
-  var cityCircles50 = [];
-  var cityCircles70 = [];
-  var cityCircles90 = [];
-  var cityCirclesO90 = [];
+  var cityCircles1 = [];
+  var cityCircles3 = [];
+  var cityCircles5 = [];
+  var cityCircles7 = [];
+  var cityCirclesO7 = [];
 
   for (var i = 0; i < earthquakeData.length; i++) {
 
      // Set the data location property to a variable
    var location = earthquakeData[i].geometry;
  
-  //  console.log(earthquakeData);
+   console.log(earthquakeData);
      // Set the Earthquake magnitudes property to a variable
      var magnitudes = earthquakeData[i].properties.mag;
  
     // Set the Earthquake Depth property to a variable
      var depth=location.coordinates[2];
- var place =earthquakeData[i].properties.place;
+     var place =earthquakeData[i].properties.place;
 //  console.log(magnitudes);
-      if (magnitudes<1) {
-        // console.log(magnitudes);
+      
+    var newCircle_l = CreatCircle(location.coordinates[1], location.coordinates[0],depth,magnitudes);
+    var newCircle_p =newCircle_l.bindPopup(earthquakeData[i].properties.place+
+      "<hr>Time = "+ (new Date(earthquakeData[i].properties.time)).toLocaleString()+
+      "<br>Magnitudes = "+magnitudes+
+      "<br>Depth = "+depth) 
 
-      // Add a circle markers to the map and bind a pop-up
-      //  cityCircles10.push(
-         var newCircle = CreatCircle(location.coordinates[1], location.coordinates[0],depth,magnitudes);
-                   //  cityCircles10.push(
-                    newCircle.addTo(layers.Bike);
-                    cityCircles10.push( newCircle.bindPopup(place+"<hr>Magnitudes = "+magnitudes+"<br>Depth = "+depth));
-      }
-        else if (magnitudes<3) {
-          // Add a circle markers to the map and bind a pop-up
+/// Creating the layers base on magnitudes
 
-          var newCircle = CreatCircle(location.coordinates[1], location.coordinates[0],depth,magnitudes);
-          //  cityCircles10.push(
-           newCircle.addTo(layers.Truck);
-           cityCircles30.push( newCircle.bindPopup(place+"<hr>Magnitudes = "+magnitudes+"<br>Depth = "+depth));
-                      }
-           else if (magnitudes<5) {
-            // Add a circle markers to the map and bind a pop-up
-// console.log(magnitudes);
-            var newCircle = CreatCircle(location.coordinates[1], location.coordinates[0],depth,magnitudes);
-            //  cityCircles10.push(
-             newCircle.addTo(layers.H_Truck);
-             cityCircles50.push( newCircle.bindPopup(place+"<hr>Magnitudes = "+magnitudes+"<br>Depth = "+depth));
-}             else if (magnitudes<7) {
-              // Add a circle markers to the map and bind a pop-up
-
-              var newCircle = CreatCircle(location.coordinates[1], location.coordinates[0],depth,magnitudes);
-              //  cityCircles10.push(
-               newCircle.addTo(layers.MotorCycle);
-               cityCircles70.push( newCircle.bindPopup(place+"<hr>Magnitudes = "+magnitudes+"<br>Depth = "+depth));
- }                else {
-                  // Add a circle markers to the map and bind a pop-up
-
-                  var newCircle = CreatCircle(location.coordinates[1], location.coordinates[0],depth,magnitudes);
-                  //  cityCircles10.push(
-                   newCircle.addTo(layers.Pedestrians);
-                   cityCirclesO90.push( newCircle.bindPopup(place+"<hr>Magnitudes = "+magnitudes+"<br>Depth = "+depth));
+    if (magnitudes<=1) {
+          newCircle_l.addTo(layers.Magnitudes_1);
+          cityCircles1.push(newCircle_p);  }
+        else if (magnitudes<=3) {
+          newCircle_l.addTo(layers.Magnitudes_3);
+          cityCircles3.push(newCircle_p);   }
+          else if (magnitudes<=5) {
+              newCircle_l.addTo(layers.Magnitudes_5);
+              cityCircles5.push(newCircle_p);}             
+              else if (magnitudes<=7) {          
+                newCircle_l.addTo(layers.Magnitudes_7);
+                cityCircles7.push(newCircle_p); }                
+                else {
+                  newCircle_l.addTo(layers.Magnitudes_O7);
+                  cityCirclesO7.push(newCircle_p);
      }
 
-
-
-////////////////////
-   
-    // console.log(location.coordinates[0],location.coordinates[1],location.coordinates[2]);
-
 }
+// Adding the Layers
+Magnitudes_10=L.layerGroup(cityCircles1);
+Magnitudes_30=L.layerGroup(cityCircles3);
+Magnitudes_50=L.layerGroup(cityCircles5);
+Magnitudes_70=L.layerGroup(cityCircles7);
+Magnitudes_90=L.layerGroup(cityCirclesO7);
 
-Magnitudes_10=L.layerGroup(cityCircles10);
-Magnitudes_30=L.layerGroup(cityCircles30);
-Magnitudes_50=L.layerGroup(cityCircles50);
-Magnitudes_70=L.layerGroup(cityCircles70);
-Magnitudes_90=L.layerGroup(cityCircles90);
-Magnitudes_90=L.layerGroup(cityCircles90);
-
-
+// // Create a control for our layers, add our overlay layers to it
 L.control.layers(baseMaps, overlays).addTo(myMap);
 
+
+//// Getting the  Tectonic Plates Geojson
 d3.json(PlatesURL, function(response) {
         
   L.geoJSON(response, {
@@ -212,7 +185,24 @@ d3.json(PlatesURL, function(response) {
   }).addTo(Plates);
 });
 
+// Set up the legend
+var legend = L.control({ position: "bottomright" });
+  
+legend.onAdd = function() { var div = L.DomUtil.create('div', 'info legend')
+      
+div.innerHTML = "<table style= 'background-color: white'><tr><td colspan='2' ><h3>&nbsp;&nbsp;Depth </h3></td></tr>"+
+                "<tr><td><10</td><td style= 'background-color: lightgreen'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>"+
+                "<tr><td>10-30</td><td style= 'background-color: yellow'></td></tr>"+
+                "<tr><td>30-50</td><td style= 'background-color: gold'></td></tr>"+
+                "<tr><td>50-70</td><td style= 'background-color: darkorange'></td></tr>"+
+                "<tr><td>70-90</td><td style= 'background-color: Red'></td></tr>"+
+                "<tr><td>>90</td><td style= 'background-color: darkred'></td></tr>"+
+                "</table>";
 
+return div;
+};
+
+legend.addTo(myMap);
 
 
 });
