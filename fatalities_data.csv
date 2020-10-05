@@ -1,4 +1,4 @@
-,Crash ID,Month,Year,Dayweek,Time,Crash Type,Number Fatalities,Speed Limit,National Road Type,Christmas Period,Easter Period,Day of week,Time of Day
+ID,Crash ID,Month,Year,Dayweek,Time,Crash Type,Number Fatalities,Speed Limit,National Road Type,Christmas Period,Easter Period,Day of week,Time of Day
 685,20195026,12,2019,Tuesday,2:40,Multiple,1,110,Arterial Road,No,No,Weekday,Night
 692,20195109,12,2019,Wednesday,5:07,Pedestrian,1,90,Arterial Road,Yes,No,Weekday,Night
 693,20195055,12,2019,Sunday,10:40,Multiple,1,100,National or State Highway,No,No,Weekend,Day
