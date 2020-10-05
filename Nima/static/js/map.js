@@ -131,15 +131,76 @@ var overlays = {
 
 
 
+function Barchartdata(MMonth,monthdata)
+{
+  // console.log(MMonth,monthdata.Jul);
+    
+       switch (MMonth)
+      {
+         case "1":{monthdata.Jan=+1; break; }
+         case "2":{monthdata.Feb+=1; break; }
+         case "3":{monthdata.Mar+=1; break; }
+         case "4":{monthdata.Apr+=1; break; }
+         case "5":{monthdata.May+=1; break; }
+         case "6":{monthdata.Jun+=1; break; }
+         case "7":{monthdata.Jul+=1; break; }
+         case "8":{monthdata.Aug+=1; break; }
+         case "9":{monthdata.Sep+=1; break; }
+         case "10":{monthdata.Oct+=1; break; }
+         case "11":{monthdata.Nov+=1; break; }
+         case "12":{monthdata.Dec+=1; break; }
+
+
+        }
+
+
+        return (monthdata);
+      }
+
 
 
 // Perform a GET request to the query URL
 // d3.read_Csv(queryUrl, function(data) {
 
+
 d3.csv(queryUrl).then(function(data, err) {
     if (err) throw err;
-    // console.log(data.length);
-    // console.log(data);
+console.log(data.length);
+    console.log(data);
+
+ 
+
+
+var SMonths = new Object();
+  SMonths= { 
+    Jan:1,
+    Feb:2,
+    Mar:3,
+    Apr:4,
+    May:5,
+    Jun:0,
+    Jul:0,
+    Aug:0,
+    Sep:0,
+    O:1,
+    N:1,
+    D:1,
+  };
+  console.log( SMonths);
+  
+var barchartData = new Object();
+
+barchartData = {
+Truck: { Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+Heavy_Truck:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+Bike: { Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+MotorCycle:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+MotorCycle:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+Other:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+};
+
+console.log( barchartData);
+
 
 var Summery={
   "Total_Bike":0,
@@ -151,13 +212,6 @@ var Summery={
   "Total_Fatal":0,
 }
 
-
-//   earthquakeData= data.features;
-
-
- 
-
-
   var Bike = [];
   var Truck = [];
   var H_Truck = [];
@@ -165,69 +219,59 @@ var Summery={
   var Pedestrians = [];
   var Other = [];
   var Fatal=[]
+  console.log( barchartData.Truck);
 
   for (var i = 0; i < data.length; i++) {
    
       if (+data[i].TOTAL_BIKE_INVOLVED>0) {
-        // console.log(data[i].TOTAL_BIKE_INVOLVED);
-
-      // Add a circle markers to the map and bind a pop-up
          var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"Blue");
-                   //  cityCircles10.push(
                     newCircle.addTo(layers.Bike);
                     Bike.push( newCircle.bindPopup("fhdfghdghdfhdgdd"));
           Summery.Total_Bike=Summery.Total_Bike+(+data[i].TOTAL_BIKE_INVOLVED);
+          barchartData.Bike=Barchartdata(data[i].MONTH,barchartData.Bike);
+          // console.log( barchartData.Bike);
       }
       if (+data[i].TOTAL_TRUCK_INVOLVED>0) {
         Summery.Total_Truck=Summery.Total_Truck+(+data[i].TOTAL_TRUCK_INVOLVED);
-
-      // Add a circle markers to the map and bind a pop-up
-         var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"Green");
-                   //  cityCircles10.push(
+        var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"Green");
                     newCircle.addTo(layers.Truck);
                     Truck.push( newCircle.bindPopup("fhdfghdghdfhdgdd"));
-      }
-      if (+data[i].TOTAL_HEAVY_TRUCK_INVOLVED>0) {
-        // console.log(data[i].TOTAL_HEAVY_TRUCK_INVOLVED);
-        Summery.Total_HTruck=Summery.Total_HTruck+(+data[i].TOTAL_HEAVY_TRUCK_INVOLVED);
+                    // console.log(  barchartData.Truck);
+                    // console.log(barchartData.Truck.Jul,barchartData.Heavy_Truck.Jul);
 
-      // Add a circle markers to the map and bind a pop-up
+                    barchartData.Truck=Barchartdata(data[i].MONTH,barchartData.Truck);
+                    // console.log(  barchartData.Truck);
+                    // console.log(barchartData.Truck,barchartData.Heavy_Truck);
+
+
+                  }
+      if (+data[i].TOTAL_HEAVY_TRUCK_INVOLVED>0) {
+        Summery.Total_HTruck=Summery.Total_HTruck+(+data[i].TOTAL_HEAVY_TRUCK_INVOLVED);
          var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"Orange");
-                   //  cityCircles10.push(
                     newCircle.addTo(layers.H_Truck);
                     H_Truck.push( newCircle.bindPopup("fhdfghdghdfhdgdd"));
-      }
+                    barchartData.Heavy_Truck=Barchartdata(data[i].MONTH,barchartData.Heavy_Truck);
+                  }
       if (+data[i].TOTAL_MOTOR_CYCLE_INVOLVED>0) {
-        // console.log(data[i].TOTAL_MOTOR_CYCLE_INVOLVED);
         Summery.Total_MotorCycle=Summery.Total_MotorCycle+(+data[i].TOTAL_MOTOR_CYCLE_INVOLVED);
-
-      // Add a circle markers to the map and bind a pop-up
          var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"yellow");
-                   //  cityCircles10.push(
                     newCircle.addTo(layers.MotorCycle);
                     MotorCycle.push( newCircle.bindPopup("fhdfghdghdfhdgdd"));
-      }
+                    barchartData.MotorCycle=Barchartdata(data[i].MONTH,barchartData.MotorCycle);
+                  }
       if (+data[i].TOTAL_OTHER_VEHICLES_INVOLVED>0) {
-        // console.log(data[i].TOTAL_MOTOR_CYCLE_INVOLVED);
         Summery.Total_Other=Summery.Total_Other+(+data[i].TOTAL_OTHER_VEHICLES_INVOLVED);
-
-      // Add a circle markers to the map and bind a pop-up
          var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"purple");
-                   //  cityCircles10.push(
                     newCircle.addTo(layers.Other);
                     Other.push( newCircle.bindPopup("fhdfghdghdfhdgdd"));
-      }
-      
+                    barchartData.Other=Barchartdata(data[i].MONTH,barchartData.Other);
+                  }
       if (+data[i].TOTAL_PEDESTRIANS_INVOLVED>0) {
-        // console.log(data[i].TOTAL_MOTOR_CYCLE_INVOLVED);
         Summery.Total_Pedestrians=Summery.Total_Pedestrians+(+data[i].TOTAL_PEDESTRIANS_INVOLVED);
-
-      // Add a circle markers to the map and bind a pop-up
-         var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"red");
-                   //  cityCircles10.push(
+        var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"red");
                     newCircle.addTo(layers.Pedestrians);
                     Pedestrians.push( newCircle.bindPopup("fhdfghdghdfhdgdd"));
-      }
+                  }
 
       if (data[i].SEVERITY=="Fatal") {
         // console.log(data[i].SEVERITY);
@@ -240,10 +284,19 @@ var Summery={
                     Fatal.push( newCircle.bindPopup("fhdfghdghdfhdgdd"));
       }
 
-
-
+  
 }
-console.log(Summery);   
+console.log(barchartData);
+
+
+
+
+
+
+
+
+
+// console.log(Summery);   
 
 Demographic_Info(Summery);
 
@@ -276,7 +329,7 @@ more_layers.Fatal=L.layerGroup(Fatal);
 // });
 
 
-
+barchart(barchartData);
 
 });
 

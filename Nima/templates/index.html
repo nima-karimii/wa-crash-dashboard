@@ -20,7 +20,7 @@
         <h1 >WA Crash Report</h1>
     </div>
     <div class="row hero1 text-center container-fluid">
-      <div class="col-md-3 col-xl-2">
+      <div class="col-md-4 col-xl-4">
         <div class="card text-white bg-success mb-3">
           <h5 class="card-header"><b>Test Subject ID :</b></h5>
           <select id="selDataset" onchange="optionChanged(this.value)">
@@ -31,7 +31,7 @@
         <div id="sample-metadata" class="card-title" style="font-family:'Courier New', Courier, monospace; "></div>
       </div>
       </div>
-      <div class="col-md-9 col-xl-10">
+      <div class="col-md-8 col-xl-8">
         <table>
           <tr><td style="text-align: center; border: none">
           <iframe src="MAP.html" width="1000" height="600" ></iframe>
@@ -40,6 +40,13 @@
       </div>
     </div>
     <div class="row hero2 text-center">
+      <div class="col-md-12 col-xl-12">
+        <div id="Barchart"></div>
+      </div>
+      <div class="col-md-12 col-xl-12">
+        <div id="Barchart2"></div>
+      </div>
+
     </div>
     <div class="row hero3 text-center">
       <div class="col-md-12 col-xl-12">
@@ -61,6 +68,8 @@
   <!-- <script src="./static/js/bonus.js"></script> -->
   <div id="map"></div>
   <script src="../static/js/map.js"></script>
+  <script src="../static/js/barchart.js"></script>
+
 </body>
 
 </html>
