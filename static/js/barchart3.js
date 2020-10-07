@@ -8,6 +8,9 @@ function unpack(rows, key) {
   });
 }
 
+console.log(unpack(rows, "Crash Type"))
+
+
 var trace1 = {
   x: unpack(rows, 'Dayweek'),
   y: unpack(rows, 'Crash Type'),
