@@ -10,7 +10,7 @@ function unpack(rows, key) {
 
 var trace1 = {
   x: unpack(rows, 'Dayweek'),
-  y: unpack(rows, 'Count'),
+  y: unpack(rows, 'Crash Type'),
   name: "Fatal crashes",
   type: 'bar',
   xaxis: 'x',
