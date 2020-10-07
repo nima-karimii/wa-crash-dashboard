@@ -1,16 +1,31 @@
+.jumbotron {
+  background-image: url("../../images/aerial-shot-aerial-view-bird-s-eye-view-1044329.jpg");
+  background-size: cover;
+  height: 100%;
+  color: whitesmoke;
+  font-weight: 900;
+}
+
+
+body {
+  padding: 10;
+
+}
+
+
 * {
   box-sizing: border-box;
   font-family: Ubuntu, sans-serif;
 }
 
-html,
-body {
+/* html,
+body { */
   /* height: 100%; */
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
   /* width: 100%; */
   /* overflow: hidden; */
-}
+/* } */
 
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
 .wrapper {
@@ -75,7 +90,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("https://nnimgt-a.akamaihd.net/transform/v1/crop/frm/MsXzvxHj8Pa33MjGvfyNDR/5fc32556-27be-4575-aadd-c4a234556ce1.JPG/r0_0_1927_1295_w1200_h678_fmax.jpg");
+  background-image: url("../../images/aerial-shot-aerial-view-bird-s-eye-view-1044329.jpg");
   background-position:center;
   background-size: 100% 150%;
 
