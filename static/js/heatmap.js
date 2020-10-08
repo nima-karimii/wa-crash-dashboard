@@ -121,20 +121,36 @@ var heatmapData = [
         // colorscale: [
         //     ['0.0', '#EED2AA'],
         //     ['0.111111111111', '#EED2AA'],
-        //     ['0.222222222222', 'E1AD66'],
-        //     ['0.333333333333', 'D79233'],
-        //     ['0.444444444444', 'D79233'],
-        //     ['0.555555555556', 'rgb(253,141,60)'],
-        //     ['0.666666666667', 'rgb(241,105,19)'],
-        //     ['0.777777777778', 'D79233'],
-        //     ['0.888888888889', '497CAB'],
-        //     ['1.0', 'D79233']
+        //     ['0.222222222222', '#EED2AA'],
+        //     ['0.333333333333', '#EED2AA'],
+        //     ['0.444444444444', '#EED2AA'],
+        //     ['0.555555555556', '#EED2AA],
+        //     ['0.666666666667', '#EED2AA'],
+        //     ['0.777777777778', '#EED2AA'],
+        //     ['0.888888888889', '#EED2AA'],
+        //     ['1.0', '#EED2AA']
         //   ],
         colorscale: 'OrRd',
-        hoverongaps: false
+        hoverongaps: false,
+        // hoverinfo: 'z',
     }
     ];
-    
-    Plotly.newPlot('heatmap', heatmapData);
+
+var layout = {
+    title: 'Number of road crashes',
+    font: {
+        family: 'Arial',
+        color: '#7f7f7f'
+      },
+};
+
+
+var config = {
+    displayModeBar: false,
+    responsive: true
+};
+
+
+Plotly.newPlot('heatmap', heatmapData, layout, config);
 
     

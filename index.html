@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../static/css/style.css">
 </head>
 
-<body">
+<body>
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -22,27 +22,20 @@
 
     <div class="container">
         <div class="row">
-          <div class="col-7">
-            <table>
-                <tr><td style="text-align: center; border: none">
-                <iframe src="map" width="700" height="900" ></iframe>
-                </td></tr>
-                </table>
-          </div>
-          <div class="col-5">
-            <div id="heatmap"></div>
-          </div>
+          <div class="col-6">
+                <iframe src="map" class="responsive-iframe"></iframe>
         </div>
-  
-
-   
+        <div class="col-6">
+            <div class="row">
+            <div id="heatmap"></div>
+            <div class="row">
+            <div id="barchart3"></div>
+            <!-- <div id="bubble"></div> -->
+            </div>
+        </div>
+    </div>
 
     
-    
-
-    <div id="bubble"></div>
-
-
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
     integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
     crossorigin=""></script>
@@ -56,6 +49,7 @@
     <!-- WA Crash Dashboard js-->
     <script src="../static/js/heatmap.js"></script>
     <script type="text/javascript" src="../static/js/map.js"></script>
+    <script type="text/javascript" src="../static/js/barchart3.js"></script>
 
 
 </body>
