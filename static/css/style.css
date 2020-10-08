@@ -147,13 +147,13 @@ select {
 .hero h1 {
   margin-top: 250px;
   /* padding: 350px; */
-  font-size: 5rem;
+  /* font-size: 5rem;
   margin-bottom: 100px;
   margin-left: 400px;
 
   animation: subtitle 0.5s forwards linear;
   color: azure;
-} */
+} */ */
 
 /* .hero p {
   font-size: 3rem;
@@ -199,7 +199,7 @@ select {
   background-position:center;
   background-size: 100% 150%; */
 
-}
+/* } */
 
 
 #Map
@@ -294,7 +294,7 @@ select {
   }
 } */
 
-@keyframes subtitle {
+/* @keyframes subtitle {
   from {
     opacity: 0;
   }
@@ -302,4 +302,4 @@ select {
   to {
     opacity: 1;
   }
-}
+} */
