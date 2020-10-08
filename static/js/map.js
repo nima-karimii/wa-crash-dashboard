@@ -1,5 +1,7 @@
 // Store our API endpoint inside queryUrl
-var queryUrl = "https://raw.githubusercontent.com/abbyabridged/wa-crash-dashboard/abby/ETL/crash_data2.csv";
+var queryUrl = "https://raw.githubusercontent.com/abbyabridged/wa-crash-dashboard/Nima-k/Nima/db/Samp_crash_data.csv";
+var jqueryUrl = "/crash/2018";
+
 // var PlatesURL = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json"
 const API_KEY = "pk.eyJ1Ijoia2FyaW1paSIsImEiOiJja2ZkdTNuNnMwN205MzFwNTF2eGszOHM1In0.jfNBiTctjlmbsc8qwQYmvA";
 
@@ -48,6 +50,7 @@ var layers = {
 var more_layers= {
   Fatal: new L.LayerGroup(),
 }
+
   // Create our map, giving it the satellite Map and earthquakes layers to display on load
   var myMap = L.map("map", {
     center:  [-31.9505, 115.8605],
@@ -109,6 +112,18 @@ var overlays = {
   
   )}
   
+
+  function Total_Info(data)
+  {
+    var info_panel = d3.select("#total-crashes");
+
+    info_panel.html("");
+  
+    title=info_panel.append("h5").text(data.length)
+
+  }
+
+
   function Demographic_Info(SelectedID_MetaData)
   {
     var info_panel = d3.select("#sample-metadata");
@@ -137,7 +152,7 @@ function Barchartdata(MMonth,monthdata)
     
        switch (MMonth)
       {
-         case "1":{monthdata.Jan=+1; break; }
+         case "1":{monthdata.Jan+=1; break; }
          case "2":{monthdata.Feb+=1; break; }
          case "3":{monthdata.Mar+=1; break; }
          case "4":{monthdata.Apr+=1; break; }
@@ -159,117 +174,114 @@ function Barchartdata(MMonth,monthdata)
 
 
 
+
+
+
+
+      function barchart(barchartData)
+      {
+      ////////////barchart
+      Trucklist=Object.keys(barchartData.Truck);
+      TruckListvalue=Object.values(barchartData.Truck);
+      HTrucklist=Object.keys(barchartData.Heavy_Truck);
+      HTruckListvalue=Object.values(barchartData.Heavy_Truck);
+      console.log(Trucklist,TruckListvalue);
+      Bikelist=Object.keys(barchartData.Bike);
+      BikeListvalue=Object.values(barchartData.Bike);
+      Motorlist=Object.keys(barchartData.MotorCycle);
+      MotorkListvalue=Object.values(barchartData.MotorCycle);
+      Otherlist=Object.keys(barchartData.Other);
+      OtherListvalue=Object.values(barchartData.Other);
+      
+      var trace1 = {
+        x: Trucklist,
+        y: TruckListvalue,
+        name: 'Truck',
+        type: 'bar'
+      };
+      
+      var trace2 = {
+        x: HTrucklist,
+        y: HTruckListvalue,
+        name: 'Heavytruck',
+        type: 'bar'
+      };
+      // var trace3 = {
+      //   x: Otherlist,
+      //   y: OtherListvalue,
+      //   name: 'Other',
+      //   type: 'bar'
+      // };
+      var trace4 = {
+        x: Motorlist,
+        y: MotorkListvalue,
+        name: 'MotorCycle',
+        type: 'bar'
+      };
+      var trace5 = {
+        x: Bikelist,
+        y: BikeListvalue,
+        name: 'Bike',
+        type: 'bar'
+      };
+      
+      var data = [trace1, trace2,trace4,trace5];
+      
+      var layout = {barmode: 'group'};
+      
+      Plotly.newPlot('Barchart', data, layout);
+      
+      var trace3 = {
+        x: Otherlist,
+        y: OtherListvalue,
+        name: 'Other',
+        type: 'bar'
+      };
+      
+      Plotly.newPlot('Barchart2',[trace3], {});
+      
+      }
+      
+
+
 // Perform a GET request to the query URL
 // d3.read_Csv(queryUrl, function(data) {
 
 
-d3.csv(queryUrl).then(function(data, err) {
-    if (err) throw err;
-console.log(data.length);
+// d3.csv(queryUrl).then(function(data, err) {
+//     if (err) throw err;
+
+var jqueryUrl = "/crash/2018";
+console.log(jqueryUrl);
+
+d3.json("/crash/2018").then((data) => {
+
+  // Calculate total number of crashes
+  var info_panel = d3.select("#total-crashes");
+
+    info_panel.html("");
+  
+    title=info_panel.append("h5").text(data.length)
+
+  console.log(data.length);
     console.log(data);
-
- 
-////////// ABBY'S CODE//////
-
-var Data = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
-
-console.log(Data[0][3],Data[3][0]);
-
-function heatmapData (DayWeek, TimeDay,Data) {
-  // console.log(DayWeek,TimeDay);
-
-    switch(DayWeek) {
-    case "Monday":{
-        switch(TimeDay){
-            case "Morning" : {Data[0][0]+=1;break;}
-            case "Afternoon" : {Data[0][1]+=1;break;}
-            case "Evening" : {Data[0][2]+=1;break;}
-            case "Night" : {Data[0][3]+=1;break;}
-        };
-        break;}
-    case "Tuesday":{
-        switch(TimeDay){
-            case "Morning" : {Data[1][0]+=1;break;}
-            case "Afternoon" : {Data[1][1]+=1;break;}
-            case "Evening" : {Data[1][2]+=1;break;}
-            case "Night" : {Data[1][3]+=1;break;}
-        };
-        break;}
-
-    case "Wednesday":{
-        switch(TimeDay){
-            case "Morning" : {Data[2][0]+=1;break;}
-            case "Afternoon" : {Data[2][1]+=1;break;}
-            case "Evening" : {Data[2][2]+=1;break;}
-            case "Night" : {Data[2][3]+=1;break;}
-        };
-        break;}
-
-    case "Thursday":{
-        switch(TimeDay){
-            case "Morning" : {Data[3][0]+=1;break;}
-            case "Afternoon" : {Data[3][1]+=1;break;}
-            case "Evening" : {Data[3][2]+=1;break;}
-            case "Night" : {Data[3][3]+=1;break;}
-        };
-        break;}
-
-    case "Friday":{
-        switch(TimeDay){
-            case "Morning" : {Data[4][0]+=1;break;}
-            case "Afternoon" : {Data[4][1]+=1;break;}
-            case "Evening" : {Data[4][2]+=1;break;}
-            case "Night" : {Data[4][3]+=1;break;}
-        };
-        break;}
-
-    case "Saturday":{
-        switch(TimeDay){
-            case "Morning" : {Data[5][0]+=1;break;}
-            case "Afternoon" : {Data[5][1]+=1;break;}
-            case "Evening" : {Data[5][2]+=1;break;}
-            case "Night" : {Data[5][3]+=1;break;}
-        };
-        break;}
-
-    case "Sunday":{
-        switch(TimeDay){
-            case "Morning" : {Data[6][0]+=1;break;}
-            case "Afternoon" : {Data[6][1]+=1;break;}
-            case "Evening" : {Data[6][2]+=1;break;}
-            case "Night" : {Data[6][3]+=1;break;}
-        };
-        break;}
-    }
-}
-
-console.log(data[3].CRASH_DAYWEEK,data[3].CRASH_TIMEDAY);
-
-for (var i = 0; i <data.length; i++){
-heatmapData (data[i].CRASH_DAYWEEK,data[i].CRASH_TIMEDAY,Data);
-}
-
-
-
-console.log(Data)
-    
 
 
 
 var SMonths = new Object();
   SMonths= { 
-    Jan:1,
-    Feb:2,
-    Mar:3,
-    Apr:4,
-    May:5,
+    Jan:0,
+    Feb:0,
+    Mar:0,
+    Apr:0,
+    May:0,
     Jun:0,
     Jul:0,
     Aug:0,
     Sep:0,
-    O:1,
-    N:1,
-    D:1,
+    Oct:0,
+    Nov:0,
+    Dec:0,
   };
   console.log( SMonths);
   
@@ -282,6 +294,7 @@ Bike: { Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,
 MotorCycle:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
 MotorCycle:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
 Other:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+
 };
 
 console.log( barchartData);

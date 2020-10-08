@@ -20,19 +20,63 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
+      <div class="row summary">
+        <!-- <div class="col-6" style="background-color: aquamarine;"> -->
+        <div class="col-6">
+          Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+        </div>
+        <!-- <div class="col-6" style="background-color: grey;"> -->
+        <div class="col-6">
+          Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="container-fluid" id="filter-box">
+      <div class="row summary">
+        <!-- <div class="col-6" style="background-color: lightcoral;"> -->
+        <div class="col-6">
+          <label for="data">Filter by year:</label>
+            <select name="data" id="filter">
+              <option value=""></option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+            </select>
+        </div>
+        <!-- <div class="col-6" style="background-color: lightskyblue;"> -->
+        <div class="col-6">
+          <div id=total-crashes> Total number of crashes: 
+          </div>
+        </div>
+      </div>
+    </div>      
+
+
+    <div class="container-fluid">
         <div class="row">
           <div class="col-6">
-                <iframe src="map" class="responsive-iframe"></iframe>
-        </div>
-        <div class="col-6">
-            <div class="row">
-            <div id="heatmap"></div>
-            <div class="row">
-            <div id="barchart3"></div>
-            <!-- <div id="bubble"></div> -->
+            <table>
+              <tr><td style="text-align: center; border: none">
+                <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d108272.21867815423!2d115.97539710742628!3d-31.948364782519672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1602150736916!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </td></tr>
+            </table>
+         </div>
+
+            <div class="col-6">
+              <div id="heatmap">
+              </div>
+
+          <div class="col-6">
+            <div id="bubble"> Insert bubble chart here 
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     
@@ -49,8 +93,6 @@
     <!-- WA Crash Dashboard js-->
     <script src="../static/js/heatmap.js"></script>
     <script type="text/javascript" src="../static/js/map.js"></script>
-    <script type="text/javascript" src="../static/js/barchart3.js"></script>
-
 
 </body>
 

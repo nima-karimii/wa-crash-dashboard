@@ -9,8 +9,24 @@
 
 body
  {
-  padding: 50;
+  padding: 20;
 }
+
+.summary {
+  /* height: 100px; */
+  margin: 25px;
+  height: 100%;
+  line-height: 1.5;
+}
+
+.controls {
+  /* height: 100px; */
+  margin: 25px;
+  height: 100%;
+  vertical-align: middle;
+}
+
+
 
 .responsive-iframe {
   position: absolute;
@@ -20,12 +36,35 @@ body
   right: 0;
   width: 100%;
   height: 100%;
+  padding: 35px !important;
+  max-height: 75vw;
 }
 
-* {
+table {
+  height: 1000px;
+}
+
+#filter {
+  font-size: 18px;
+}
+
+#filter-box label {
+  font-size: 24px;
+  margin: 10px;
+}
+
+#total-crashes {
+  font-size: 24px;
+}
+
+#filter-box {
+  background-color: #dcdcdb;
+}
+
+/* * {
   box-sizing: border-box;
   font-family: Ubuntu, sans-serif;
-}
+} */
 
 /* html,
 body { */
@@ -37,23 +76,23 @@ body { */
 /* } */
 
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
-.wrapper {
+/* .wrapper {
   position: relative;
   min-height: 100%;
   padding-bottom: 130px;
   overflow: auto;
-}
+} */
 
 /* The footer is positioned at the bottom of the page */
-.footer {
+/* .footer {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-}
+} */
 
 /* The code styles the text at the bottom of the footer */
-.footer > .bottom {
+/* .footer > .bottom {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -89,11 +128,11 @@ select {
 
 .margin-top-20 {
   margin-top: 20px;
-}
+} */
 
 
 /* The styles for the parallax */
-.hero {
+/* .hero {
   position: relative;
   height: 600px;
   padding: 20px;
@@ -114,18 +153,18 @@ select {
 
   animation: subtitle 0.5s forwards linear;
   color: azure;
-}
+} */
 
-.hero p {
+/* .hero p {
   font-size: 3rem;
   opacity: 0;
   animation: subtitle 1s forwards linear;
   animation-delay: 1s;
   color: rgb(241, 14, 14);
-}
+} */
 
 /* The styles for the parallax */
-.hero1 {
+/* .hero1 {
   position: relative;
   height: 600px;
   padding: 20px;
@@ -158,7 +197,7 @@ select {
   background: black;
   background-color: blueviolet;
   background-position:center;
-  background-size: 100% 150%;
+  background-size: 100% 150%; */
 
 }
 
@@ -180,7 +219,7 @@ select {
 
 
 /* media queries which will only be activated at specific screen sizes */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   #table-area td {
     font-size: 1em;
   }
@@ -225,15 +264,15 @@ select {
     font-weight: bold;
     text-align: center;
     content: attr(data-th);
-  }
+  } */
 
-  .hero h1 {
+  /* .hero h1 {
     animation: smaller-title 1.2s forwards linear;
   }
-}
+} */
 
 /* keyframe animations which will be used to animate the title */
-@keyframes title {
+/* @keyframes title {
   from {
     opacity: 0;
   }
@@ -253,7 +292,7 @@ select {
     font-size: 5.5rem;
     opacity: 1;
   }
-}
+} */
 
 @keyframes subtitle {
   from {
