@@ -1,15 +1,16 @@
-.jumbotron {
-  background-image: url("../../images/aerial-shot-aerial-view-bird-s-eye-view-1044329.jpg");
+.jumbotron{
+  background-image: url("/images/aerial-shot-aerial-view-bird-s-eye-view-1044329.jpg");
   background-size: cover;
   height: 100%;
   color: whitesmoke;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: "none";
 }
 
 body
  {
-  padding: 20;
+  padding: 20px;
 }
 
 .summary {
@@ -153,7 +154,7 @@ select {
 
   animation: subtitle 0.5s forwards linear;
   color: azure;
-} */ */
+} */ 
 
 /* .hero p {
   font-size: 3rem;
