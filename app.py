@@ -14,7 +14,7 @@ from flask_sqlalchemy import SQLAlchemy
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///db/WA_Crash_data.db")
+engine = create_engine("sqlite:///database//WA_Crash_data.db")
 
 # reflect an existing database into a new model
 Base = automap_base()
@@ -40,7 +40,7 @@ app.config['JSON_SORT_KEYS']= False
 @app.route("/")
 def index():
     """Return the homepage."""
-    return render_template("index.html")
+    return render_template("index")
 
 
 
@@ -51,7 +51,7 @@ def index_func():
         # do stuff when the form is submitted
         # redirect to end the POST handling
         # the redirect can be to the same route or somewhere else
-        return redirect(url_for('index'))
+        return redirect(url_for('index.html'))
     # show the form, it wasn't submitted
     return render_template('MAP.html')
 
