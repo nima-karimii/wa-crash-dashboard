@@ -42,22 +42,28 @@
 <div class="container-fluid" id="filter-box">
   <div class="row controls">
     <!-- <div class="col-6" style="background-color: lightcoral;"> -->
-    <div class="col-6">
+    <!-- <div class="col-6"> -->
+      <div class="col-3">
       <label for="data">Filter by year:</label>
+       </div>
+       <div class="col-3">
         <select name="data" id="filter" onchange="optionChanged(this.value)">
-          <option value=""></option>
           <option value="2015">2015</option>
           <option value="2016">2016</option>
           <option value="2017">2017</option>
           <option value="2018">2018</option>
-          <option value="2019">2019</option>
+          <option value="2019" selected>2019</option>
         </select>
-    </div>
+       </div>
+    <!-- </div> -->
     <!-- <div class="col-6" style="background-color: lightskyblue;"> -->
-    <div class="col-6">
-      <div id=total-crashes> Total number of crashes: 
-      </div>
+    <div class="col-3">
+      <label for="data"> Total number of crashes:  </label>
     </div>
+      <div class="col-3">
+        <div id="total-crashes">?  </div>
+    </div>
+    </div>  
   </div>
 </div>      
 

@@ -139,7 +139,7 @@ def crash(year):
         # print("*********")
         Sampl_data_copy = smpl_data.copy()
         Data_json.append(Sampl_data_copy)
-        if (i==1000): break
+        # if (i==1000): break
     # print(smpl_data)
     return jsonify(Data_json)
 
