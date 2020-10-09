@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>d3-balloon example</title>
+
+    <style type="text/css">
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+        }
+
+        h1 {
+            font-weight: normal;
+        }
+
+        #main {
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+        }
+
+        #vis_container {
+            width: 500px;
+            margin-top: 50px;
+        }
+
+        .balloon_plot .value {
+            font-family: Arial, sans-serif;
+            cursor: default;
+        }
+
+        .balloon_plot .tick {
+            cursor: default;
+        }
+
+        .balloon_plot .legend circle,
+        .balloon_plot .legend text {
+            fill: #666666;
+        }
+    </style>
+
+    <script src="d3/d3.js"></script>
+    <script src="d3-balloon.js"></script>
+</head>
+<body>
+
+<div id="main">
+    <h1>Interactive Balloon Plot<br>with <em>d3-balloon.js</em></h1>
+
+    <p>
+        Markus Konrad, <a href="https://wzb.eu">WZB Berlin</a>, April/May 2017<br>
+        Available on <a href="https://github.com/WZBSocialScienceCenter/d3-balloon">GitHub</a>.
+    </p>
+
+    <div id="vis_container"></div>
+    <script src="balloon_chart.js"></script>
+
+</div>
+
+</body>
+</html>

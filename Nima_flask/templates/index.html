@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
   <link rel="stylesheet" href="../static/css/style.css">
+  <script src="{{ url_for('static', filename='js/d3/d3.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/d3-balloon.js')}}"></script>
 
 
 </head>
@@ -24,6 +26,7 @@
         <div class="card text-white bg-success mb-3">
           <h5 class="card-header"><b>Test Subject ID :</b></h5>
           <select id="selDataset" onchange="optionChanged(this.value)">
+            <option>Test</option>
           </select>
         </div>
         <div class=" card text-white bg-primary mb-3">
@@ -44,7 +47,7 @@
         <div id="Barchart"></div>
       </div>
       <div class="col-md-12 col-xl-12">
-        <div id="Barchart2"></div>
+        <div id="balloonplot"></div>
       </div>
 
     </div>
@@ -65,9 +68,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <!-- <script src="./static/js/bonus.js"></script> -->
-  <!-- <div id="map"></div> -->
   <script src="{{ url_for('static', filename='js/barchart.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/balloon_chart.js')}}"></script>
   <script src="{{ url_for('static', filename='js/map.js') }}"></script>
 
 </body>

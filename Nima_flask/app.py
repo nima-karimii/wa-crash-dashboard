@@ -87,6 +87,8 @@ def crash(year):
         Data.CRASH_TIME_HRS,
         Data.YEAR,
         Data.MONTH,
+        Data.SEVERITY,
+
     ]
 
     # results = db.session.query(*crash)
@@ -104,8 +106,11 @@ def crash(year):
 
     Data_json=[]
     smpl_data = {}
+    i=0
     for result in results:
         smpl_data = {}
+
+        i=i+1
         smpl_data["ACC_ID"] = result[0]
         smpl_data["ROAD_NO"] = result[1]
         smpl_data["CWAY"] = result[2]
@@ -124,7 +129,13 @@ def crash(year):
         smpl_data["CRASH_TIME_HRS"] = result[15]
         smpl_data["YEAR"] = result[16]
         smpl_data["MONTH"] = result[17]
-        Data_json.append(smpl_data)
+        smpl_data["SEVERITY"]=result[18]
+
+        # print(smpl_data)
+        # print("*********")
+        Sampl_data_copy = smpl_data.copy()
+        Data_json.append(Sampl_data_copy)
+        if (i==100): break
     # print(smpl_data)
     return jsonify(Data_json)
 
