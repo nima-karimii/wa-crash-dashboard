@@ -50,15 +50,15 @@ var data = [trace1, trace2,trace4,trace5];
 
 var layout = {barmode: 'group'};
 
-Plotly.newPlot('Barchart', data, layout);
+Plotly.newPlot('Barchart2', data, layout);
 
-var trace3 = {
-  x: Otherlist,
-  y: OtherListvalue,
-  name: 'Other',
-  type: 'bar'
-};
+// var trace3 = {
+//   x: Otherlist,
+//   y: OtherListvalue,
+//   name: 'Other',
+//   type: 'bar'
+// };
 
-Plotly.newPlot('Barchart2',[trace3], {});
+// Plotly.newPlot('Barchart2',[trace3], {});
 
 }

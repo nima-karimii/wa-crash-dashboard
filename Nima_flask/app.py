@@ -88,6 +88,9 @@ def crash(year):
         Data.YEAR,
         Data.MONTH,
         Data.SEVERITY,
+        Data.CRASH_DAYWEEK,
+        Data.CRASH_TIMEDAY
+        
 
     ]
 
@@ -105,7 +108,6 @@ def crash(year):
     # print(year)
 
     Data_json=[]
-    smpl_data = {}
     i=0
     for result in results:
         smpl_data = {}
@@ -130,12 +132,14 @@ def crash(year):
         smpl_data["YEAR"] = result[16]
         smpl_data["MONTH"] = result[17]
         smpl_data["SEVERITY"]=result[18]
+        smpl_data["CRASH_DAYWEEK"] = result[19]
+        smpl_data["CRASH_TIMEDAY"] = result[20]
 
         # print(smpl_data)
         # print("*********")
         Sampl_data_copy = smpl_data.copy()
         Data_json.append(Sampl_data_copy)
-        if (i==100): break
+        if (i==1000): break
     # print(smpl_data)
     return jsonify(Data_json)
 

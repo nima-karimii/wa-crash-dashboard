@@ -24,3 +24,6 @@ html {
   margin-right: 8px;
   opacity: 0.7;
 }
+.hidden_display
+{display: none !important;
+}

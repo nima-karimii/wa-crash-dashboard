@@ -130,24 +130,24 @@ var overlays = {
 
 
 
-function Barchartdata(MMonth,monthdata)
+function BarchartdataMaker(MMonth,monthdata)
 {
-  // console.log(MMonth,monthdata.Jul);
+  console.log(MMonth,monthdata.Jul);
     
        switch (MMonth)
       {
-         case "1":{monthdata.Jan=+1; break; }
-         case "2":{monthdata.Feb+=1; break; }
-         case "3":{monthdata.Mar+=1; break; }
-         case "4":{monthdata.Apr+=1; break; }
-         case "5":{monthdata.May+=1; break; }
-         case "6":{monthdata.Jun+=1; break; }
-         case "7":{monthdata.Jul+=1; break; }
-         case "8":{monthdata.Aug+=1; break; }
-         case "9":{monthdata.Sep+=1; break; }
-         case "10":{monthdata.Oct+=1; break; }
-         case "11":{monthdata.Nov+=1; break; }
-         case "12":{monthdata.Dec+=1; break; }
+         case 1:{monthdata.Jan+=1; break; }
+         case 2:{monthdata.Feb+=1; break; }
+         case 3:{monthdata.Mar+=1; break; }
+         case 4:{monthdata.Apr+=1; break; }
+         case 5:{monthdata.May+=1; break; }
+         case 6:{monthdata.Jun+=1; break; }
+         case 7:{monthdata.Jul+=1; break; }
+         case 8:{monthdata.Aug+=1; break; }
+         case 9:{monthdata.Sep+=1; break; }
+         case 10:{monthdata.Oct+=1; break; }
+         case 11:{monthdata.Nov+=1; break; }
+         case 12:{monthdata.Dec+=1; break; }
 
 
         }
@@ -215,6 +215,238 @@ switch (EVENT_NATURE){
 Event_sev_ob[EVENT_NATURE][SEVERITY]+=1;
 
 }
+
+//////////////////////////////HeatMap Function//////////////////////////////////////////
+
+var Heat_map_Data = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]];
+
+
+
+function heatmapData (DayWeek, TimeDay,Data) {
+      // console.log(DayWeek,TimeDay);
+    
+        switch(DayWeek) {
+        case "Monday":{
+            switch(TimeDay){
+                case "Morning" : {Data[0][0]+=1;break;}
+                case "Afternoon" : {Data[0][1]+=1;break;}
+                case "Evening" : {Data[0][2]+=1;break;}
+                case "Night" : {Data[0][3]+=1;break;}
+            };
+            break;}
+        case "Tuesday":{
+            switch(TimeDay){
+                case "Morning" : {Data[1][0]+=1;break;}
+                case "Afternoon" : {Data[1][1]+=1;break;}
+                case "Evening" : {Data[1][2]+=1;break;}
+                case "Night" : {Data[1][3]+=1;break;}
+            };
+            break;}
+    
+        case "Wednesday":{
+            switch(TimeDay){
+                case "Morning" : {Data[2][0]+=1;break;}
+                case "Afternoon" : {Data[2][1]+=1;break;}
+                case "Evening" : {Data[2][2]+=1;break;}
+                case "Night" : {Data[2][3]+=1;break;}
+            };
+            break;}
+    
+        case "Thursday":{
+            switch(TimeDay){
+                case "Morning" : {Data[3][0]+=1;break;}
+                case "Afternoon" : {Data[3][1]+=1;break;}
+                case "Evening" : {Data[3][2]+=1;break;}
+                case "Night" : {Data[3][3]+=1;break;}
+            };
+            break;}
+    
+        case "Friday":{
+            switch(TimeDay){
+                case "Morning" : {Data[4][0]+=1;break;}
+                case "Afternoon" : {Data[4][1]+=1;break;}
+                case "Evening" : {Data[4][2]+=1;break;}
+                case "Night" : {Data[4][3]+=1;break;}
+            };
+            break;}
+    
+        case "Saturday":{
+            switch(TimeDay){
+                case "Morning" : {Data[5][0]+=1;break;}
+                case "Afternoon" : {Data[5][1]+=1;break;}
+                case "Evening" : {Data[5][2]+=1;break;}
+                case "Night" : {Data[5][3]+=1;break;}
+            };
+            break;}
+    
+        case "Sunday":{
+            switch(TimeDay){
+                case "Morning" : {Data[6][0]+=1;break;}
+                case "Afternoon" : {Data[6][1]+=1;break;}
+                case "Evening" : {Data[6][2]+=1;break;}
+                case "Night" : {Data[6][3]+=1;break;}
+            };
+            break;}
+        }
+    return(Data)    
+    }
+    
+    
+    
+ 
+    // var trace1 = {
+    //     x: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
+    //     y: ['Morning', 'Afternoon', 'Evening', 'Night'],
+    //     z: Data,
+    //     name: "Time of day and week",
+    //     type: 'heatmap',
+    //     xaxis: 'x',
+    //     yaxis: 'y',
+    //     hoverongaps: false
+    //     };
+        
+    // var data = [trace1];
+        
+    // Plotly.newPlot('heatmap', data);
+    
+    function Heatmap_plot(data)
+    { 
+      console.log(data);
+      var Zdata=data; 
+      // var zz= [
+      // [3397, 6092, 1644, 2070], // Sun
+      // [5246, 7645, 2272, 2725], // Sat
+      // [7642, 11927, 3015, 2369], // Fri
+      // [7984, 11041, 2783, 1813], // Thurs
+      // [7934, 10648, 2535, 1560], // Wed
+      // [8089, 10454, 2343, 1437], // Tue
+      // [7078, 9896, 2012, 1473]]; // Mon
+
+    var heatmapData = [
+        {
+    
+            z: Zdata,
+    
+            y: ['Sunday', 'Saturday', 'Friday', 'Thursday', 'Wednesday','Tuesday','Monday'],
+            x: ['Morning', 'Afternoon', 'Evening','Night'],
+            type: 'heatmap',
+            // colorscale: [
+            //     ['0.0', '#EED2AA'],
+            //     ['0.111111111111', '#EED2AA'],
+            //     ['0.222222222222', '#EED2AA'],
+            //     ['0.333333333333', '#EED2AA'],
+            //     ['0.444444444444', '#EED2AA'],
+            //     ['0.555555555556', '#EED2AA],
+            //     ['0.666666666667', '#EED2AA'],
+            //     ['0.777777777778', '#EED2AA'],
+            //     ['0.888888888889', '#EED2AA'],
+            //     ['1.0', '#EED2AA']
+            //   ],
+            colorscale: 'OrRd',
+            hoverongaps: false,
+            // hoverinfo: 'z',
+        }
+        ];
+    
+    var layout = {
+        title: 'Number of road crashes',
+        font: {
+            family: 'Arial',
+            color: '#7f7f7f'
+          },
+    };
+    
+    
+    var config = {
+        displayModeBar: false,
+        responsive: true
+    };
+    
+    
+    Plotly.newPlot('heatmap', heatmapData, layout, config);
+
+}
+
+////////////////
+////////////////////////////////////BarChart///////////////////////////////////////////
+
+function Barchart(barchartData)
+{
+////////////barchart
+Trucklist=Object.keys(barchartData.Truck);
+TruckListvalue=Object.values(barchartData.Truck);
+HTrucklist=Object.keys(barchartData.Heavy_Truck);
+HTruckListvalue=Object.values(barchartData.Heavy_Truck);
+console.log(Trucklist,TruckListvalue);
+Bikelist=Object.keys(barchartData.Bike);
+BikeListvalue=Object.values(barchartData.Bike);
+Motorlist=Object.keys(barchartData.MotorCycle);
+MotorkListvalue=Object.values(barchartData.MotorCycle);
+Otherlist=Object.keys(barchartData.Other);
+OtherListvalue=Object.values(barchartData.Other);
+
+var trace1 = {
+  x: Trucklist,
+  y: TruckListvalue,
+  name: 'Truck',
+  type: 'bar'
+};
+
+var trace2 = {
+  x: HTrucklist,
+  y: HTruckListvalue,
+  name: 'Heavytruck',
+  type: 'bar'
+};
+// var trace3 = {
+//   x: Otherlist,
+//   y: OtherListvalue,
+//   name: 'Other',
+//   type: 'bar'
+// };
+var trace4 = {
+  x: Motorlist,
+  y: MotorkListvalue,
+  name: 'MotorCycle',
+  type: 'bar'
+};
+var trace5 = {
+  x: Bikelist,
+  y: BikeListvalue,
+  name: 'Bike',
+  type: 'bar'
+};
+
+var data = [trace1, trace2,trace4,trace5];
+
+var layout = {barmode: 'group'};
+
+Plotly.newPlot('Barchart2', data, layout);
+
+// var trace3 = {
+//   x: Otherlist,
+//   y: OtherListvalue,
+//   name: 'Other',
+//   type: 'bar'
+// };
+
+// Plotly.newPlot('Barchart2',[trace3], {});
+
+}
+
+
+
+
+
+
+////////////////////////////////////////
+
+
+
+
+
+
+
 
 
 
@@ -289,7 +521,7 @@ var Summery={
                                                    "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
 
           Summery.Total_Bike=Summery.Total_Bike+(+data[i].TOTAL_BIKE_INVOLVED);
-          barchartData.Bike=Barchartdata(data[i].MONTH,barchartData.Bike);
+          barchartData.Bike=BarchartdataMaker(data[i].MONTH,barchartData.Bike);
           // console.log( barchartData.Bike);
       }
       if (+data[i].TOTAL_TRUCK_INVOLVED>0) {
@@ -300,7 +532,7 @@ var Summery={
                     "<br>C:"+Other_V+" T:"+TTruck+" HT:"+HTruck+
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
 
-                    barchartData.Truck=Barchartdata(data[i].MONTH,barchartData.Truck);
+                    barchartData.Truck=BarchartdataMaker(data[i].MONTH,barchartData.Truck);
                     // console.log(  barchartData.Truck);
                     // console.log(barchartData.Truck,barchartData.Heavy_Truck);
 
@@ -315,7 +547,7 @@ var Summery={
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
 
 
-                    barchartData.Heavy_Truck=Barchartdata(data[i].MONTH,barchartData.Heavy_Truck);
+                    barchartData.Heavy_Truck=BarchartdataMaker(data[i].MONTH,barchartData.Heavy_Truck);
                   }
       if (+data[i].TOTAL_MOTOR_CYCLE_INVOLVED>0) {
         Summery.Total_MotorCycle=Summery.Total_MotorCycle+(+data[i].TOTAL_MOTOR_CYCLE_INVOLVED);
@@ -324,8 +556,9 @@ var Summery={
                     MotorCycle.push( newCircle.bindPopup(Adress+"<br>"+C_date+
                     "<br>C:"+Other_V+" T:"+TTruck+" HT:"+HTruck+
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
+                    // console.log("Motor",data[i].MONTH);
 
-                    barchartData.MotorCycle=Barchartdata(data[i].MONTH,barchartData.MotorCycle);
+                    barchartData.MotorCycle=BarchartdataMaker(data[i].MONTH,barchartData.MotorCycle);
                   }
       if (+data[i].TOTAL_OTHER_VEHICLES_INVOLVED>0) {
         Summery.Total_Other=Summery.Total_Other+(+data[i].TOTAL_OTHER_VEHICLES_INVOLVED);
@@ -335,7 +568,10 @@ var Summery={
                     "<br>C:"+Other_V+" T:"+TTruck+" HT:"+HTruck+
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
 
-                    barchartData.Other=Barchartdata(data[i].MONTH,barchartData.Other);
+                    barchartData.Other=BarchartdataMaker(data[i].MONTH,barchartData.Other);
+                    // console.log("Other",data[i].MONTH);
+                    // console.log(barchartData.Other);
+
                   }
       if (+data[i].TOTAL_PEDESTRIANS_INVOLVED>0) {
         Summery.Total_Pedestrians=Summery.Total_Pedestrians+(+data[i].TOTAL_PEDESTRIANS_INVOLVED);
@@ -353,13 +589,21 @@ var Summery={
                    //  cityCircles10.push(
                     newCircle.addTo(more_layers.Fatal);
                     Fatal.push( newCircle.bindPopup("fhdfghdghdfhdgdd"));
-      }
+                  }
 /////
-// console.log(data[i].SEVERITY,data[i].EVENT_NATURE );
+// console.log(data[i].CRASH_DAYWEEK,data[i].CRASH_TIMEDAY);
+Heat_map_Data=heatmapData (data[i].CRASH_DAYWEEK,data[i].CRASH_TIMEDAY,Heat_map_Data);
 baloonDatamaker (data[i].SEVERITY,data[i].EVENT_NATURE );
 }
 
+// console.log(Heat_map_Data);
 
+Heatmap_plot(Heat_map_Data);
+
+console.log(barchartData);
+
+
+Barchart(barchartData);
 
 //////////////////////////////////////////////////////////
 // console.log(Summery);   
@@ -409,15 +653,12 @@ for (i=0 ;i<arr.length;i++)
   Data_arr.push(aa);
 }
 
-console.log(Data_arr);
+// console.log(barchartData);
 
 
-Ballonmaker(Data_arr,X,Y);
+// Ballonmaker(Data_arr,X,Y);
 
 
-
-
-barchart(barchartData);
 
 });
 
