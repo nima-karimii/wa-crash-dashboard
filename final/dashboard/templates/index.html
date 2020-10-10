@@ -9,10 +9,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
   <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}"> -->
+  <!-- <link rel="stylesheet" href="/static/css/style_template.css"> -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
   <script src="{{ url_for('static', filename='js/d3/d3.js')}}"></script>
   <script src="{{ url_for('static', filename='js/d3/d3.js')}}"></script>
   <script src="{{ url_for('static', filename='js/d3-balloon.js')}}"></script>
-  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
 
   
 
@@ -31,12 +34,22 @@
 <div class="container-fluid">
   <div class="row summary">
     <!-- <div class="col-6" style="background-color: aquamarine;"> -->
-    <div class="col-6">
-      Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-    </div>
+    <div class="col-6 style=">
+      <p> Road crashes are a leading cause of death and serious injury in Western Australia, impacting thousands of people every year. 
+      </p>
+      <p>
+       The <i>Western Australian Crash Dashboard</i> is an interactive dashboard exploring road crash data in Western Australia from 2015 to 2019.
+      </p>
+      </div>
     <!-- <div class="col-6" style="background-color: grey;"> -->
     <div class="col-6">
-      Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+      <p>
+      The aim of the dashboard is to highlight road safety issues and trends, including the geographic location of crashes, when crashes occur (by day of the week and time of day) and a breakdown of crashes by type of vehicle involved.
+    </p>
+      <p>
+      Data has been sourced from the <a href="https://portal-mainroads.opendata.arcgis.com/datasets/cd0b2ef39c6e4e71b1aa922942d316cc_2">Crash Information (Last 5 Years) dataset</a> published by Main Roads Western Australia.
+    </p>
+
     </div>
   </div>
 </div>
@@ -75,9 +88,12 @@
         </table>
      </div>
      <div class="col-3">
-      <div class=" card text-white bg-primary mb-3">
-        <h5 class="card-header"><b>Demographic Info</b></h5>
-      <div id="sample-metadata" class="card-title" style="font-family:'Courier New', Courier, monospace; "></div>
+      <!-- <div class=" card text-white bg-primary mb-3"> -->
+        <div class=" card bg-bright mb-3">
+        <h5 class="card-header"><b>Vehicle Information</b></h5>
+      <!-- <div id="sample-metadata" class="card-title" style="font-family:'Courier New', Courier, monospace; "></div> -->
+      <div id="sample-metadata" class="card-title"></div>
+
     </div>
      </div>
 
@@ -85,7 +101,8 @@
           <div id="heatmap">
           </div>
       </div> -->
-     </div>  
+      
+     <!-- </div>   -->
       
     <div class="row">    
 
@@ -97,7 +114,7 @@
     <div class="row">    
 
       <div class="col-12">
-        <div id="Barchart2"> </div>
+        <div id="barchart"> </div>
       </div>
     </div>
 
@@ -111,7 +128,7 @@
     <div class="row hero text-center" >
         <h1 >WA Crash Report</h1>
     </div>
-    <!-- <div class="row hero1 text-center container-fluid">
+      <div class="row hero1 text-center container-fluid">
       <div class="col-md-4 col-xl-4">
         <div class="card text-white bg-success mb-3">
           <h5 class="card-header"><b>Test Subject ID :</b></h5>

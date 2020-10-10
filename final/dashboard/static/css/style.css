@@ -1,11 +1,12 @@
 .jumbotron{
-  background-image: url("/images/aerial-shot-aerial-view-bird-s-eye-view-1044329.jpg");
+  background-image: url("https://www.mainroads.wa.gov.au/globalassets/projects-initiatives/projects/regional/project-hero-images/geh-anzac-to-gatacre.jpg");
   background-size: cover;
+  background-position-y: 60%;
   height: 100%;
   color: whitesmoke;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
-}
+  }
 
 body
  {
@@ -60,6 +61,16 @@ table {
 #filter-box {
   background-color: #dcdcdb;
 }
+
+.card-header {
+  font-size: 24px;
+  font-weight: lighter !important;
+}
+
+.card-title {
+  font-size: 24px;
+}
+
 
 /* * {
   box-sizing: border-box;
