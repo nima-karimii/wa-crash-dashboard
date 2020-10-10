@@ -4,14 +4,15 @@ function Ballonmaker(Data,X,Y)
     /*
      * Example code for d3-balloon.js from https://github.com/WZBSocialScienceCenter/d3-balloon
      */
+    d3.select("#vis_container").select("svg").remove();
 
     var svg = d3.select("#vis_container").append("svg")
-        .attr("width", 700)
-        .attr("height", 600);
+        .attr("width", 600)
+        .attr("height", 900);
 
     // generate a 5x7 matrix with random values between 0 and 10
     var data = Data;
-
+console.log(data);
     console.log(data,X,Y);
     // define the columns labels
     var xLabels = Y;
@@ -28,7 +29,7 @@ function Ballonmaker(Data,X,Y)
         .ease(d3.easeLinear);
 
     // create the balloon plot
-    var bplot = balloonplot(300, 400)
+    var bplot = balloonplot(400, 700)
         .position(40, 65)               // set the top-left offset
         .transition(transition)         // enable transitions
         .colorScale('y', yColor)        // set the row-wise colors
@@ -37,7 +38,7 @@ function Ballonmaker(Data,X,Y)
         .data(data)                     // pass the data matrix
         .xAxis(d3.axisTop, xLabels)     // enable the X axis and pass the tick labels
         .yAxis(d3.axisRight, yLabels)   // enable the Y axis and pass the tick labels
-        .legend('bottom', 3);           // legend below the plot with 3 sample circles (requires bplot.update() below)
+        .legend('bottom',4);           // legend below the plot with 3 sample circles (requires bplot.update() below)
 
 console.log(bplot)
 

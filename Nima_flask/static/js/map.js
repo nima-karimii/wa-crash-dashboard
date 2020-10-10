@@ -3,8 +3,7 @@
 // Store our API endpoint inside queryUrl
 var queryUrl = "/crash/2019";
 var Suburl="https://raw.githubusercontent.com/tonywr71/GeoJson-Data/master/suburb-2-wa.geojson"
-const API_KEY = "pk.eyJ1Ijoia2FyaW1paSIsImEiOiJja2ZkdTNuNnMwN205MzFwNTF2eGszOHM1In0.jfNBiTctjlmbsc8qwQYmvA";
-
+const API_KEY = "Your API";
 
 
 
@@ -39,6 +38,8 @@ const API_KEY = "pk.eyJ1Ijoia2FyaW1paSIsImEiOiJja2ZkdTNuNnMwN205MzFwNTF2eGszOHM1
 
 // Initialize all of the LayerGroups we'll be using
 // Suburb = new L.layerGroup();
+
+
 var layers = {
   Bike: new L.LayerGroup(),
   Truck: new L.LayerGroup(),
@@ -47,11 +48,15 @@ var layers = {
   Pedestrians: new L.LayerGroup(),
   Other: new L.LayerGroup(),
 };
+console.log(layers.Bike);
 
 var more_layers= {
   Fatal: new L.LayerGroup(),
   Suburb: new L.LayerGroup(),
 }
+
+
+
   // Create our map, giving it the satellite Map and earthquakes layers to display on load
   var myMap = L.map("map", {
     center:  [-31.9505, 115.8605],
@@ -71,17 +76,18 @@ var more_layers= {
 //   // Add our 'Satmap' tile layer to the map
 streetmap.addTo(myMap);  
 
+var myMap;
 
-
-
-
+var Mapinit=0;
 
 //// selecting the year ////
 function optionChanged(ID) {
   queryUrl="/crash/"
   queryUrl=queryUrl+ID
+  Mapinit=1;
+document.getElementById("map").outerHTML = "<div id='map'></div>";
 
-  
+
   Dashbord_refresh(queryUrl);
 }
 
@@ -90,6 +96,13 @@ Dashbord_refresh(queryUrl);
 ///////
 function Dashbord_refresh(queryUrl)
 {
+
+
+
+  // myMap.eachLayer(function (layer) {
+  //   myMap.removeLayer(layer); });
+
+
 
 // Create an overlays object to add to the layer control
 var overlays = {
@@ -146,7 +159,7 @@ var overlays = {
       {
         var ID=info_array[i][0];
         var INFO=info_array[i][1];
-        infoDemo= ID.toUpperCase()+':  '+ INFO;
+        infoDemo=ID.toUpperCase()+'  '+ INFO;
         title=info_panel.append("h5").text(infoDemo)
 
       }
@@ -326,34 +339,12 @@ function heatmapData (DayWeek, TimeDay,Data) {
     
     
     
- 
-    // var trace1 = {
-    //     x: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
-    //     y: ['Morning', 'Afternoon', 'Evening', 'Night'],
-    //     z: Data,
-    //     name: "Time of day and week",
-    //     type: 'heatmap',
-    //     xaxis: 'x',
-    //     yaxis: 'y',
-    //     hoverongaps: false
-    //     };
-        
-    // var data = [trace1];
-        
-    // Plotly.newPlot('heatmap', data);
     
     function Heatmap_plot(data)
     { 
       // // console.log(data);
       var Zdata=data; 
-      // var zz= [
-      // [3397, 6092, 1644, 2070], // Sun
-      // [5246, 7645, 2272, 2725], // Sat
-      // [7642, 11927, 3015, 2369], // Fri
-      // [7984, 11041, 2783, 1813], // Thurs
-      // [7934, 10648, 2535, 1560], // Wed
-      // [8089, 10454, 2343, 1437], // Tue
-      // [7078, 9896, 2012, 1473]]; // Mon
+
 
     var heatmapData = [
         {
@@ -363,18 +354,6 @@ function heatmapData (DayWeek, TimeDay,Data) {
             y: ['Sunday', 'Saturday', 'Friday', 'Thursday', 'Wednesday','Tuesday','Monday'],
             x: ['Morning', 'Afternoon', 'Evening','Night'],
             type: 'heatmap',
-            // colorscale: [
-            //     ['0.0', '#EED2AA'],
-            //     ['0.111111111111', '#EED2AA'],
-            //     ['0.222222222222', '#EED2AA'],
-            //     ['0.333333333333', '#EED2AA'],
-            //     ['0.444444444444', '#EED2AA'],
-            //     ['0.555555555556', '#EED2AA],
-            //     ['0.666666666667', '#EED2AA'],
-            //     ['0.777777777778', '#EED2AA'],
-            //     ['0.888888888889', '#EED2AA'],
-            //     ['1.0', '#EED2AA']
-            //   ],
             colorscale: 'OrRd',
             hoverongaps: false,
             // hoverinfo: 'z',
@@ -453,39 +432,23 @@ var trace5 = {
 
 var data = [trace1, trace2,trace3,trace4,trace5];
 
-var layout = {barmode: 'group'};
+var layout = {barmode: 'group',
+        title: 'Number of involved vehicles',
+        font: {
+            family: 'Arial',
+            color: '#7f7f7f'
+          },
+            };
 
 Plotly.newPlot('Barchart2', data, layout);
 
-// var trace3 = {
-//   x: Otherlist,
-//   y: OtherListvalue,
-//   name: 'Other',
-//   type: 'bar'
-// };
-
-// Plotly.newPlot('Barchart2',[trace3], {});
-
-}
-
-
-
-
-
-
+          }
 ////////////////////////////////////////
 
 
 
 
 
-
-
-
-
-
-
-// var jqueryUrl = "/crash/2019";
 
 ///////////////////////////////////////////////////////////////////////////////////
 d3.json(queryUrl).then((data) => {
@@ -673,8 +636,6 @@ d3.json(Suburl, function( err,Geo) {
 
 
 
-
-
 // Ballonmaker(Event_sev_ob);
 
 
@@ -691,7 +652,7 @@ for (i=0 ;i<arr.length;i++)
 // // console.log(barchartData);
 
 
-// Ballonmaker(Data_arr,X,Y);
+Ballonmaker(Data_arr,X,Y);
 
 
 

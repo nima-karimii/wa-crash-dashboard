@@ -1,12 +1,12 @@
-.jumbotron {
-  background-image: url("https://nnimgt-a.akamaihd.net/transform/v1/crop/frm/MsXzvxHj8Pa33MjGvfyNDR/5fc32556-27be-4575-aadd-c4a234556ce1.JPG/r0_0_1927_1295_w1200_h678_fmax.jpg");
+.jumbotron{
+  background-image: url("https://www.mainroads.wa.gov.au/globalassets/projects-initiatives/projects/regional/project-hero-images/geh-anzac-to-gatacre.jpg");
   background-size: cover;
+  background-position-y: 63%;
   height: 100%;
   color: whitesmoke;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
-}
-
+  }
 
 
 .summary {
@@ -59,97 +59,24 @@ table {
 }
 
 
-
-
-
-
-
-
-
-* {
-  box-sizing: border-box;
-  font-family: Ubuntu, sans-serif;
+#display-4{
+  justify-self: left!important;
 }
 
-html,
-body {
-  padding: 20;
-
-  /* height: 100%; */
-
-  margin: 0;
-  /* width: 100%; */
-  /* overflow: hidden; */
+#lead{
+  justify-self: left !important;
 }
 
-/* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
-.wrapper {
-  position: relative;
-  min-height: 100%;
-  padding-bottom: 130px;
-  overflow: auto;
+.card-header {
+  font-size: 24px;
+  font-weight: lighter !important;
 }
-
-/* The footer is positioned at the bottom of the page */
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-/* The code styles the text at the bottom of the footer */
-.footer > .bottom {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 5px;
-}
-
-.navbar {
-  padding: 5px;
-  margin: 0;
+.card-title {
+  font-size: 24px;
 }
 
 
-.filters .panel-body {
-  padding: 0;
-}
 
-.filters {
-  margin-top: 0;
-}
-
-select {
-  display: block;
-  width: 100%;
-  padding: 8px;
-  outline: none;
-}
-
-
-.loader {
-  margin-top: 50px;
-}
-
-.margin-top-20 {
-  margin-top: 20px;
-}
-
-
-/* The styles for the parallax */
-.hero {
-  position: relative;
-  height: 600px;
-  padding: 20px;
-  margin: 0;
-  background: black;
-  background-image: url("https://nnimgt-a.akamaihd.net/transform/v1/crop/frm/MsXzvxHj8Pa33MjGvfyNDR/5fc32556-27be-4575-aadd-c4a234556ce1.JPG/r0_0_1927_1295_w1200_h678_fmax.jpg");
-  background-position:center;
-  background-size: 100% 150%;
-
-}
 
 .hero h1 {
   margin-top: 250px;
@@ -162,16 +89,16 @@ select {
   color: azure;
 }
 
-.hero p {
+/* .hero p {
   font-size: 3rem;
   opacity: 0;
   animation: subtitle 1s forwards linear;
   animation-delay: 1s;
   color: rgb(241, 14, 14);
-}
+} */
 
 /* The styles for the parallax */
-.hero1 {
+/* .hero1 {
   position: relative;
   height: 600px;
   padding: 20px;
@@ -207,7 +134,7 @@ select {
   background-size: 100% 150%;
 
 }
-
+ */
 
 #map
 {
@@ -226,89 +153,3 @@ select {
 }
 
 
-
-/* media queries which will only be activated at specific screen sizes */
-@media (max-width: 800px) {
-  #table-area td {
-    font-size: 1em;
-  }
-}
-
-@media (max-width: 500px) {
-  #table-area thead {
-    display: none;
-  }
-
-  #table-area tr td:first-child {
-    font-size: 1.8em;
-    font-weight: bold;
-    background: #1b3146;
-  }
-
-  #table-area tr td:last-child {
-    margin-bottom: 20px;
-  }
-
-  #table-area tr td:last-child::after {
-    display: block;
-    width: 100%;
-    height: 1px;
-    margin-top: 20px;
-    content: " ";
-    background: aliceblue;
-  }
-
-  #table-area td {
-    font-size: 1.25em;
-  }
-
-  #table-area tbody td {
-    display: block;
-    text-align: center;
-  }
-
-  #table-area tbody td::before {
-    display: block;
-    font-size: 1.4em;
-    font-weight: bold;
-    text-align: center;
-    content: attr(data-th);
-  }
-
-  .hero h1 {
-    animation: smaller-title 1.2s forwards linear;
-  }
-}
-
-/* keyframe animations which will be used to animate the title */
-@keyframes title {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    font-size: 7.5rem;
-    opacity: 1;
-  }
-}
-
-@keyframes smaller-title {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    font-size: 5.5rem;
-    opacity: 1;
-  }
-}
-
-@keyframes subtitle {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
