@@ -38,7 +38,7 @@ The dashboard will contain the following elements:
 **[Western Australia School Local Intake Area (Catchment) Map](https://www.schoolcatchment.com.au/?page_id=1148)**![catchments](https://www.schoolcatchment.com.au/wp-content/uploads/2016/05/Perth-Primary-School-School-Zone-Catchment-Map-1.jpg)   | **d3.js challenge**![](https://lh3.googleusercontent.com/xeTuCuWRgmhAhSIronF7D8dSiRpvDKzhOFVe7h9PQUbfV10aE66MRD22D9hdHTFgmns9lQ3LNg7VBCCpLX0eStAVRTs76L5DF7BV9_cQNO18jle8dVQqhmEbglK7x0hJekenyiB8) 
 
 **[NSW Centre for Road Safety - Interactive crash statistics](https://roadsafety.transport.nsw.gov.au/statistics/interactivecrashstats/index.html)** 
-This website contains a multi-tab visualistion dashboard.
+This website contains a multi-tab visualisation dashboard.
 
 
 ### Sketch of final design
@@ -48,6 +48,6 @@ This website contains a multi-tab visualistion dashboard.
  #### Sources
   
  - RAC (Oct 2019). *WA road fatalities: How WA compares against the nation*. https://rac.com.au/car-motoring/info/state_wa-fatalities
- - Road Safety Commision (2009). *Road Safety Strategy To Reduce Road Trauma in Western Australia 2008-2020. *https://www.rsc.wa.gov.au/About/Role-of-the-Commission/Towards-Zero-Strategy
+ - Road Safety Commission (2009). *Road Safety Strategy To Reduce Road Trauma in Western Australia 2008-2020.* https://www.rsc.wa.gov.au/About/Role-of-the-Commission/Towards-Zero-Strategy
 
 > Written with [StackEdit](https://stackedit.io/).
