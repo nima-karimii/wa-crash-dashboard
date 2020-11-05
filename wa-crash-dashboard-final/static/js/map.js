@@ -1,13 +1,49 @@
+//// selecting the year ////
+function optionChanged(ID) {
+  // queryUrl="/crash/"
+  // queryUrl=queryUrl+ID
+switch (ID)
+{
+ case "2019" : queryUrl='Samp_crash_data.csv';break;
+ case "2018" : queryUrl='Samp_crash_data2.csv';break;
+ case "2017" : queryUrl='Samp_crash_data2.csv';break;
+ case "2016" : queryUrl='Samp_crash_data3.csv';break;
+ case "2015" : queryUrl='Samp_crash_data3.csv';break;
+}
+
+  Mapinit=1;
+document.getElementById("map").outerHTML = "<div id='map'></div>";
+// document.getElementById("heatmap").outerHTML = "<div id='heatmap' class='hidden_display1'> </div>";
+// document.getElementById("map").outerHTML = "<div id='map'></div>";
+// document.getElementById("map").outerHTML = "<div id='map'></div>";
+// document.getElementById("vis_container").outerHTML = "<div id='vis_container' class='hidden_display'> </div>";
+
+
+  Dashbord_refresh(queryUrl);
+}
+
 
 
 // Store our API endpoint inside queryUrl
-var queryUrl = "/crash/2019";
+// var queryUrl = "/crash/2019";
+var queryUrl = "Samp_crash_data.csv";
 var Suburl="https://raw.githubusercontent.com/tonywr71/GeoJson-Data/master/suburb-2-wa.geojson"
-const API_KEY = "Your API";
+const API_KEY = "pk.eyJ1Ijoia2FyaW1paSIsImEiOiJja2ZkdTNuNnMwN205MzFwNTF2eGszOHM1In0.jfNBiTctjlmbsc8qwQYmvA";
 
 
 
   // Define streetmap and darkmap layers
+
+
+// Initialize all of the LayerGroups we'll be using
+// Suburb = new L.layerGroup();
+
+
+Dashbord_refresh(queryUrl);
+
+///////
+function Dashbord_refresh(queryUrl)
+{
   var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
     attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
     maxZoom: 18,
@@ -36,68 +72,47 @@ const API_KEY = "Your API";
     accessToken: API_KEY
   });
 
-// Initialize all of the LayerGroups we'll be using
-// Suburb = new L.layerGroup();
-
-
-var layers = {
-  Bike: new L.LayerGroup(),
-  Truck: new L.LayerGroup(),
-  H_Truck: new L.LayerGroup(),
-  MotorCycle: new L.LayerGroup(),
-  Pedestrians: new L.LayerGroup(),
-  Other: new L.LayerGroup(),
-};
-console.log(layers.Bike);
-
-var more_layers= {
-  Fatal: new L.LayerGroup(),
-  Suburb: new L.LayerGroup(),
-}
-
-
-
-  // Create our map, giving it the satellite Map and earthquakes layers to display on load
-  var myMap = L.map("map", {
-    center:  [-31.9505, 115.8605],
-    zoom: 7,
-    layers: [
-     layers.Bike, 
-     layers.Truck, 
-     layers.H_Truck, 
-     layers.MotorCycle, 
-     layers.Pedestrians, 
-     layers.Other,
-    //  more_layers.Fatal,
-    //  more_layers.Suburb,
-      ]
-  });
-
-//   // Add our 'Satmap' tile layer to the map
-streetmap.addTo(myMap);  
-
-var myMap;
-
-var Mapinit=0;
-
-//// selecting the year ////
-function optionChanged(ID) {
-  queryUrl="/crash/"
-  queryUrl=queryUrl+ID
-  Mapinit=1;
-document.getElementById("map").outerHTML = "<div id='map'></div>";
-
-
-  Dashbord_refresh(queryUrl);
-}
-
-Dashbord_refresh(queryUrl);
-
-///////
-function Dashbord_refresh(queryUrl)
-{
-
-
+  var layers = {
+    Bike: new L.LayerGroup(),
+    Truck: new L.LayerGroup(),
+    H_Truck: new L.LayerGroup(),
+    MotorCycle: new L.LayerGroup(),
+    Pedestrians: new L.LayerGroup(),
+    Other: new L.LayerGroup(),
+  };
+  console.log(layers.Bike);
+  
+  var more_layers= {
+    Fatal: new L.LayerGroup(),
+    Suburb: new L.LayerGroup(),
+  }
+  
+  
+  
+    // Create our map, giving it the satellite Map and earthquakes layers to display on load
+    var myMap = L.map("map", {
+      center:  [-31.9505, 115.8605],
+      zoom: 7,
+      layers: [
+       layers.Bike, 
+       layers.Truck, 
+       layers.H_Truck, 
+       layers.MotorCycle, 
+       layers.Pedestrians, 
+       layers.Other,
+      //  more_layers.Fatal,
+      //  more_layers.Suburb,
+        ]
+    });
+  
+  //   // Add our 'Satmap' tile layer to the map
+  streetmap.addTo(myMap);  
+  
+  var myMap;
+  
+  var Mapinit=0;
+  
+  
 
   // myMap.eachLayer(function (layer) {
   //   myMap.removeLayer(layer); });
@@ -351,7 +366,7 @@ function heatmapData (DayWeek, TimeDay,Data) {
     
             z: Zdata,
     
-            y: ['Sunday', 'Saturday', 'Friday', 'Thursday', 'Wednesday','Tuesday','Monday'],
+            y: ['Monday','Tuesday','Wednesday','Thursday', 'Friday','Saturday','Sunday'],
             x: ['Morning', 'Afternoon', 'Evening','Night'],
             type: 'heatmap',
             colorscale: 'OrRd',
@@ -451,8 +466,13 @@ Plotly.newPlot('Barchart2', data, layout);
 
 
 ///////////////////////////////////////////////////////////////////////////////////
-d3.json(queryUrl).then((data) => {
+// d3.json(queryUrl).then((data) => {
 
+
+d3.csv(queryUrl).then(function(data, err) {
+    if (err) throw err;
+console.log(data.length);
+    console.log(data);
 // // console.log(data.length);
 
 
@@ -652,7 +672,7 @@ for (i=0 ;i<arr.length;i++)
 // // console.log(barchartData);
 
 
-Ballonmaker(Data_arr,X,Y);
+// Ballonmaker(Data_arr,X,Y);
 
 
 
