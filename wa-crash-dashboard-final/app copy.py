@@ -7,6 +7,7 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
+from tensorflow import keras
 
 from flask import Flask, jsonify, render_template,request
 from flask_sqlalchemy import SQLAlchemy
@@ -16,7 +17,7 @@ from flask_sqlalchemy import SQLAlchemy
 #################################################
 engine = create_engine("sqlite:///db/WA_Crash_data.db")
 
-# reflect an existing database into a new model
+# reflect an existing database into a new modelco
 Base = automap_base()
 # reflect the tables
 Base.prepare(engine, reflect=True)
@@ -145,19 +146,30 @@ def crash(year):
 
 
 
-@app.route("/api/v1.0/stations")
-def stations():
+@app.route("/api/<H>/<D>/<Y>")
+def prediction(Y,D,H):
+    Accident_model = keras.models.load_model("static/ml_model/N_model_trained.h5")
     # Create our session (link) from Python to the DB
-    session = Session(engine)
-    results = session.query(Station.station).all()
-    session.close()
-
+    Data_json=[]
+    y=int(Y)
+    d=int(D)
+    h=int(H)
+    for i in range (-2 ,3):
+        Data_predictions={}
+        Data_predictions["Day_time"]={}
+        Time=[[h-i,d,y]]
+        Data_predictions["Day_time"]["H"]=int(h+i)
+        Data_predictions["Day_time"]["D"]=int(d)
+        Data_predictions["Day_time"]["Y"]=int(y)
+        Data_predictions["Predictions"] = int(Accident_model.predict_classes(Time)[0])
+        Data_json.append(Data_predictions)
+        print(Time)
     # Convert list of tuples into normal list
-    ST = list(np.ravel(results))
-    
-    return jsonify(ST)
+    # ST = list(np.ravel(Data_json))
+    print(Data_json)
+    return jsonify(Data_json)
 
-# @app.route("/api/v1.0/tobs")
+# @app.route("/api/</tobs")
 # def tobs():
 #     # Create our session (link) from Python to the DB
 #     session = Session(engine)
