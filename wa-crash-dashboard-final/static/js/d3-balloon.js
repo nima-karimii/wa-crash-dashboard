@@ -1,3 +1,11 @@
+function test_function(a,b)
+{
+    console.log(a+b);
+}
+
+
+
+
 /*
  Extension to d3.js for balloon plots.
 
@@ -205,6 +213,7 @@ function balloonplot(w, h) {
         if (xAxis !== null) {
             var xAxisPosY = xAxisOrient === top ? -axisH : plotH + axisH;
             var gxAxis = g.append("g")
+                .style("font-weight", "bold")
                 .attr("class", "x_axis")
                 .attr("transform", "translate(0, " + xAxisPosY + ")")
                 .call(xAxis);
@@ -222,6 +231,7 @@ function balloonplot(w, h) {
         if (yAxis !== null) {
             var yAxisPosX = xAxisOrient === left ? -axisW : plotW + axisW;
             var gyAxis = g.append("g")
+                .style("font", "20px times")
                 .attr("class", "y_axis")
                 .attr("transform", "translate(" + yAxisPosX + ", 0)")
                 .call(yAxis);
