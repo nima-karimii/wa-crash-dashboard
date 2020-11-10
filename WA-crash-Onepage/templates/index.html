@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WA Crash Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}"> -->
+  <link rel="stylesheet" type="text/css" href="../static/css/mapstyle1.css">
+
+
+</head>
+
+<body style="background-color: aliceblue;">
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">WA Crash Dashboard</h1>
+      <p class="lead"> Visualising West Australian road crash data</p>
+    </div>
+</div>
+
+<div class= "container-fluid">
+<nav class=" navbar-light ">
+    <form >
+      <div class="row">
+        <div class="col"><a class="btn btn-lg btn-secondary btn-block" type="button" id="map_b" onclick="ActivateIDs(1)">&nbsp;&nbsp;Map&nbsp;&nbsp;</a> </div>
+    <div class="col">
+      <a class="btn btn-lg btn-secondary btn-block" type="button" id="time_b" onclick="ActivateIDs(2)">Time Analysis</a>
+    </div>
+    <div class="col">
+      <a class="btn btn-lg btn-secondary btn-block" type="button" id="car_b" onclick="ActivateIDs(3)">Cars involved </a>
+    </div> 
+      <div class="col">
+      <a class="btn btn-lg btn-secondary btn-block" type="button" id="type_b"  onclick="ActivateIDs(4)">Accident Types</a>
+    </div>
+    <div class="col">
+      <a class="btn btn-lg btn-secondary btn-block" type="button" id="pr_b" target="_blank" onclick="window.open('plan_landing_page.html', 'Prediction', 'height=800,width=1000')";>Predict Your Trip</a>
+</div>
+    </div>
+    </form>
+  
+  </nav>
+</div>
+<hr>
+<div class="container-fluid">
+  <div class="row">
+    <!-- <div class="col-6" style="background-color: aquamarine;"> -->
+    <div class="col-6">
+      <p> Road crashes are a leading cause of death and serious injury in Western Australia, impacting thousands of people every year. 
+      </p>
+      <p>
+       The <i>Western Australian Crash Dashboard</i> is an interactive dashboard exploring road crash data in Western Australia from 2015 to 2019.
+      </p>
+    </div>
+    <!-- <div class="col-6" style="background-color: grey;"> -->
+    <div class="col-6">
+      <p>
+        The aim of the dashboard is to highlight road safety issues and trends, including the geographic location of crashes, when crashes occur (by day of the week and time of day) and a breakdown of crashes by type of vehicle involved.
+      </p>
+        <p>
+        Data has been sourced from the <a href="https://portal-mainroads.opendata.arcgis.com/datasets/cd0b2ef39c6e4e71b1aa922942d316cc_2">Crash Information (Last 5 Years) dataset</a> published by Main Roads Western Australia.
+      </p>
+      </div>
+  </div>
+  <hr>
+  <div class="row controls">
+  
+    <div class="col-4">
+    <label for="data" style="font-size: 20px;">Select the year:</label>
+     
+      <select name="data" id="filter" style="font-size: 20px;" onchange="optionChanged(this.value,5)">
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019" selected>2019</option>
+      </select>
+     </div>
+    <!-- </div> -->
+  <!-- <div class="col-6" style="background-color: lightskyblue;"> -->
+
+    <div class="col-2">
+      <label for="data" style="font-size: 20px;"> Total crashes:  </label>
+    </div>
+      <div class="col-2">
+        <div id="total-crashes">?  </div>
+    </div>
+    <div class="col-2">
+      <label for="data" style="font-size: 20px;"> Total fatalities:  </label>
+    </div>
+      <div class="col-2">
+        <div id="total-fatal" style="font-size: 20px;" id="total-fatal">?  </div>
+    </div>
+    </div>
+    <div class="row controls">
+      <table style="  margin-left: auto; margin-right: auto;">
+        <tr>
+          <td>Total Bikes:</td> <td id="total-Bikes">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>Total Trucks:</td> <td id="total-Trucks">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>Total Heavy Trucks:</td> <td id="total-HTrucks">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>Total Motorcycles :</td> <td id="total-MC">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>Total Cars:</td> <td id="total-Cars">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>Total Pedestrians:</td> <td id="total-Ped">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+        </tr>
+      </table>
+  </div>  
+</div>
+<hr>
+<div id="map"></div>
+  <!-- <div id="total-crashes">?  </div> -->
+  <div id="sample-metadata" class="hidden_display" ></div>
+  <div id="heatmap" class="hidden_display"> </div>
+  <div id="Barchart2" class="hidden_display"> </div>
+  <div id="sample-metadata" class="hidden_display"> </div>
+  <div id="vis_container" class="hidden_display"> </div>
+  
+</body>
+
+<link rel="stylesheet" crossorigin=""
+href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"
+    crossorigin=""></script>
+    
+<!--D3 cdn-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<!-- <script src="../static/js/barchart.js"></script> -->
+<script src="../static/js/d3-balloon.js"></script>
+<script src="../static/js/type.js"></script>
+<script src="../static/js/data.js"></script>
+<!-- <script src="../static/js/time.js"></script> -->
+
+
+
+</html>
