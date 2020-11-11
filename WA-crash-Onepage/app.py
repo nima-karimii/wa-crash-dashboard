@@ -1,12 +1,11 @@
 import os
 
-import pandas as pd
-import numpy as np
 
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
+from tensorflow import keras
 
 from flask import Flask, jsonify, render_template,request
 from flask_sqlalchemy import SQLAlchemy
@@ -16,7 +15,7 @@ from flask_sqlalchemy import SQLAlchemy
 #################################################
 engine = create_engine("sqlite:///db/WA_Crash_data.db")
 
-# reflect an existing database into a new model
+# reflect an existing database into a new modelco
 Base = automap_base()
 # reflect the tables
 Base.prepare(engine, reflect=True)
@@ -45,7 +44,7 @@ def index():
 
 
 
-@app.route('/MAP', methods=['GET', 'POST'])
+@app.route('/plan_landing_page.html', methods=['GET', 'POST'])
 def index_func():
     if request.method == 'POST':
         # do stuff when the form is submitted
@@ -53,7 +52,7 @@ def index_func():
         # the redirect can be to the same route or somewhere else
         return redirect(url_for('index'))
     # show the form, it wasn't submitted
-    return render_template('MAP.html')
+    return render_template('plan_landing_page.html')
 
 
 # @app.route("/crash")
@@ -145,82 +144,27 @@ def crash(year):
 
 
 
-@app.route("/api/v1.0/stations")
-def stations():
+@app.route("/api/<H>/<D>/<Y>")
+def prediction(Y,D,H):
+    Accident_model = keras.models.load_model("static/ml_model/N_model_trained.h5")
     # Create our session (link) from Python to the DB
-    session = Session(engine)
-    results = session.query(Station.station).all()
-    session.close()
-
+    Data_json=[]
+    y=int(Y)
+    d=int(D)
+    h=int(H)
+    for i in range (-2 ,3):
+        Data_predictions={}
+        Data_predictions["Prediction"]={}
+        Time=[[h+i,d,y]]
+        Data_predictions["Prediction"]["H"]=h+i
+        Data_predictions["D"]=d
+        Data_predictions["Y"]=y
+        Data_predictions["Prediction"]["Pr"] = int(Accident_model.predict_classes(Time)[0])
+        Data_json.append(Data_predictions)
     # Convert list of tuples into normal list
-    ST = list(np.ravel(results))
-    
-    return jsonify(ST)
+    # ST = list(np.ravel(Data_json))
+    return jsonify(Data_json)
 
-# @app.route("/api/v1.0/tobs")
-# def tobs():
-#     # Create our session (link) from Python to the DB
-#     session = Session(engine)
-#     Data_date=session.query(Measurement.date,Measurement.station,Measurement.tobs)
-#     #Finding the start day the for mian query
-#     Max_date=dt.datetime.strptime(max(Data_date)[0],'%Y-%m-%d')
-#     Last_year=Max_date-dt.timedelta(days=365)
-#     Last_year_date=Last_year.strftime('%Y-%m-%d')
-#     #Finding the most active station id for main query       
-#     Measurement_data2 = session.query(Measurement.station,func.count(Measurement.tobs))\
-#                                     .group_by(Measurement.station).all()
-#     MAX_row=0
-#     MAX_id=""
-#     for i in range (0,len(Measurement_data2)-1):
-#         if Measurement_data2[i][1] > MAX_row :
-#             MAX_row=Measurement_data2[i][1]
-#             MAX_id=Measurement_data2[i][0]
-#     #Generating the final query : Query the dates and temperature observations of the most active station for the last year of data.
-#     results=session.query(Measurement.date,Measurement.tobs)\
-#                         .filter(Measurement.date >= Last_year_date)\
-#                         .filter(Measurement.station == MAX_id).all()
-                            
-#     session.close()
-
-#     # Convert list of tuples into normal list
-#     TOBS = list(np.ravel(results))
-    
-#     return jsonify(TOBS)
-
-    
-    
-    
-# @app.route("/api/v1.0/<start>")
-# def Start_day(start):
-#     # Create our session (link) from Python to the DB
-#     session = Session(engine)
-
-#     #Generating the final query: TMIN, TAVG, and TMAX for all dates greater than and equal to the start date.
-#     results=session.query(func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)).\
-#         filter(Measurement.date >= start).all()
-#     session.close()
-
-#     TOBS_ST = list(np.ravel(results))
-    
-#     return jsonify(TOBS_ST)
-    
-    
-# @app.route("/api/v1.0/<start>/<end>")
-# def Start_End_day(start,end):
-#         # Create our session (link) from Python to the DB
-#     session = Session(engine)
-    
-#     #Generating the final query: TMIN, TAVG, and TMAX for all dates greater than and equal to the start date.
-
-    # results=session.query(func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)).\
-    #     filter(Measurement.date >= start).filter(Measurement.date <= end).all()
-    # session.close()
-
- 
-#     TOBS_ST = list(np.ravel(results))
-#     return jsonify(TOBS_ST)
-    
-     
     
 if __name__ == '__main__':
     app.run(debug=True)
