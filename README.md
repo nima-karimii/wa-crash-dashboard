@@ -3,8 +3,6 @@
 
 ### Project name: WA Crash Dashboard
 
-### Team members: Nima and Abby
-
 ### Topic and rationale
 
 Road crashes are a leading cause of death and serious injury in Western Australia, impacting thousands of people every year both. The State Government's road safety strategy *Towards Zero: Getting there together 2008-2020*, aims to improve road safety through activities relating to road use, road conditions, speed and vehicle safety. The strategy targets a 40% reduction in the average number of people killed or seriously injured in WA per year (compared to 2005 and 2007), representing 11,000 individuals. While the overall fatality rate per year in WA has reduced over this time period, it remains relatively high compared to the rest of the country. 
