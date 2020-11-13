@@ -88,7 +88,8 @@ def crash(year):
         Data.MONTH,
         Data.SEVERITY,
         Data.CRASH_DAYWEEK,
-        Data.CRASH_TIMEDAY
+        Data.CRASH_TIMEDAY,
+        Data.CRASH_DATE
         
 
     ]
@@ -97,12 +98,12 @@ def crash(year):
     session = Session(engine)
     print("%%%%%%%%%%%%%%")
 
-    print(session)
+    
     results = session.query(*crash).filter(Data.YEAR == year).all()
     # results = session.query(*crash).all()
 
     session.close()
-
+    print(results[1])   
 
     # print(year)
 
@@ -133,7 +134,7 @@ def crash(year):
         smpl_data["SEVERITY"]=result[18]
         smpl_data["CRASH_DAYWEEK"] = result[19]
         smpl_data["CRASH_TIMEDAY"] = result[20]
-
+        smpl_data["CRASH_DATE"]= result[21]
         # print(smpl_data)
         # print("*********")
         Sampl_data_copy = smpl_data.copy()
