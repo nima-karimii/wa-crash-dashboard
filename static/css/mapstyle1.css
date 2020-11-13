@@ -1,14 +1,24 @@
-/* remove default margin and padding from body */
-/* body {
-  padding: 0;
-  margin: 0;
-} */
 
-/* set map, body, and html to 100% of the screen size */
-/* body,
-html {
+
+.index_header{
+  background-image: url("https://www.mainroads.wa.gov.au/globalassets/projects-initiatives/projects/regional/project-hero-images/geh-anzac-to-gatacre.jpg");
+  background-size: cover;
+  background-position-y: 63%;
   height: 100%;
-} */
+  color: whitesmoke;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.header{
+  background-image: url("https://www.doodlemaths.com/wp-content/uploads/2019/04/ai.jpeg");
+  background-size: cover;
+  height: 100%;
+  color: whitesmoke;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
 
 #map{
   position: relative;

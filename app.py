@@ -103,7 +103,7 @@ def crash(year):
     # results = session.query(*crash).all()
 
     session.close()
-    print(results[1])   
+    # print(results[1])   
 
     # print(year)
 

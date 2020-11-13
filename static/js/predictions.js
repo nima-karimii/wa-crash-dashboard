@@ -103,7 +103,7 @@ var trace2 = {
     title: 'The Safety Level of your travel time',
     yaxis: {
         autorange: true,
-        showgrid: true,
+        showgrid: false,
         zeroline: false,
         showline: false,
         autotick: true,

@@ -1,7 +1,3 @@
-function test_function(a,b)
-{
-    console.log(a+b);
-}
 
 
 

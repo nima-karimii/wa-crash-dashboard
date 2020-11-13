@@ -1,7 +1,3 @@
-a=2;
-b=3;
-test_function(a,b)
-
 
 function Ballonmaker(Data,X,Y)
 {
@@ -17,8 +13,8 @@ function Ballonmaker(Data,X,Y)
 
     // generate a 5x7 matrix with random values between 0 and 10
     var data = Data;
-console.log(data);
-    console.log(data,X,Y);
+// console.log(data);
+    // console.log(data,X,Y);
     // define the columns labels
     var xLabels = X;
 
@@ -45,7 +41,7 @@ console.log(data);
         .yAxis(d3.axisRight, yLabels)   // enable the Y axis and pass the tick labels
         .legend('bottom',4);           // legend below the plot with 3 sample circles (requires bplot.update() below)
 
-console.log(bplot)
+// console.log(bplot)
 
     // add it to the SVG canvas
     svg.append(bplot)
