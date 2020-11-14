@@ -306,10 +306,11 @@ Plotly.newPlot('heatmap', heatmapData, layout, config);
 
 
 
-// Store our API endpoint inside queryUrl
+// Store our 
+endpoint inside queryUrl
 var queryUrl = "/crash/2019";
 var Suburl="https://raw.githubusercontent.com/tonywr71/GeoJson-Data/master/suburb-2-wa.geojson"
-const API_KEY = "pk.eyJ1Ijoia2FyaW1paSIsImEiOiJja2ZkdTNuNnMwN205MzFwNTF2eGszOHM1In0.jfNBiTctjlmbsc8qwQYmvA";
+const API_KEY = "";
 
 
 
