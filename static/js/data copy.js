@@ -1,6 +1,36 @@
-//// Variables 
-var Summery={},Event_sev_ob,Heat_map_Data, barchartData,Number_of_crash,BaloonData
-var X_balloon =[] , Y_balloon =[] 
+//// selecting the year ////
+function optionChanged(ID,page) {
+  queryUrl="/crash/"
+  queryUrl=queryUrl+ID
+  console.log("START")
+ 
+  
+ if (page!=1) 
+ {
+  if ( document.getElementById("map").className.match(/(?:^|\s)a(?!\S)/) ) {document.getElementById("map").outerHTML = "<div id='map' class='a'></div>"; }
+    else  {document.getElementById("map").outerHTML = "<div id='map' class='hidden_display'></div>"; }}
+  else { document.getElementById("map").outerHTML = "<div id='map' class='a'></div>"; }
+
+  
+  Map_refresh(queryUrl);
+}
+
+
+var Summery={
+  "Total_Bike":0,
+  "Total_Truck":0,
+  "Total_HTruck":0,
+  "Total_MotorCycle":0,
+  "Total_Pedestrians":0,
+  "Total_Other":0,
+  "Total_Fatal":0,
+}
+
+
+
+//////////////////////// Balloon Chart ///////////////
+
+/// Creating an Object to store Severity data
 
 function Creat_SeverityObj(Fatal,Hospital,Medical,PDO_Major,PDO_Minor)
   {
@@ -11,72 +41,20 @@ function Creat_SeverityObj(Fatal,Hospital,Medical,PDO_Major,PDO_Minor)
   this.PDO_Minor = PDO_Minor;
 }
 
+var Event_sev_ob = new Object();
+Event_sev_ob = {
+  Head_On :new Creat_SeverityObj(0,0,0,0,0,0),
+  Hit_Animal:new Creat_SeverityObj(0,0,0,0,0,0),
+  Hit_Object:new Creat_SeverityObj(0,0,0,0,0,0),
+  Hit_Pedestrian:new Creat_SeverityObj(0,0,0,0,0,0),
+  Non_Collision:new Creat_SeverityObj(0,0,0,0,0,0),
+  Others:new Creat_SeverityObj(0,0,0,0,0,0),
+  Rear_End:new Creat_SeverityObj(0,0,0,0,0,0),
+  Right_Angle:new Creat_SeverityObj(0,0,0,0,0,0),
+  Right_Turn_Thru:new Creat_SeverityObj(0,0,0,0,0,0),
+  Sideswipe_Same_Dir:new Creat_SeverityObj(0,0,0,0,0,0),
 
-// Store our endpoint inside queryUrl
-var queryUrl = "/crash/2019";
-var Suburl="https://raw.githubusercontent.com/tonywr71/GeoJson-Data/master/suburb-2-wa.geojson"
-const API_KEY = "pk.eyJ1Ijoia2FyaW1paSIsImEiOiJja2ZkdTNuNnMwN205MzFwNTF2eGszOHM1In0.jfNBiTctjlmbsc8qwQYmvA";
-
-
-var layers = {
-  Bike: new L.LayerGroup(),
-  Truck: new L.LayerGroup(),
-  H_Truck: new L.LayerGroup(),
-  MotorCycle: new L.LayerGroup(),
-  Pedestrians: new L.LayerGroup(),
-  Other: new L.LayerGroup(),
-};
-// // console.log(layers.Bike);
-
-var more_layers= {
-  Fatal: new L.LayerGroup(),
-  Suburb: new L.LayerGroup(),
 }
-
-
-
-
-// // Create a control for our layers, add our overlay layers to it
-// L.control.layers(null, overlays).addTo(myMap);
-
-
-
-  var Bike_popup = [];
-  var Truck_popup = [];
-  var H_Truck_popup = [];
-  var MotorCycle_popup = [];
-  var Pedestrians_popup = [];
-  var Other_popup = [];
-  var Fatal_popup=[];
-
-
-
-
-data_refresh(queryUrl);
-
-
-//// selecting the year ////
-function optionChanged(ID) {
-  queryUrl="/crash/"
-  queryUrl=queryUrl+ID
-  console.log("START")
- 
-  
-//  if (page!=1) 
-//  {
-//   if ( document.getElementById("map").className.match(/(?:^|\s)a(?!\S)/) ) {document.getElementById("map").outerHTML = "<div id='map' class='a'></div>"; }
-//     else  {document.getElementById("map").outerHTML = "<div id='map' class='hidden_display'></div>"; }}
-//   else { document.getElementById("map").outerHTML = "<div id='map' class='a'></div>"; }
-
-  
-  data_refresh(queryUrl);
-}
-
-
-
-
-
-//////////////////////// Balloon Chart ///////////////
 
 /// collecting the data for Balloon chart of Accident type
 
@@ -208,6 +186,9 @@ Plotly.newPlot('Barchart2', data, layout);
 ////////   Heat MAP ///////////////////////
 
 
+var Heat_map_Data = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]];
+
+
 
 function heatmapData (DayWeek, TimeDay,Data) {
   // // // // // console.log(DayWeek,TimeDay);
@@ -324,6 +305,24 @@ Plotly.newPlot('heatmap', heatmapData, layout, config);
 
 
 
+
+// Store our 
+// endpoint inside queryUrl
+var queryUrl = "/crash/2019";
+var Suburl="https://raw.githubusercontent.com/tonywr71/GeoJson-Data/master/suburb-2-wa.geojson"
+const API_KEY = "pk.eyJ1Ijoia2FyaW1paSIsImEiOiJja2ZkdTNuNnMwN205MzFwNTF2eGszOHM1In0.jfNBiTctjlmbsc8qwQYmvA";
+
+
+
+  // Define streetmap and darkmap layers
+
+
+// Initialize all of the LayerGroups we'll be using
+// Suburb = new L.layerGroup();
+
+
+Map_refresh(queryUrl);
+
 function ActivateIDs(i)
 {
   var map_panel = d3.select("#map");
@@ -340,11 +339,11 @@ function ActivateIDs(i)
 
 switch(i)
 {
-  case 1 : {
+  case 1 : {map_panel.attr('class','a');
             heatmap_panel.attr('class','hidden_display');
             Barchart2_panel.attr('class','hidden_display');
             vis_container_panel.attr('class','hidden_display');
-            mapping(1);
+            optionChanged(Year_selected,1);
             break; }
   case 2 : {
     
@@ -352,19 +351,19 @@ switch(i)
             heatmap_panel.attr('class','a');
             Barchart2_panel.attr('class','hidden_display');
             vis_container_panel.attr('class','hidden_display');
-            plotting();
+            optionChanged(Year_selected,2);            
             break; }
   case 3 : {map_panel.attr('class','hidden_display');
             heatmap_panel.attr('class','hidden_display');
             Barchart2_panel.attr('class','a');
             vis_container_panel.attr('class','hidden_display');
-            plotting();
+            optionChanged(Year_selected,3);            
             break; }
   case 4 : {map_panel.attr('class','hidden_display');
             heatmap_panel.attr('class','hidden_display');
             Barchart2_panel.attr('class','hidden_display');
             vis_container_panel.attr('class','a');
-            plotting();
+            optionChanged(Year_selected,4);            
             break; }
   }
 
@@ -433,48 +432,140 @@ function Total_Crash_display(Number)
 
 
 
-function data_refresh(queryUrl)
+function Map_refresh(queryUrl)
 
 {
+  var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+    attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
+    maxZoom: 18,
+    id: "mapbox/streets-v11",
+    accessToken: API_KEY
+  });
 
-/// Creating an Object to store Severity data
+  var lightMap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+    attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
+    maxZoom: 18,
+    id: "light-v10",
+    accessToken: API_KEY
+  });
 
-Event_sev_ob = new Object();
-Event_sev_ob = {
-  Head_On :new Creat_SeverityObj(0,0,0,0,0,0),
-  Hit_Animal:new Creat_SeverityObj(0,0,0,0,0,0),
-  Hit_Object:new Creat_SeverityObj(0,0,0,0,0,0),
-  Hit_Pedestrian:new Creat_SeverityObj(0,0,0,0,0,0),
-  Non_Collision:new Creat_SeverityObj(0,0,0,0,0,0),
-  Others:new Creat_SeverityObj(0,0,0,0,0,0),
-  Rear_End:new Creat_SeverityObj(0,0,0,0,0,0),
-  Right_Angle:new Creat_SeverityObj(0,0,0,0,0,0),
-  Right_Turn_Thru:new Creat_SeverityObj(0,0,0,0,0,0),
-  Sideswipe_Same_Dir:new Creat_SeverityObj(0,0,0,0,0,0),
+  var satMap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+    attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
+    maxZoom: 18,
+    id: "satellite-streets-v11",
+    accessToken: API_KEY
+  });
 
-}
+  var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+    attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
+    maxZoom: 18,
+    id: "dark-v10",
+    accessToken: API_KEY
+  });
 
-
-Heat_map_Data = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]];
-
-
-  
-
-  
-  barchartData = new Object();
-
-  barchartData = {
-  Truck: { Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
-  Heavy_Truck:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
-  Bike: { Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
-  MotorCycle:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
-  MotorCycle:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
-  Other:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+  var layers = {
+    Bike: new L.LayerGroup(),
+    Truck: new L.LayerGroup(),
+    H_Truck: new L.LayerGroup(),
+    MotorCycle: new L.LayerGroup(),
+    Pedestrians: new L.LayerGroup(),
+    Other: new L.LayerGroup(),
   };
+  // // console.log(layers.Bike);
+  
+  var more_layers= {
+    Fatal: new L.LayerGroup(),
+    Suburb: new L.LayerGroup(),
+  }
+  
+  
+  
+    // Create our map, giving it the satellite Map and earthquakes layers to display on load
+    var myMap = L.map("map", {
+      center:  [-31.9505, 115.8605],
+      zoom: 7,
+      layers: [
+       layers.Bike, 
+       layers.Truck, 
+       layers.H_Truck, 
+       layers.MotorCycle, 
+       layers.Pedestrians, 
+       layers.Other,
+      //  more_layers.Fatal,
+      //  more_layers.Suburb,
+        ]
+    });
+  
+  //   // Add our 'Satmap' tile layer to the map
+  streetmap.addTo(myMap);  
+  
+  var myMap;
+  
+  var Mapinit=0;
   
   
 
-Summery={
+  // myMap.eachLayer(function (layer) {
+  //   myMap.removeLayer(layer); });
+
+
+
+// Create an overlays object to add to the layer control
+var overlays = {
+  "Bikes": layers.Bike,
+  "Trucks":layers.Truck,
+  "H_Trucks": layers.H_Truck,
+  "MotorCycles": layers.MotorCycle,
+  "Cars": layers.Other,
+  "Pedestrians": layers.Pedestrians,
+  "Suburb": more_layers.Suburb,
+  "Fatal": more_layers.Fatal,
+};
+
+// // Create a control for our layers, add our overlay layers to it
+// L.control.layers(null, overlays).addTo(myMap);
+
+
+  // Define a baseMaps object to hold our base layers
+  var baseMaps = {
+    "Street Map": streetmap,
+    "Dark Map": darkmap,
+    "Light MAp":lightMap,
+    "satellite Map":satMap,
+  };
+
+
+ 
+ ///////////////////////////////////////////////////////////////////////////////////
+d3.json(queryUrl).then((data) => {
+
+
+// d3.csv(queryUrl).then(function(data, err) {
+// // console.log(data.length);
+    // console.log(data);
+// // // // console.log(data.length);
+
+
+var barchartData = new Object();
+
+barchartData = {
+Truck: { Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+Heavy_Truck:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+Bike: { Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+MotorCycle:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+MotorCycle:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+Other:{ Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0,},
+};
+
+
+    // // // // console.log(data);
+
+// var SMonths = new Object();
+//   SMonths= { Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:0,Jul:0,Aug:0,Sep:0,O:1,N:1,D:1};
+//   // // // // console.log(SMonths);
+
+
+var Summery={
   "Total_Bike":0,
   "Total_Truck":0,
   "Total_HTruck":0,
@@ -483,22 +574,14 @@ Summery={
   "Total_Other":0,
   "Total_Fatal":0,
 }
- ///////////////////////////////////////////////////////////////////////////////////
-d3.json(queryUrl).then((data) => {
 
-
-
-    // // // // console.log(data);
-
-
-
-  Bike_popup = [];
-  Truck_popup = [];
-  H_Truck_popup = [];
-  MotorCycle_popup = [];
-  Pedestrians_popup = [];
-  Other_popup = [];
-  Fatal_popup=[]
+  var Bike = [];
+  var Truck = [];
+  var H_Truck = [];
+  var MotorCycle = [];
+  var Pedestrians = [];
+  var Other = [];
+  var Fatal=[]
   // // // // console.log( barchartData.Truck);
 
 
@@ -519,7 +602,7 @@ d3.json(queryUrl).then((data) => {
       if (+data[i].TOTAL_BIKE_INVOLVED>0) {
          var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"Blue");
                     newCircle.addTo(layers.Bike);
-                    Bike_popup.push( newCircle.bindPopup(Adress+"<br>"+C_date+
+                    Bike.push( newCircle.bindPopup(Adress+"<br>"+C_date+
                                                    "<br>C:"+Other_V+" T:"+TTruck+" HT:"+HTruck+
                                                    "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
 
@@ -531,7 +614,7 @@ d3.json(queryUrl).then((data) => {
         Summery.Total_Truck=Summery.Total_Truck+(+data[i].TOTAL_TRUCK_INVOLVED);
         var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"Green");
                     newCircle.addTo(layers.Truck);
-                    Truck_popup.push( newCircle.bindPopup(Adress+"<br>"+C_date+
+                    Truck.push( newCircle.bindPopup(Adress+"<br>"+C_date+
                     "<br>C:"+Other_V+" T:"+TTruck+" HT:"+HTruck+
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
 
@@ -545,7 +628,7 @@ d3.json(queryUrl).then((data) => {
         Summery.Total_HTruck=Summery.Total_HTruck+(+data[i].TOTAL_HEAVY_TRUCK_INVOLVED);
          var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"Orange");
                     newCircle.addTo(layers.H_Truck);
-                    H_Truck_popup.push( newCircle.bindPopup(Adress+"<br>"+C_date+
+                    H_Truck.push( newCircle.bindPopup(Adress+"<br>"+C_date+
                     "<br>C:"+Other_V+" T:"+TTruck+" HT:"+HTruck+
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
 
@@ -556,7 +639,7 @@ d3.json(queryUrl).then((data) => {
         Summery.Total_MotorCycle=Summery.Total_MotorCycle+(+data[i].TOTAL_MOTOR_CYCLE_INVOLVED);
          var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"yellow");
                     newCircle.addTo(layers.MotorCycle);
-                    MotorCycle_popup.push( newCircle.bindPopup(Adress+"<br>"+C_date+
+                    MotorCycle.push( newCircle.bindPopup(Adress+"<br>"+C_date+
                     "<br>C:"+Other_V+" T:"+TTruck+" HT:"+HTruck+
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
                     // // // // // console.log("Motor",data[i].MONTH);
@@ -567,7 +650,7 @@ d3.json(queryUrl).then((data) => {
         Summery.Total_Other=Summery.Total_Other+(+data[i].TOTAL_OTHER_VEHICLES_INVOLVED);
          var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"purple");
                     newCircle.addTo(layers.Other);
-                    Other_popup.push( newCircle.bindPopup(Adress+"<br>"+C_date+
+                    Other.push( newCircle.bindPopup(Adress+"<br>"+C_date+
                     "<br>C:"+Other_V+" T:"+TTruck+" HT:"+HTruck+
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
 
@@ -580,7 +663,7 @@ d3.json(queryUrl).then((data) => {
         Summery.Total_Pedestrians=Summery.Total_Pedestrians+(+data[i].TOTAL_PEDESTRIANS_INVOLVED);
         var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"Gold");
                     newCircle.addTo(layers.Pedestrians);
-                                   Pedestrians_popup.push(newCircle.bindPopup(Adress+"<br>"+C_date+
+                                   Pedestrians.push(newCircle.bindPopup(Adress+"<br>"+C_date+
                                    "<br>C:"+Other_V+" T:"+TTruck+" HT:"+HTruck+
                                    "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
                   }
@@ -593,7 +676,7 @@ d3.json(queryUrl).then((data) => {
          var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"red");
                    //  cityCircles10.push(
                     newCircle.addTo(more_layers.Fatal);
-                    Fatal_popup.push( newCircle.bindPopup(Adress+"<br>"+C_date+"-"+data[i].CRASH_TIMEDAY+
+                    Fatal.push( newCircle.bindPopup(Adress+"<br>"+C_date+"-"+data[i].CRASH_TIMEDAY+
                     "<br>C:"+Other_V+" T:"+TTruck+" HT:"+HTruck+
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
                   }
@@ -603,27 +686,36 @@ Heat_map_Data=heatmapData (data[i].CRASH_DAYWEEK,data[i].CRASH_TIMEDAY,Heat_map_
 balloonDatamaker (data[i].SEVERITY,data[i].EVENT_NATURE );
 
 }
-
 console.log("END");
 
 
 
-Number_of_crash=data.length;
+
+
+Heatmap_plot(Heat_map_Data);
+Barchart(barchartData);
+
+//////////////////////////////////////////////////////////
+
+
+Demographic_Info(Summery);
+Total_Crash_display(data.length);
+
+
 
 ////////////////////////////////////////////
 
 
 
 var arr = Object.keys(Event_sev_ob).map((k) => Event_sev_ob[k])
-X_balloon=Object.keys(Event_sev_ob)
+var X=Object.keys(Event_sev_ob)
 // // // console.log(arr[0].Fatal);
-Y_balloon=Object.keys(arr[0])
+var Y=Object.keys(arr[0])
 Data_arr=[]
 for (i=0 ;i<arr.length;i++)
 { var aa= Object.keys(arr[i]).map((k) => arr[i][k])
   Data_arr.push(aa);
 }
-console.log(Summery);
 
 
 function r2c(arr) {
@@ -642,141 +734,34 @@ function r2c(arr) {
 
 BaloonData=r2c(Data_arr);
 
-mapping(2);
-plotting();
 
+
+Ballonmaker(BaloonData,X,Y);
+
+
+
+layers.Bike=L.layerGroup(Bike);
+layers.Truck=L.layerGroup(Truck);
+layers.H_Truck=L.layerGroup(H_Truck);
+layers.MotorCycle=L.layerGroup(MotorCycle);
+layers.Other=L.layerGroup(Other);
+layers.Pedestrians=L.layerGroup(Pedestrians);
+
+L.control.layers(baseMaps,overlays).addTo(myMap);
+
+more_layers.Fatal=L.layerGroup(Fatal);
+
+// // // console.log(Suburl);    
+
+d3.json(Suburl, function( err,Geo) {
+  if (err) throw err;
+  // // // console.log("!!!!!!!!dfsdfgsihiuh;ihhl;ih!!!") ;    
+  L.geoJSON(Geo.features, {
+    style: {
+    weight: 2,
+    color: "orange"}
+  }).addTo(Suburb);
 });
 
+});
 }
-
-
-
-
-
-
-
-
-function mapping(type)
-{
-  var myMap;
-
-var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-  attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
-  maxZoom: 18,
-  id: "mapbox/streets-v11",
-  accessToken: API_KEY
-});
-
-var lightMap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-  attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-  maxZoom: 18,
-  id: "light-v10",
-  accessToken: API_KEY
-});
-
-var satMap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-  attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-  maxZoom: 18,
-  id: "satellite-streets-v11",
-  accessToken: API_KEY
-});
-
-var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-  attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-  maxZoom: 18,
-  id: "dark-v10",
-  accessToken: API_KEY
-});
-
-
-// Create an overlays object to add to the layer control
-var overlays = {
-  "Bikes": layers.Bike,
-  "Trucks":layers.Truck,
-  "H_Trucks": layers.H_Truck,
-  "MotorCycles": layers.MotorCycle,
-  "Cars": layers.Other,
-  "Pedestrians": layers.Pedestrians,
-  "Suburb": more_layers.Suburb,
-  "Fatal": more_layers.Fatal,
-};
-
-
-  // Define a baseMaps object to hold our base layers
-  var baseMaps = {
-    "Street Map": streetmap,
-    "Dark Map": darkmap,
-    "Light MAp":lightMap,
-    "satellite Map":satMap,
-  };
-
-console.log(type);
- if (type==2)
- {console.log(document.getElementById("map").className);
-  if ( document.getElementById("map").className.match(/(?:^|\s)a(?!\S)/) ) {document.getElementById("map").outerHTML = "<div id='map' class='a'></div>"; }
-     else  {document.getElementById("map").outerHTML = "<div id='map' class='hidden_display'></div>"; }
- }
- else {document.getElementById("map").outerHTML = "<div id='map' class='a'></div>";}
-
-     // Create our map, giving it the satellite Map and earthquakes layers to display on load
-    myMap = L.map("map", {
-      center:  [-31.9505, 115.8605],
-      zoom: 7,
-      layers: [
-       layers.Bike, 
-       layers.Truck, 
-       layers.H_Truck, 
-       layers.MotorCycle, 
-       layers.Pedestrians, 
-       layers.Other,
-      //  more_layers.Fatal,
-      //  more_layers.Suburb,
-        ]
-    });
-  
-  //   // Add our 'Satmap' tile layer to the map
-  streetmap.addTo(myMap);  
-
-  layers.Bike=L.layerGroup(Bike_popup);
-  layers.Truck=L.layerGroup(Truck_popup);
-  layers.H_Truck=L.layerGroup(H_Truck_popup);
-  layers.MotorCycle=L.layerGroup(MotorCycle_popup);
-  layers.Other=L.layerGroup(Other_popup);
-  layers.Pedestrians=L.layerGroup(Pedestrians_popup);
-  
-  L.control.layers(baseMaps,overlays).addTo(myMap);
-  
-  more_layers.Fatal=L.layerGroup(Fatal_popup);
-  
-  // // // console.log(Suburl);    
-  
-  d3.json(Suburl, function( err,Geo) {
-    if (err) throw err;
-    // // // console.log("!!!!!!!!dfsdfgsihiuh;ihhl;ih!!!") ;    
-    L.geoJSON(Geo.features, {
-      style: {
-      weight: 2,
-      color: "orange"}
-    }).addTo(Suburb);
-  });
-    
-
-}
-
-
-
-function plotting()
-{
-console.log(window.Summery);
-console.log(X_balloon);
-Ballonmaker(BaloonData,X_balloon,Y_balloon);
-Heatmap_plot(Heat_map_Data);
-Barchart(barchartData);
-Demographic_Info(Summery);
-Total_Crash_display(Number_of_crash);
-
-}
-console.log(X_balloon);
-
-
-
