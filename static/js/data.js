@@ -52,13 +52,12 @@ var more_layers= {
 
 
 
-data_refresh(queryUrl);
+data_refresh("2019");
 
 
 //// selecting the year ////
 function optionChanged(ID) {
-  queryUrl="/crash/"
-  queryUrl=queryUrl+ID
+
   console.log("START")
  
   
@@ -69,7 +68,7 @@ function optionChanged(ID) {
 //   else { document.getElementById("map").outerHTML = "<div id='map' class='a'></div>"; }
 
   
-  data_refresh(queryUrl);
+  data_refresh(ID);
 }
 
 
@@ -334,7 +333,6 @@ function ActivateIDs(i)
       Barchart2_panel.html("");
       var vis_container_panel = d3.select("#vis_container");
       vis_container_panel.html("");
-      var Year_selected=d3.select("#filter").node().value;
       var map_button=d3.select("#map_b").node().text;
       // // console.log(map_button);
 
@@ -344,11 +342,11 @@ switch(i)
             heatmap_panel.attr('class','hidden_display');
             Barchart2_panel.attr('class','hidden_display');
             vis_container_panel.attr('class','hidden_display');
+
             mapping(1);
             break; }
   case 2 : {
-    
-    map_panel.attr('class','hidden_display');
+            map_panel.attr('class','hidden_display');
             heatmap_panel.attr('class','a');
             Barchart2_panel.attr('class','hidden_display');
             vis_container_panel.attr('class','hidden_display');
@@ -429,13 +427,61 @@ function Total_Crash_display(Number)
 
 }
 
+function barchart_fatal(timeData)
+{ 
+  X= timeData.map(function(obj) { return obj.hour});
+  Y= timeData.map(function(obj) { return obj.Number});
+console.log(X,Y);
+  var data = [
+    {
+      x:X,
+      y: Y,
+      type: 'bar',
+      marker: {
+        color: 'red',
+        opacity: 0.8
+      }
+    }
+  ];
+
+  var layout = {
+    title: 'Number of Death in each hours',
+    font:{
+      family: 'Raleway, sans-serif'
+    },
+    showlegend: false,
+    xaxis: {
+      tickangle: -45,
+      showticklabels: true,
+      title: 'The Hours ',
+      dtick: 1
+
+    },
+    yaxis: {
+      zeroline: false,
+      gridwidth: 2
+    },
+    bargap :0.05
+  };
+  
+  Plotly.newPlot('barchart1', data,layout);
 
 
 
+}
 
-function data_refresh(queryUrl)
+
+
+function data_refresh(YEAR)
 
 {
+
+  queryUrl="/crash/"
+  queryUrl=queryUrl+YEAR
+
+  TimequeryUrl="/time/"
+  TimequeryUrl=TimequeryUrl+YEAR
+
 
 /// Creating an Object to store Severity data
 
@@ -483,12 +529,23 @@ Summery={
   "Total_Other":0,
   "Total_Fatal":0,
 }
+
+
+
+d3.json(TimequeryUrl).then((timeData) => {
+  console.log(timeData);
+
+  barchart_fatal(timeData);
+
+});
+
+
+
+
  ///////////////////////////////////////////////////////////////////////////////////
 d3.json(queryUrl).then((data) => {
 
-
-
-    // // // // console.log(data);
+// console.log(data);
 
 
 
@@ -642,7 +699,6 @@ function r2c(arr) {
 
 BaloonData=r2c(Data_arr);
 
-mapping(2);
 plotting();
 
 });
@@ -658,7 +714,10 @@ plotting();
 
 function mapping(type)
 {
+Demographic_Info(Summery);
+Total_Crash_display(Number_of_crash);
   var myMap;
+
 
 var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
   attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
@@ -711,9 +770,11 @@ var overlays = {
   };
 
 console.log(type);
+
  if (type==2)
  {console.log(document.getElementById("map").className);
-  if ( document.getElementById("map").className.match(/(?:^|\s)a(?!\S)/) ) {document.getElementById("map").outerHTML = "<div id='map' class='a'></div>"; }
+  if ( document.getElementById("map").className.match(/(?:^|\s)a(?!\S)/) ) 
+    {document.getElementById("map").outerHTML = "<div id='map' class='a'></div>"; }
      else  {document.getElementById("map").outerHTML = "<div id='map' class='hidden_display'></div>"; }
  }
  else {document.getElementById("map").outerHTML = "<div id='map' class='a'></div>";}

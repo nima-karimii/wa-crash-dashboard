@@ -4,7 +4,7 @@ import os
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine ,func,and_
 from tensorflow import keras
 
 from flask import Flask, jsonify, render_template,request
@@ -45,7 +45,7 @@ def index():
 
 
 @app.route('/plan_landing_page.html', methods=['GET', 'POST'])
-def index_func():
+def plan_func():
     if request.method == 'POST':
         # do stuff when the form is submitted
         # redirect to end the POST handling
@@ -54,9 +54,49 @@ def index_func():
     # show the form, it wasn't submitted
     return render_template('plan_landing_page.html')
 
+@app.route('/Tableau.html', methods=['GET', 'POST'])
+def tableau_func():
+    if request.method == 'POST':
+        # do stuff when the form is submitted
+        # redirect to end the POST handling
+        # the redirect can be to the same route or somewhere else
+        return redirect(url_for('index'))
+    # show the form, it wasn't submitted
+    return render_template('Tableau.html')
 
-# @app.route("/crash")
-# def crash():
+
+
+@app.route("/time/<year>")
+def time(year):
+    time_data=[
+        Data.SEVERITY,
+        Data.YEAR,
+        Data.CRASH_TIME_HRS,
+        Data.ACC_ID    ]
+
+    session = Session(engine)
+    results = session.query(*time_data,func.count(Data.ACC_ID)).filter(and_(Data.YEAR == year,Data.SEVERITY=="Fatal")).group_by(Data.CRASH_TIME_HRS).all()
+    session.close()
+
+    print(results)
+
+
+    Data_json=[]
+    i=0
+    for result in results:
+        smpl_data = {}
+
+        i=i+1
+        smpl_data["Sev"] = result[0]
+        smpl_data["Year"] = result[1]
+        smpl_data["hour"] = result[2]
+        smpl_data["Number"] = result[4]
+
+        Sampl_data_copy = smpl_data.copy()
+        Data_json.append(Sampl_data_copy)
+        # if (i==1000): break
+    # print(smpl_data)
+    return jsonify(Data_json)
 
 
 @app.route("/crash/<year>")
