@@ -17,13 +17,13 @@
 </head>
 
 <body style="background-color: aliceblue;">
-
   <div class="jumbotron jumbotron-fluid index_header">
     <div class="container">
       <h1 class="display-4">WA Crash Dashboard</h1>
       <p class="lead"> Visualising West Australian road crash data</p>
     </div>
-</div>
+  </div>
+
 
 <div class= "container-fluid">
 <nav class=" navbar-light ">
@@ -43,7 +43,7 @@
       <a class="btn btn-lg btn-secondary btn-block" type="button" id="pr_b" target="_blank" onclick="window.open('plan_landing_page.html', 'Prediction', 'height=800,width=1000')";>Predict Your Trip</a>
 </div>
 <div class="col">
-  <a class="btn btn-lg btn-secondary btn-block" type="button" id="pr_b" target="_blank" onclick="window.open('Tableau.html', 'Tableau Dashboard', 'height=1000,width=800')";>Predict Your Trip</a>
+  <a class="btn btn-lg btn-secondary btn-block" type="button" id="pr_b" target="_blank" onclick="window.open('Tableau.html', 'Tableau Dashboard', 'height=1000,width=800')";>Tableau Dashboard</a>
 </div>
     </div>
     </form>
@@ -104,33 +104,27 @@
     <div class="row controls">
       <table style="  margin-left: auto; margin-right: auto;">
         <tr>
-          <td>Total Bikes:</td> <td id="total-Bikes">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td>Total Trucks:</td> <td id="total-Trucks">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td>Total Heavy Trucks:</td> <td id="total-HTrucks">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td>Total Motorcycles :</td> <td id="total-MC">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td>Total Cars:</td> <td id="total-Cars">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td>Total Pedestrians:</td> <td id="total-Ped">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>Bikes involved:</td> <td id="total-Bikes">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>Trucks involved:</td> <td id="total-Trucks">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>Heavy Trucks involved:</td> <td id="total-HTrucks">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>Motorcycles involved:</td> <td id="total-MC">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>Cars involved:</td> <td id="total-Cars">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>Pedestrians involved:</td> <td id="total-Ped">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
 
         </tr>
       </table>
   </div>  
 </div>
 <hr>
-<div class="row">
-  <div class="col-6">
-<div id="map" class="a"></div></div>
-<div class="col-6">
-
-</div>
-</div>                
-   
+  <div id="map" class="a"></div>
   <div id="sample-metadata" class="hidden_display" ></div>
   <div id="heatmap" class="hidden_display"> </div>
-  <div id="barchart1" class="a"> </div>
+  <div id="Barchart1" class="hidden_display"> </div>
   <div id="Barchart2" class="hidden_display"> </div>
+  <div id="Barchart3" class="hidden_display"> </div>
   <div id="sample-metadata" class="hidden_display"> </div>
   <div id="vis_container" class="hidden_display"> </div>
-  
+
 </body>
 
 <link rel="stylesheet" crossorigin=""

@@ -12,6 +12,7 @@
 
 .header{
   background-image: url("https://www.doodlemaths.com/wp-content/uploads/2019/04/ai.jpeg");
+  
   background-size: cover;
   height: 100%;
   color: whitesmoke;
@@ -44,4 +45,22 @@
 }
 .hidden_display
 {display: none !important;
+}
+.a
+{position: relative;
+  align-items :center;
+}
+
+.balloon_plot .value {
+  font-family: Arial, sans-serif;
+  cursor: default;
+}
+
+.balloon_plot .tick {
+  cursor: default;
+}
+
+.balloon_plot .legend circle,
+.balloon_plot .legend text {
+  fill: #666666;
 }

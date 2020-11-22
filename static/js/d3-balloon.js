@@ -1,18 +1,6 @@
 
 
 
-
-/*
- Extension to d3.js for balloon plots.
-
- Works only with d3.js 4.0 API.
-
- Developed by Markus Konrad <markus.konrad@wzb.eu>, April/May 2017
- Partly adopted from Asif Rahman, http://neuralengr.com/asifr/journals/
- */
-
-/** IE Support: add Array.fill method **/
-
 if (!Array.prototype.fill) {
   Object.defineProperty(Array.prototype, 'fill', {
     value: function(value) {

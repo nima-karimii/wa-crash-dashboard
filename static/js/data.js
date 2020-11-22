@@ -1,6 +1,6 @@
 //// Variables 
-var Summery={},Event_sev_ob,Heat_map_Data, barchartData,Number_of_crash,BaloonData
-var X_balloon =[] , Y_balloon =[] 
+var Summery={},Event_sev_ob,Heat_map_Data, barchartData,Number_of_crash,BaloonData;
+var X_balloon =[] , Y_balloon =[] ,Fatal_time_data=[];
 
 function Creat_SeverityObj(Fatal,Hospital,Medical,PDO_Major,PDO_Minor)
   {
@@ -175,10 +175,15 @@ var trace2 = {
 };
 var trace3 = {
   x: Otherlist,
-  y: OtherListvalue.map(function(a, index, array){
-    return Math.round(a/10);}),
-  name: 'Cars',
+  // y: OtherListvalue.map(function(a, index, array){
+  //   return Math.round(a/10);}),
+  y:OtherListvalue,
+  name: 'Cars&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
+  marker: {
+    color: 'rgb(142,124,195)'
+  },
   type: 'bar'
+
 };
 var trace4 = {
   x: Motorlist,
@@ -193,12 +198,27 @@ var trace5 = {
   type: 'bar'
 };
 
-var data = [trace1, trace2,trace3,trace4,trace5];
-
+var data = [trace1, trace2,trace4,trace5];
+var cardata=[trace3]
 // // console.log(data);
 var layout = {barmode: 'group'};
 
 Plotly.newPlot('Barchart2', data, layout);
+
+var carlayout = {title: 'Number of Cars involved in the Accidents ',
+font:{
+  family: 'Raleway, sans-serif'
+},
+showlegend: true,
+yaxis: {
+  zeroline: false,
+  gridwidth: 2
+},
+};
+
+Plotly.newPlot('Barchart3', cardata, carlayout);
+
+
 
 
 }
@@ -281,17 +301,19 @@ return(Data)
     
 function Heatmap_plot(data)
 { 
-  // // // // console.log(data);
-  var Zdata=data; 
+  console.log(data);
 
+  Tdata= data[0].map((_, colIndex) => data.map(row => row[colIndex]));
+
+  console.log(Tdata);
 
 var heatmapData = [
     {
 
-        z: Zdata,
+        z: Tdata,
 
-        y: ['Monday','Tuesday','Wednesday','Thursday', 'Friday','Saturday','Sunday'],
-        x: ['Morning', 'Afternoon', 'Evening','Night'],
+        x: ['Monday','Tuesday','Wednesday','Thursday', 'Friday','Saturday','Sunday'],
+        y: ['Morning<br>6am-12pm', 'Afternoon<br>12pm-6pm', 'Evening<br>6pm-12am','Night<br>12am-6am'],
         type: 'heatmap',
         colorscale: 'OrRd',
         hoverongaps: false,
@@ -334,6 +356,10 @@ function ActivateIDs(i)
       var vis_container_panel = d3.select("#vis_container");
       vis_container_panel.html("");
       var map_button=d3.select("#map_b").node().text;
+      var Barchart1_panel = d3.select("#Barchart1");
+      Barchart1_panel.html("");
+      var Barchart3_panel = d3.select("#Barchart3");
+      Barchart3_panel.html("");
       // // console.log(map_button);
 
 switch(i)
@@ -342,7 +368,8 @@ switch(i)
             heatmap_panel.attr('class','hidden_display');
             Barchart2_panel.attr('class','hidden_display');
             vis_container_panel.attr('class','hidden_display');
-
+            Barchart3_panel.attr('class','hidden_display');
+            Barchart1_panel.attr('class','hidden_display');
             mapping(1);
             break; }
   case 2 : {
@@ -350,18 +377,25 @@ switch(i)
             heatmap_panel.attr('class','a');
             Barchart2_panel.attr('class','hidden_display');
             vis_container_panel.attr('class','hidden_display');
+            Barchart3_panel.attr('class','hidden_display');
+            Barchart1_panel.attr('class','a');
             plotting();
             break; }
   case 3 : {map_panel.attr('class','hidden_display');
             heatmap_panel.attr('class','hidden_display');
             Barchart2_panel.attr('class','a');
             vis_container_panel.attr('class','hidden_display');
+            Barchart3_panel.attr('class','a');
+            Barchart1_panel.attr('class','hidden_display');
+
             plotting();
             break; }
   case 4 : {map_panel.attr('class','hidden_display');
             heatmap_panel.attr('class','hidden_display');
             Barchart2_panel.attr('class','hidden_display');
-            vis_container_panel.attr('class','a');
+            vis_container_panel.attr('class','a')
+            Barchart3_panel.attr('class','hidden_display');
+            Barchart1_panel.attr('class','hidden_display');
             plotting();
             break; }
   }
@@ -462,9 +496,11 @@ console.log(X,Y);
       gridwidth: 2
     },
     bargap :0.05
+
+
   };
   
-  Plotly.newPlot('barchart1', data,layout);
+  Plotly.newPlot('Barchart1', data,layout);
 
 
 
@@ -534,8 +570,8 @@ Summery={
 
 d3.json(TimequeryUrl).then((timeData) => {
   console.log(timeData);
-
-  barchart_fatal(timeData);
+  Fatal_time_data=timeData;
+  barchart_fatal(Fatal_time_data);
 
 });
 
@@ -835,9 +871,9 @@ Heatmap_plot(Heat_map_Data);
 Barchart(barchartData);
 Demographic_Info(Summery);
 Total_Crash_display(Number_of_crash);
+barchart_fatal(Fatal_time_data);
 
 }
-console.log(X_balloon);
 
 
 
