@@ -26,7 +26,7 @@ var layers = {
   Pedestrians: new L.LayerGroup(),
   Other: new L.LayerGroup(),
 };
-// // console.log(layers.Bike);
+// // // console.log(layers.Bike);
 
 var more_layers= {
   Fatal: new L.LayerGroup(),
@@ -58,7 +58,7 @@ data_refresh("2019");
 //// selecting the year ////
 function optionChanged(ID) {
 
-  console.log("START")
+console.log("START")
  
   
 //  if (page!=1) 
@@ -83,7 +83,7 @@ function optionChanged(ID) {
 function  balloonDatamaker (SEVERITY,EVENT_NATURE ){
 
 
-  // // // // // console.log(SEVERITY,EVENT_NATURE);
+  // // // // // // console.log(SEVERITY,EVENT_NATURE);
   
   ///Cleaning
   switch (SEVERITY){
@@ -103,7 +103,7 @@ function  balloonDatamaker (SEVERITY,EVENT_NATURE ){
     case "Right Turn Thru" : {EVENT_NATURE="Right_Turn_Thru" ;break;};
     case "Sideswipe Same Dirn" : {EVENT_NATURE="Sideswipe_Same_Dir" ;break;};
   }
-  // // // // // console.log(SEVERITY,EVENT_NATURE,Event_sev_ob[EVENT_NATURE][SEVERITY]);
+  // // // // // // console.log(SEVERITY,EVENT_NATURE,Event_sev_ob[EVENT_NATURE][SEVERITY]);
   
   Event_sev_ob[EVENT_NATURE][SEVERITY]+=1;
   
@@ -116,7 +116,7 @@ function  balloonDatamaker (SEVERITY,EVENT_NATURE ){
 
 function BarchartdataMaker(MMonth,monthdata)
 {
-  // // // console.log(MMonth,monthdata.Jul);
+  // // // // console.log(MMonth,monthdata.Jul);
     
        switch (MMonth)
       {
@@ -136,7 +136,7 @@ function BarchartdataMaker(MMonth,monthdata)
 
         }
 
-  // // console.log(MMonth,monthdata.Jul);
+  // // // console.log(MMonth,monthdata.Jul);
 
         return (monthdata);
       }
@@ -150,7 +150,7 @@ Trucklist=Object.keys(barchartData.Truck);
 TruckListvalue=Object.values(barchartData.Truck);
 HTrucklist=Object.keys(barchartData.Heavy_Truck);
 HTruckListvalue=Object.values(barchartData.Heavy_Truck);
-// // console.log(barchartData);
+// // // console.log(barchartData);
 Bikelist=Object.keys(barchartData.Bike);
 BikeListvalue=Object.values(barchartData.Bike);
 Motorlist=Object.keys(barchartData.MotorCycle);
@@ -158,7 +158,7 @@ MotorkListvalue=Object.values(barchartData.MotorCycle);
 Otherlist=Object.keys(barchartData.Other);
 OtherListvalue=Object.values(barchartData.Other);
 
-// console.log(TruckListvalue);
+// // console.log(TruckListvalue);
   
 
 var trace1 = {
@@ -201,7 +201,7 @@ var trace5 = {
 
 var data = [trace1, trace2,trace4,trace5];
 var cardata=[trace3]
-// // console.log(data);
+// // // console.log(data);
 var layout = {title: 'Number of vehicles  involved in the Accidents ',
   barmode: 'group'};
 
@@ -231,7 +231,7 @@ Plotly.newPlot('Barchart3', cardata, carlayout);
 
 
 function heatmapData (DayWeek, TimeDay,Data) {
-  // // // // // console.log(DayWeek,TimeDay);
+  // // // // // // console.log(DayWeek,TimeDay);
 
     switch(DayWeek) {
     case "Monday":{
@@ -303,11 +303,11 @@ return(Data)
     
 function Heatmap_plot(data)
 { 
-  console.log(data);
+  // console.log(data);
 
   Tdata= data[0].map((_, colIndex) => data.map(row => row[colIndex]));
 
-  console.log(Tdata);
+  // console.log(Tdata);
 
 var heatmapData = [
     {
@@ -362,7 +362,7 @@ function ActivateIDs(i)
       Barchart1_panel.html("");
       var Barchart3_panel = d3.select("#Barchart3");
       Barchart3_panel.html("");
-      // // console.log(map_button);
+      // // // console.log(map_button);
 
 switch(i)
 {
@@ -426,7 +426,7 @@ return (
 function Demographic_Info(SelectedID_MetaData)
 {
   var info_array=Object.entries(SelectedID_MetaData);
-  // // console.log (Object.entries(SelectedID_MetaData));
+  // // // console.log (Object.entries(SelectedID_MetaData));
 
   var bike_panel = d3.select("#total-Bikes");
   bike_panel.html("");
@@ -467,7 +467,7 @@ function barchart_fatal(timeData)
 { 
   X= timeData.map(function(obj) { return obj.hour});
   Y= timeData.map(function(obj) { return obj.Number});
-console.log(X,Y);
+// console.log(X,Y);
   var data = [
     {
       x:X,
@@ -578,7 +578,7 @@ layers = {
   Pedestrians: new L.LayerGroup(),
   Other: new L.LayerGroup(),
 };
-// // console.log(layers.Bike);
+// // // console.log(layers.Bike);
 
 more_layers= {
   Fatal: new L.LayerGroup(),
@@ -592,7 +592,7 @@ more_layers= {
 
 
 d3.json(TimequeryUrl).then((timeData) => {
-  console.log(timeData);
+  console.log("timeData_load");
   Fatal_time_data=timeData;
   barchart_fatal(Fatal_time_data);
 
@@ -604,7 +604,7 @@ d3.json(TimequeryUrl).then((timeData) => {
  ///////////////////////////////////////////////////////////////////////////////////
 d3.json(queryUrl).then((data) => {
 
-// console.log(data);
+console.log("2.Data");
 
 
 
@@ -615,7 +615,7 @@ d3.json(queryUrl).then((data) => {
   Pedestrians_popup = [];
   Other_popup = [];
   Fatal_popup=[]
-  // // // // console.log( barchartData.Truck);
+  // // // // // console.log( barchartData.Truck);
 
 
 
@@ -641,7 +641,7 @@ d3.json(queryUrl).then((data) => {
 
           Summery.Total_Bike=Summery.Total_Bike+(+data[i].TOTAL_BIKE_INVOLVED);
           barchartData.Bike=BarchartdataMaker(data[i].MONTH,barchartData.Bike);
-          // // // // // console.log( barchartData.Bike);
+          // // // // // // console.log( barchartData.Bike);
       }
       if (+data[i].TOTAL_TRUCK_INVOLVED>0) {
         Summery.Total_Truck=Summery.Total_Truck+(+data[i].TOTAL_TRUCK_INVOLVED);
@@ -652,8 +652,8 @@ d3.json(queryUrl).then((data) => {
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
 
                     barchartData.Truck=BarchartdataMaker(data[i].MONTH,barchartData.Truck);
-                    // // console.log(data[i].MONTH,barchartData.Truck);
-                    // // console.log(barchartData.Truck,barchartData.Heavy_Truck);
+                    // // // console.log(data[i].MONTH,barchartData.Truck);
+                    // // // console.log(barchartData.Truck,barchartData.Heavy_Truck);
 
 
                   }
@@ -675,7 +675,7 @@ d3.json(queryUrl).then((data) => {
                     MotorCycle_popup.push( newCircle.bindPopup(Adress+"<br>"+C_date+
                     "<br>C:"+Other_V+" T:"+TTruck+" HT:"+HTruck+
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
-                    // // // // // console.log("Motor",data[i].MONTH);
+                    // // // // // // console.log("Motor",data[i].MONTH);
 
                     barchartData.MotorCycle=BarchartdataMaker(data[i].MONTH,barchartData.MotorCycle);
                   }
@@ -688,8 +688,8 @@ d3.json(queryUrl).then((data) => {
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
 
                     barchartData.Other=BarchartdataMaker(data[i].MONTH,barchartData.Other);
-                    // // // console.log("Other",data[i].MONTH);
-                    // // // console.log(barchartData.Other);
+                    // // // // console.log("Other",data[i].MONTH);
+                    // // // // console.log(barchartData.Other);
 
                   }
       if (+data[i].TOTAL_PEDESTRIANS_INVOLVED>0) {
@@ -702,9 +702,9 @@ d3.json(queryUrl).then((data) => {
                   }
 
       if (data[i].SEVERITY=="Fatal") {
-        // // // // // console.log(data[i].SEVERITY);
+        // // // // // // console.log(data[i].SEVERITY);
         Summery.Total_Fatal=Summery.Total_Fatal+1;
-        // // console.log(C_date);
+        // // // console.log(C_date);
       // Add a circle markers to the map and bind a pop-up
          var newCircle = CreatCircle(data[i].LATITUDE, data[i].LONGITUDE,"red");
                    //  cityCircles10.push(
@@ -714,13 +714,13 @@ d3.json(queryUrl).then((data) => {
                     "<br>M:"+Motor+" B:"+BBike+" p"+Pdstrian));
                   }
 /////
-// // // // // console.log(data[i].CRASH_DAYWEEK,data[i].CRASH_TIMEDAY);
+// // // // // // console.log(data[i].CRASH_DAYWEEK,data[i].CRASH_TIMEDAY);
 Heat_map_Data=heatmapData (data[i].CRASH_DAYWEEK,data[i].CRASH_TIMEDAY,Heat_map_Data);
 balloonDatamaker (data[i].SEVERITY,data[i].EVENT_NATURE );
 
 }
 
-console.log("END");
+// console.log("END");
 
 
 
@@ -732,14 +732,14 @@ Number_of_crash=data.length;
 
 var arr = Object.keys(Event_sev_ob).map((k) => Event_sev_ob[k])
 X_balloon=Object.keys(Event_sev_ob)
-// // // console.log(arr[0].Fatal);
+// // // // console.log(arr[0].Fatal);
 Y_balloon=Object.keys(arr[0])
 Data_arr=[]
 for (i=0 ;i<arr.length;i++)
 { var aa= Object.keys(arr[i]).map((k) => arr[i][k])
   Data_arr.push(aa);
 }
-console.log(Summery);
+console.log("Lodaing Done");
 
 
 function r2c(arr) {
@@ -778,6 +778,8 @@ if ( document.getElementById("map").className.match(/(?:^|\s)a(?!\S)/) )
 
 function mapping(type)
 {
+
+console.log("mapping");
 
 
 Demographic_Info(Summery);
@@ -835,10 +837,9 @@ var overlays = {
     "satellite Map":satMap,
   };
 
-console.log(type);
 
  if (type==2)
- {console.log(document.getElementById("map").className);
+ {// console.log(document.getElementById("map").className);
   if ( document.getElementById("map").className.match(/(?:^|\s)a(?!\S)/) ) 
     {document.getElementById("map").outerHTML = "<div id='map' class='a'></div>"; }
      else  {document.getElementById("map").outerHTML = "<div id='map' class='hidden_display'></div>"; }
@@ -877,8 +878,8 @@ console.log(type);
   
   
   d3.json(Suburl).then( function(Geo) {
-    console.log(Suburl); 
-    console.log(Geo) ;    
+    // console.log(Suburl); 
+    // console.log(Geo) ;    
     L.geoJSON(Geo.features, {
       style: {
       weight: 2,
@@ -886,6 +887,7 @@ console.log(type);
     }).addTo(more_layers.Suburb);
   });
     
+ console.log("mapping_done");
 
 }
 
@@ -893,6 +895,7 @@ console.log(type);
 
 function plotting()
 {
+console.log("plotting");
 
 Ballonmaker(BaloonData,X_balloon,Y_balloon);
 Heatmap_plot(Heat_map_Data);
@@ -900,6 +903,7 @@ Barchart(barchartData);
 Demographic_Info(Summery);
 Total_Crash_display(Number_of_crash);
 barchart_fatal(Fatal_time_data);
+console.log("plotting_done");
 
 }
 

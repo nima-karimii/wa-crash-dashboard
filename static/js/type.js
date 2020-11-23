@@ -14,7 +14,7 @@ function Ballonmaker(Data,X,Y)
     // generate a 5x7 matrix with random values between 0 and 10
     var data = Data;
 // console.log(data);
-    console.log(X);
+    // console.log(X);
     // define the columns labels
     X=["Head On", "Hit Animal","Hit Object","Hit Pedestrian","Non Collision","Other Types","Rear End","Right Angle","Right Turn Thru","Sideswipe"]
     var xLabels = X;

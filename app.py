@@ -78,7 +78,7 @@ def time(year):
     results = session.query(*time_data,func.count(Data.ACC_ID)).filter(and_(Data.YEAR == year,Data.SEVERITY=="Fatal")).group_by(Data.CRASH_TIME_HRS).all()
     session.close()
 
-    print(results)
+    # print(results)
 
 
     Data_json=[]
@@ -103,8 +103,8 @@ def time(year):
 def crash(year):
 
    
-    print("********************")
-    print(Data)
+    # print("********************")
+    # print(Data)
 
     """Return the MetaData for a given sample."""
     crash = [
@@ -136,7 +136,7 @@ def crash(year):
 
     # results = db.session.query(*crash)
     session = Session(engine)
-    print("%%%%%%%%%%%%%%")
+    # print("%%%%%%%%%%%%%%")
 
     
     results = session.query(*crash).filter(Data.YEAR == year).all()
