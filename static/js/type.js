@@ -8,14 +8,15 @@ function Ballonmaker(Data,X,Y)
     d3.select("#vis_container").select("svg").remove();
 
     var svg = d3.select("#vis_container").append("svg")
-        .attr("width", "100%")
-        .attr("height", 600);
+        .attr("width", 1200)
+        .attr("height", 600)
 
     // generate a 5x7 matrix with random values between 0 and 10
     var data = Data;
 // console.log(data);
-    // console.log(data,X,Y);
+    console.log(X);
     // define the columns labels
+    X=["Head On", "Hit Animal","Hit Object","Hit Pedestrian","Non Collision","Other Types","Rear End","Right Angle","Right Turn Thru","Sideswipe"]
     var xLabels = X;
 
     // define the row labels

@@ -14,7 +14,7 @@ function Creat_SeverityObj(Fatal,Hospital,Medical,PDO_Major,PDO_Minor)
 
 // Store our endpoint inside queryUrl
 var queryUrl = "/crash/2019";
-var Suburl="https://raw.githubusercontent.com/tonywr71/GeoJson-Data/master/suburb-2-wa.geojson"
+var Suburl="https://data.gov.au/geoserver/wa-suburb-locality-boundaries-psma-administrative-boundaries/wfs?request=GetFeature&typeName=ckan_6a0ec945_c880_4882_8a81_4dbcb85e74e5&outputFormat=json"
 const API_KEY = "pk.eyJ1Ijoia2FyaW1paSIsImEiOiJja2ZkdTNuNnMwN205MzFwNTF2eGszOHM1In0.jfNBiTctjlmbsc8qwQYmvA";
 
 
@@ -89,6 +89,7 @@ function  balloonDatamaker (SEVERITY,EVENT_NATURE ){
   switch (SEVERITY){
     case "PDO Major" : {SEVERITY="PDO_Major" ;break;};
     case "PDO Minor" :{ SEVERITY="PDO_Minor"; break;};
+    
   }
   
   switch (EVENT_NATURE){
@@ -201,7 +202,8 @@ var trace5 = {
 var data = [trace1, trace2,trace4,trace5];
 var cardata=[trace3]
 // // console.log(data);
-var layout = {barmode: 'group'};
+var layout = {title: 'Number of vehicles  involved in the Accidents ',
+  barmode: 'group'};
 
 Plotly.newPlot('Barchart2', data, layout);
 
@@ -322,7 +324,7 @@ var heatmapData = [
     ];
 
 var layout = {
-    title: 'Number of road crashes',
+    title: 'Number of road crashes based on Day-time and Week-day',
     font: {
         family: 'Arial',
         color: '#7f7f7f'
@@ -446,7 +448,7 @@ function Demographic_Info(SelectedID_MetaData)
   ped_panel.append("b").text(info_array[4][1]);
   var info_panel= d3.select("#total-fatal");
   info_panel.html("");
-  info_panel.append("h4").text(info_array[6][1]);
+  info_panel.text(info_array[6][1]);
 
 
 }
@@ -457,7 +459,7 @@ function Total_Crash_display(Number)
   var info_panel = d3.select("#total-crashes");
 
   info_panel.html("");
-  info_panel.append("h4").text(Number)
+  info_panel.text(Number)
 
 }
 
@@ -565,6 +567,27 @@ Summery={
   "Total_Other":0,
   "Total_Fatal":0,
 }
+
+
+
+layers = {
+  Bike: new L.LayerGroup(),
+  Truck: new L.LayerGroup(),
+  H_Truck: new L.LayerGroup(),
+  MotorCycle: new L.LayerGroup(),
+  Pedestrians: new L.LayerGroup(),
+  Other: new L.LayerGroup(),
+};
+// // console.log(layers.Bike);
+
+more_layers= {
+  Fatal: new L.LayerGroup(),
+  Suburb: new L.LayerGroup(),
+}
+
+
+
+
 
 
 
@@ -737,6 +760,11 @@ BaloonData=r2c(Data_arr);
 
 plotting();
 
+if ( document.getElementById("map").className.match(/(?:^|\s)a(?!\S)/) ) 
+{mapping(1); }
+
+
+
 });
 
 }
@@ -750,6 +778,8 @@ plotting();
 
 function mapping(type)
 {
+
+
 Demographic_Info(Summery);
 Total_Crash_display(Number_of_crash);
   var myMap;
@@ -820,12 +850,12 @@ console.log(type);
       center:  [-31.9505, 115.8605],
       zoom: 7,
       layers: [
-       layers.Bike, 
-       layers.Truck, 
-       layers.H_Truck, 
-       layers.MotorCycle, 
-       layers.Pedestrians, 
-       layers.Other,
+      //  layers.Bike, 
+      //  layers.Truck, 
+      //  layers.H_Truck, 
+      //  layers.MotorCycle, 
+      //  layers.Pedestrians, 
+      //  layers.Other,
       //  more_layers.Fatal,
       //  more_layers.Suburb,
         ]
@@ -845,16 +875,15 @@ console.log(type);
   
   more_layers.Fatal=L.layerGroup(Fatal_popup);
   
-  // // // console.log(Suburl);    
   
-  d3.json(Suburl, function( err,Geo) {
-    if (err) throw err;
-    // // // console.log("!!!!!!!!dfsdfgsihiuh;ihhl;ih!!!") ;    
+  d3.json(Suburl).then( function(Geo) {
+    console.log(Suburl); 
+    console.log(Geo) ;    
     L.geoJSON(Geo.features, {
       style: {
       weight: 2,
       color: "orange"}
-    }).addTo(Suburb);
+    }).addTo(more_layers.Suburb);
   });
     
 
@@ -864,8 +893,7 @@ console.log(type);
 
 function plotting()
 {
-console.log(window.Summery);
-console.log(X_balloon);
+
 Ballonmaker(BaloonData,X_balloon,Y_balloon);
 Heatmap_plot(Heat_map_Data);
 Barchart(barchartData);

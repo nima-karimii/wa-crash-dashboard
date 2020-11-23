@@ -9,6 +9,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>WA Crash Dashboard</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
   <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}"> -->
   <link rel="stylesheet" type="text/css" href="../static/css/mapstyle1.css">
@@ -52,7 +54,8 @@
 </div>
 <hr>
 <div class="container-fluid">
-  <div class="row">
+  <span id="min" style="cursor:pointer;float:right;">[-]</span>
+  <div class="row" id="text">
     <!-- <div class="col-6" style="background-color: aquamarine;"> -->
     <div class="col-6">
       <p> Road crashes are a leading cause of death and serious injury in Western Australia, impacting thousands of people every year. 
@@ -60,7 +63,7 @@
       <p>
        The <i>Western Australian Crash Dashboard</i> is an interactive dashboard exploring road crash data in Western Australia from 2015 to 2019.
       </p>
-    </div>
+          </div>
     <!-- <div class="col-6" style="background-color: grey;"> -->
     <div class="col-6">
       <p>
@@ -72,45 +75,40 @@
       </div>
   </div>
   <hr>
-  <div class="row controls">
-  
-    <div class="col-4">
-    <label for="data" style="font-size: 20px;">Select the year:</label>
-     
-      <select name="data" id="filter" style="font-size: 20px;" onchange="optionChanged(this.value)">
-        <option value="2015">2015</option>
-        <option value="2016">2016</option>
-        <option value="2017">2017</option>
-        <option value="2018">2018</option>
-        <option value="2019" selected>2019</option>
-      </select>
-     </div>
-    <!-- </div> -->
-  <!-- <div class="col-6" style="background-color: lightskyblue;"> -->
 
-    <div class="col-2">
-      <label for="data" style="font-size: 20px;"> Total crashes:  </label>
-    </div>
-      <div class="col-2">
-        <div id="total-crashes">?  </div>
-    </div>
-    <div class="col-2">
-      <label for="data" style="font-size: 20px;"> Total fatalities:  </label>
-    </div>
-      <div class="col-2">
-        <div id="total-fatal" style="font-size: 20px;" id="total-fatal">?  </div>
-    </div>
-    </div>
     <div class="row controls">
       <table style="  margin-left: auto; margin-right: auto;">
-        <tr>
-          <td>Bikes involved:</td> <td id="total-Bikes">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td>Trucks involved:</td> <td id="total-Trucks">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td>Heavy Trucks involved:</td> <td id="total-HTrucks">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td>Motorcycles involved:</td> <td id="total-MC">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td>Cars involved:</td> <td id="total-Cars">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td>Pedestrians involved:</td> <td id="total-Ped">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-
+         <tr>
+           <td>
+            <label for="data" style="font-size: 20px;">Select the year:</label>
+            <select name="data" id="filter" style="font-size: 20px;" onchange="optionChanged(this.value)">
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019" selected>2019</option>
+          </select></td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+            <label for="data" style="font-size: 30px;"> Total :  
+              <label id="total-crashes">?  </label>&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           </td>
+          <td><img src="https://www.flaticon.com/svg/static/icons/svg/2772/2772611.svg" title="Bikes involved" alt="Bikes involved" width="50" height="60">
+            :</td> <td id="total-Bikes">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><img src="https://www.flaticon.com/svg/static/icons/svg/86/86126.svg" title="Trucks involved" alt="Trucks involved" width="50" height="60">
+            :</td> <td id="total-Trucks">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><img src="https://www.flaticon.com/svg/static/icons/svg/2979/2979659.svg" title="Heavy Trucks involved" alt="Heavy Trucks involved" width="50" height="60">
+           :</td> <td id="total-HTrucks">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><img src="https://www.flaticon.com/svg/static/icons/svg/2984/2984056.svg" title="Motorcycles involved" alt="Motorcycles involved" width="50" height="60">
+            :</td> <td id="total-MC">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><img src="https://www.flaticon.com/svg/static/icons/svg/3202/3202888.svg" title="Cars involved" alt="Cars involved" width="50" height="60">
+            :</td> <td id="total-Cars">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><img src="https://www.flaticon.com/svg/static/icons/svg/177/177873.svg" title="Pedestrians involved" alt="Pedestrians involved" width="50" height="30">
+            :</td> <td id="total-Ped">?</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+              <img src="https://www.flaticon.com/svg/static/icons/svg/3616/3616493.svg" title="Total number of Fatalities" alt="Bikes involved" width="70" height="80">
+              <label>: <label id="total-fatal" >?  </label></label>
+            </td>
         </tr>
       </table>
   </div>  
@@ -142,7 +140,12 @@ href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 <script src="../static/js/type.js"></script>
 <script src="../static/js/data.js"></script>
 <!-- <script src="../static/js/time.js"></script> -->
+<script>
+  $('#min').click(function(){
+ $("#text").toggle(200);
 
+});
+</script>
 
 
 </html>

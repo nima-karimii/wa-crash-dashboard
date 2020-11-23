@@ -48,7 +48,9 @@
 }
 .a
 {position: relative;
-  align-items :center;
+  display: flex;
+  justify-content: center;
+
 }
 
 .balloon_plot .value {
@@ -63,4 +65,16 @@
 .balloon_plot .legend circle,
 .balloon_plot .legend text {
   fill: #666666;
+}
+#total-crashes
+{
+  font-size: 40px;
+  color: red;
+  font-weight: bolder;
+}
+#total-fatal
+{
+  font-size: 40px;
+  color: rgb(109, 108, 108);
+  font-weight: bolder;
 }

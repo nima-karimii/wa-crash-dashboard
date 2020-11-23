@@ -197,8 +197,8 @@ function balloonplot(w, h) {
         if (xAxis !== null) {
             var xAxisPosY = xAxisOrient === top ? -axisH : plotH + axisH;
             var gxAxis = g.append("g")
-                .style("font-weight", "bold")
-                .attr("class", "x_axis")
+            .style("font", "15px times")
+            .attr("class", "x_axis")
                 .attr("transform", "translate(0, " + xAxisPosY + ")")
                 .call(xAxis);
 
