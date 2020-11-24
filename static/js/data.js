@@ -55,11 +55,39 @@ var more_layers= {
 data_refresh("2019");
 
 
+function clearsummery(){
+
+  document.getElementById("total-crashes").outerHTML = "<label id='total-crashes' ><img src='https://i2.wp.com/garysbikesutah.com/wp-content/uploads/2018/07/opc-ajax-loader.gif' width='60' height='60'></label>&nbsp;&nbsp;&nbsp;&nbsp;</label>"; 
+
+  var bike_panel = d3.select("#total-Bikes");
+  bike_panel.html("");
+  bike_panel.append("b").text("?");
+  var truck_panel = d3.select("#total-Trucks");
+  truck_panel.html("");
+  truck_panel.append("b").text("?");
+  var htruck_panel = d3.select("#total-HTrucks");
+  htruck_panel.html("");
+  htruck_panel.append("b").text("?");
+  var mc_panel = d3.select("#total-MC");
+  mc_panel.html("");
+  mc_panel.append("b").text("?");
+  var cars_panel = d3.select("#total-Cars");
+  cars_panel.html("");
+  cars_panel.append("b").text("?");
+  var ped_panel = d3.select("#total-Ped");
+  ped_panel.html("");
+  ped_panel.append("b").text("?");
+ 
+  document.getElementById("total-fatal").outerHTML = "<label id='total-fatal' ><img src='https://i2.wp.com/garysbikesutah.com/wp-content/uploads/2018/07/opc-ajax-loader.gif' width='60' height='60'></label>"; 
+  console.log("START2");
+}
+
+
 //// selecting the year ////
 function optionChanged(ID) {
 
-console.log("START")
- 
+console.log("START");
+clearsummery(); 
   
 //  if (page!=1) 
 //  {
