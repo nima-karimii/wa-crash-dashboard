@@ -31,15 +31,15 @@
 <nav class=" navbar-light ">
     <form >
       <div class="row">
-        <div class="col"><a class="btn btn-lg btn-secondary btn-block" type="button" id="map_b" onclick="ActivateIDs(1)">&nbsp;&nbsp;Map&nbsp;&nbsp;</a> </div>
+        <div class="col"><a class="btn btn-lg btn-secondary btn-block" type="button" id="min_map" >&nbsp;&nbsp;Map&nbsp;&nbsp;</a> </div>
     <div class="col">
-      <a class="btn btn-lg btn-secondary btn-block" type="button" id="time_b" onclick="ActivateIDs(2)">Time Analysis</a>
+      <a class="btn btn-lg btn-secondary btn-block" type="button" id="min_time" >Time Analysis</a>
     </div>
     <div class="col">
-      <a class="btn btn-lg btn-secondary btn-block" type="button" id="car_b" onclick="ActivateIDs(3)">Cars involved </a>
+      <a class="btn btn-lg btn-secondary btn-block" type="button" id="min_car" >Vehicles Types </a>
     </div> 
       <div class="col">
-      <a class="btn btn-lg btn-secondary btn-block" type="button" id="type_b"  onclick="ActivateIDs(4)">Accident Types</a>
+      <a class="btn btn-lg btn-secondary btn-block" type="button" id="min_type" >Accident Types</a>
     </div>
     <div class="col">
       <a class="btn btn-lg btn-secondary btn-block" type="button" id="pr_b" target="_blank" onclick="window.open('plan_landing_page.html', 'Prediction', 'height=800,width=1000')";>Predict Your Trip</a>
@@ -91,8 +91,9 @@
           <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
             <td>
             <label for="data" style="font-size: 30px;"> Total :  
-              <label id="total-crashes"><img src="https://i2.wp.com/garysbikesutah.com/wp-content/uploads/2018/07/opc-ajax-loader.gif" width="60" height="60">  </label>&nbsp;&nbsp;&nbsp;&nbsp;</label>
+              <label id="total-crashes"><img src="https://i2.wp.com/garysbikesutah.com/wp-content/uploads/2018/07/opc-ajax-loader.gif" width="60" height="60"> 
            </td>
+          </td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
           <td><img src="https://www.flaticon.com/svg/static/icons/svg/2772/2772611.svg" title="Bikes involved" alt="Bikes involved" width="50" height="60">
             :</td> <td id="total-Bikes">?
 
@@ -128,14 +129,43 @@
   </div>  
 </div>
 <hr>
+<span id="min_map2" style="cursor:pointer;float:right;">[-]</span>
+
+<div class="row " id="map_text">
+<div class="col-5">
   <div id="map" class="a"></div>
-  <div id="sample-metadata" class="hidden_display" ></div>
-  <div id="heatmap" class="hidden_display"> </div>
-  <div id="Barchart1" class="hidden_display"> </div>
-  <div id="Barchart2" class="hidden_display"> </div>
-  <div id="Barchart3" class="hidden_display"> </div>
+</div>
+<div class="col-7">
+  <div id="Barchart2" class="ab"> </div>
+  <div id="Barchart3" class="ab"> </div>
+
+</div>
+</div>
+<hr>
+<span id="min_time2" style="cursor:pointer;float:right;">[-]</span>
+
+  <div class="row "  id="time_text">
+    <div class="col">
+  <div id="heatmap" class="ab"> </div>
+  </div>
+  <div class="col">
+  <div id="Barchart1" class="ab"> </div>
+</div>
+</div>
+<hr>
+
+<span id="min_type2" style="cursor:pointer;float:right;">[-]</span>
+<div id="type_text">
+<div class="row a"   style="text-align: center;">
+  <p ><h3> Type and Severity of Accident </h3></p><br><br>
+</div>
+<div class="row a" >
+  <div id="vis_container" class="a"> </div>
+</div>
+</div>
+  <!-- <div id="Barchart2" class="hidden_display"> </div>
+  <div id="Barchart3" class="hidden_display"> </div> -->
   <div id="sample-metadata" class="hidden_display"> </div>
-  <div id="vis_container" class="hidden_display"> </div>
 
 </body>
 
@@ -155,10 +185,6 @@ href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 <script src="../static/js/data.js"></script>
 <!-- <script src="../static/js/time.js"></script> -->
 <script>
-  $('#min').click(function(){
- $("#text").toggle(200);
-
-});
 </script>
 
 

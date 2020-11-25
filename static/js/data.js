@@ -2,6 +2,17 @@
 var Summery={},Event_sev_ob,Heat_map_Data, barchartData,Number_of_crash,BaloonData;
 var X_balloon =[] , Y_balloon =[] ,Fatal_time_data=[];
 
+$('#min').click(function(){ $("#text").toggle(200);});
+$('#min_time').click(function(){ $("#time_text").toggle(200);});
+$('#min_time2').click(function(){ $("#time_text").toggle(200);});
+$('#min_map').click(function(){ $("#map_text").toggle(200);});
+$('#min_map2').click(function(){ $("#map_text").toggle(200);});
+$('#min_type').click(function(){ $("#type_text").toggle(200);});
+$('#min_type2').click(function(){ $("#type_text").toggle(200);});
+$('#min_car').click(function(){ $("#map_text").toggle(200);});
+
+
+
 function Creat_SeverityObj(Fatal,Hospital,Medical,PDO_Major,PDO_Minor)
   {
   this.Fatal = Fatal;
@@ -57,7 +68,7 @@ data_refresh("2019");
 
 function clearsummery(){
 
-  document.getElementById("total-crashes").outerHTML = "<label id='total-crashes' ><img src='https://i2.wp.com/garysbikesutah.com/wp-content/uploads/2018/07/opc-ajax-loader.gif' width='60' height='60'></label>&nbsp;&nbsp;&nbsp;&nbsp;</label>"; 
+  document.getElementById("total-crashes").outerHTML = "<label id='total-crashes' ><img src='https://i2.wp.com/garysbikesutah.com/wp-content/uploads/2018/07/opc-ajax-loader.gif' width='60' height='60'>"; 
 
   var bike_panel = d3.select("#total-Bikes");
   bike_panel.html("");
@@ -79,7 +90,7 @@ function clearsummery(){
   ped_panel.append("b").text("?");
  
   document.getElementById("total-fatal").outerHTML = "<label id='total-fatal' ><img src='https://i2.wp.com/garysbikesutah.com/wp-content/uploads/2018/07/opc-ajax-loader.gif' width='60' height='60'></label>"; 
-  console.log("START2");
+
 }
 
 
@@ -230,15 +241,20 @@ var trace5 = {
 var data = [trace1, trace2,trace4,trace5];
 var cardata=[trace3]
 // // // console.log(data);
-var layout = {title: 'Number of vehicles  involved in the Accidents ',
-  barmode: 'group'};
+var layout = {title: 'Number of Accidents, during the year for each vehicles types   ',
+  barmode: 'group',
+  yaxis: {
+    title: 'Number of Accident'}
+  };
 
 Plotly.newPlot('Barchart2', data, layout);
 
-var carlayout = {title: 'Number of Cars involved in the Accidents ',
+var carlayout = {title: 'Number of Accidents, during the year for car ',
 font:{
   family: 'Raleway, sans-serif'
 },
+yaxis: {
+  title: 'Number of Accident'},
 showlegend: true,
 yaxis: {
   zeroline: false,
