@@ -3,13 +3,90 @@ var Summery={},Event_sev_ob,Heat_map_Data, barchartData,Number_of_crash,BaloonDa
 var X_balloon =[] , Y_balloon =[] ,Fatal_time_data=[];
 
 $('#min').click(function(){ $("#text").toggle(200);});
-$('#min_time').click(function(){ $("#time_text").toggle(200);});
-$('#min_time2').click(function(){ $("#time_text").toggle(200);});
-$('#min_map').click(function(){ $("#map_text").toggle(200);});
-$('#min_map2').click(function(){ $("#map_text").toggle(200);});
-$('#min_type').click(function(){ $("#type_text").toggle(200);});
-$('#min_type2').click(function(){ $("#type_text").toggle(200);});
-$('#min_car').click(function(){ $("#map_text").toggle(200);});
+
+$('#min_all').click(function(){ 
+  if($("#min_time").hasClass("btn-secondary"))
+  { $("#min_time").addClass("btn-primary"); $("#min_time").removeClass("btn-secondary");$("#time_text").toggle(200);}
+  if($("#min_map").hasClass("btn-secondary"))
+  { $("#min_map").addClass("btn-primary"); $("#min_map").removeClass("btn-secondary");
+  $("#min_car").addClass("btn-primary"); $("#min_car").removeClass("btn-secondary");
+  $("#map_text").toggle(200);}
+  if($("#min_type").hasClass("btn-secondary"))
+  { $("#min_type").addClass("btn-primary"); $("#min_type").removeClass("btn-secondary");$("#type_text").toggle(200);}
+});
+$('#min_time').click(function(){ 
+  if($("#min_time").hasClass("btn-primary")){
+    $("#min_time").addClass("btn-secondary");$("#min_time").removeClass("btn-primary");}
+    else { $("#min_time").addClass("btn-primary"); $("#min_time").removeClass("btn-secondary");}
+  $("#time_text").toggle(200);});
+
+$('#min_time2').click(function(){ 
+  if($("#min_time").hasClass("btn-primary")){
+    $("#min_time").addClass("btn-secondary");$("#min_time").removeClass("btn-primary");}
+    else { $("#min_time").addClass("btn-primary"); $("#min_time").removeClass("btn-secondary");}
+    $("#time_text").toggle(200);});
+
+$('#min_map').click(function(){ 
+  if($("#min_map").hasClass("btn-primary")){
+    $("#min_map").addClass("btn-secondary");
+    $("#min_map").removeClass("btn-primary");
+    $("#min_car").addClass("btn-secondary");
+    $("#min_car").removeClass("btn-primary");
+  }
+    else { 
+      $("#min_car").addClass("btn-primary"); 
+      $("#min_car").removeClass("btn-secondary");
+      $("#min_map").addClass("btn-primary"); 
+      $("#min_map").removeClass("btn-secondary");}
+    $("#map_text").toggle(200);});
+
+$('#min_map2').click(function(){   
+  if($("#min_map").hasClass("btn-primary")){
+    $("#min_map").addClass("btn-secondary");
+    $("#min_map").removeClass("btn-primary");
+    $("#min_car").addClass("btn-secondary");
+    $("#min_car").removeClass("btn-primary");
+  }
+    else { 
+      $("#min_car").addClass("btn-primary"); 
+      $("#min_car").removeClass("btn-secondary");
+      $("#min_map").addClass("btn-primary"); 
+      $("#min_map").removeClass("btn-secondary");}
+    $("#map_text").toggle(200);});
+
+$('#min_type').click(function(){ 
+  if($("#min_type").hasClass("btn-primary")){
+    $("#min_type").addClass("btn-secondary");
+    $("#min_type").removeClass("btn-primary");
+  }
+  else { 
+    $("#min_type").addClass("btn-primary"); 
+    $("#min_type").removeClass("btn-secondary");}
+  $("#type_text").toggle(200);});
+
+$('#min_type2').click(function(){ 
+  if($("#min_type").hasClass("btn-primary")){
+    $("#min_type").addClass("btn-secondary");
+    $("#min_type").removeClass("btn-primary");
+  }
+  else { 
+    $("#min_type").addClass("btn-primary"); 
+    $("#min_type").removeClass("btn-secondary");}
+  $("#type_text").toggle(200);});
+
+$('#min_car').click(function(){   
+  if($("#min_map").hasClass("btn-primary")){
+    $("#min_map").addClass("btn-secondary");
+    $("#min_map").removeClass("btn-primary");
+    $("#min_car").addClass("btn-secondary");
+    $("#min_car").removeClass("btn-primary");
+  }
+    else { 
+      $("#min_car").addClass("btn-primary"); 
+      $("#min_car").removeClass("btn-secondary");
+      $("#min_map").addClass("btn-primary"); 
+      $("#min_map").removeClass("btn-secondary");}
+    $("#map_text").toggle(200);});
 
 
 
