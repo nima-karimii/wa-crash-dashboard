@@ -712,12 +712,7 @@ more_layers= {
 
 
 
-d3.json(TimequeryUrl).then((timeData) => {
-  console.log("timeData_load");
-  Fatal_time_data=timeData;
-  barchart_fatal(Fatal_time_data);
 
-});
 
 
 
@@ -887,6 +882,13 @@ if ( document.getElementById("map").className.match(/(?:^|\s)a(?!\S)/) )
 
 
 });
+
+d3.json(TimequeryUrl).then((timeData) => {
+  console.log("timeData_load");
+  Fatal_time_data=timeData;
+
+});
+
 
 }
 
