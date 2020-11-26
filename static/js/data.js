@@ -326,7 +326,7 @@ var layout = {title: 'Number of Accidents, during the year for each vehicles typ
 
 Plotly.newPlot('Barchart2', data, layout);
 
-var carlayout = {title: 'Number of Accidents, during the year for car ',
+var carlayout = {title: 'Number of Accidents, during the year for cars ',
 font:{
   family: 'Raleway, sans-serif'
 },
@@ -602,7 +602,7 @@ function barchart_fatal(timeData)
   ];
 
   var layout = {
-    title: 'Number of Death in each hours',
+    title: 'Number of Fatalities in each hours',
     font:{
       family: 'Raleway, sans-serif'
     },
